@@ -6,17 +6,17 @@
 
 ## 分类导航
 
-| 分类 | 内容 |
-| --- | --- |
-| [Language Fundamentals](./luogu/Language%20Fundamentals/) | 语言基础、输入输出和简单模拟 |
-| [Array Fundamentals](./luogu/Array%20Fundamentals/) | 数组基础和简单数据处理 |
-| [Array](./luogu/Array/) | 数组类综合题目 |
-| [String Fundamentals](./luogu/String%20Fundamentals/) | 字符串基础操作 |
-| [String](./luogu/String/) | 字符串类综合题目 |
-| [Recursion Fundamentals](./luogu/Recursion%20Fundamentals/) | 递归基础练习 |
-| [Recursion](./luogu/Recursion/) | 递归类综合题目 |
-| [Dynamic programming](./luogu/Dynamic%20programming/) | 动态规划练习 |
-| [洛谷总目录](./luogu/README.md) | 所有洛谷题目分类 |
+| 分类                                                          | 内容             |
+| ----------------------------------------------------------- | -------------- |
+| [Language Fundamentals](./Luogu/Language%20Fundamentals/)   | 语言基础、输入输出和简单模拟 |
+| [Array Fundamentals](./Luogu/Array%20Fundamentals/)         | 数组基础和简单数据处理    |
+| [Array](./Luogu/Array/)                                     | 数组类综合题目        |
+| [String Fundamentals](./Luogu/String%20Fundamentals/)       | 字符串基础操作        |
+| [String](./Luogu/String/)                                   | 字符串类综合题目       |
+| [Recursion Fundamentals](./Luogu/Recursion%20Fundamentals/) | 递归基础练习         |
+| [Recursion](./Luogu/Recursion/)                             | 递归类综合题目        |
+| [Dynamic programming](./Luogu/Dynamic%20programming/)       | 动态规划练习         |
+| [洛谷总目录](./Luogu/README.md)                                  | 所有洛谷题目分类       |
 
 ## C 到 C++ 过渡
 

@@ -1,38 +1,33 @@
 # CS Learning
 
-C、C++、数据结构、算法和 Python 课程的学习资料、课堂代码与练习归档。
+C/C++、数据结构与算法、Python 和计算机工具课程的学习资料、课堂代码与练习归档。
 
-## 学习路线
+## 课程导航
 
-1. 通过翁恺老师课程学习 C 语言基础与进阶内容。
-2. 通过 PKU 程序设计课程进行 C++ 过渡和编程基础巩固。
-3. 补充 C++ STL、数据结构与算法。
-4. 通过 MIT 6.100L 学习 Python 基础、测试、调试和常用工具。
+| 课程或专题 | 主要内容 | 本地导航 | 课程网站或参考 |
+| --- | --- | --- | --- |
+| C wengkai | C 语言基础、指针、结构体与多文件程序 | [README](./C%20wengkai/README.md) | [课程入口](https://www.icourse163.org/learn/ZJU-9001?tid=9001#/learn/announce) |
+| C++ PKU | C++ 与程序设计基础 | [README](./C++%20PKU/README.md) | [课程入口](https://www.icourse163.org/learn/PKU-1001553023?tid=1474162490#/learn/announce) |
+| C++ STL | 容器、迭代器、算法和适配器 | [README](./C++%20STL/README.md) | [标准库参考，非指定课程](https://en.cppreference.com/cpp/standard_library) |
+| ZJU DSA | 浙江大学数据结构课程，待归档课程笔记 | [README](./Data%20Structures%20and%20Algorithms/ZJU%20DSA/README.md) | [课程入口](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) |
+| THU DSA | 清华数据结构（C++ 语言版）；已有绪论、向量内容 | [README](./Data%20Structures%20and%20Algorithms/THU%20Advanced%20DSA/README.md) | [课程与资料入口](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/) |
+| Python MIT6.100L | Python 课堂示例、练习与 Problem Set | [README](./Python%20MIT6.100L/README.md) | [MIT OCW](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) |
+| MIT Missing Semester | Shell、命令行环境及后续开发工具学习 | [README](./MIT%20missing%20semester/README.md) | [课程官网](https://missing.csail.mit.edu/) |
 
-## 子模块导航
+数据结构与算法的两门课程分别放在 `ZJU DSA`、`THU Advanced DSA`，入口见 [DSA 总 README](./Data%20Structures%20and%20Algorithms/README.md)，不混用两门课程的章节或进度。
 
-| 子目录 | 主要内容 | README |
-| --- | --- | --- |
-| [C wengkai](./C%20wengkai/) | 翁恺课程 C 语言代码与练习 | [说明](./C%20wengkai/README.md) |
-| [C++ PKU](./C++%20PKU/) | C++ 和程序设计基础代码 | [说明](./C++%20PKU/README.md) |
-| [C++ STL](./C++%20STL/) | 容器、迭代器、算法和适配器 | [说明](./C++%20STL/README.md) |
-| [Data Structures and Algorithms](./Data%20Structures%20and%20Algorithms/) | 数据结构与算法课程笔记 | [说明](./Data%20Structures%20and%20Algorithms/README.md) |
-| [Python MIT6.100L](./Python%20MIT6.100L/) | MIT 6.100L 课程和 Python 练习 | [说明](./Python%20MIT6.100L/README.md) |
+## 目录与学习材料
 
-## 目录说明
+- `C wengkai`：目录使用“章号-节号 中文主题”，如 `02-0 整数的和、差、积、商`；源码和 Markdown 仍保留原章节文件名。
+- `C++ PKU`、`C++ STL`：源码和对应 Markdown 放在同名主题目录中，课程 README 提供逐项导航。
+- `MIT missing semester`：当前已有 L1、L2 两篇笔记，其他主题随着实际学习继续补充。
+- [Obsidian 插件同步清单](./Obsidian-Plugins-Sync.md)：本机插件记录和迁移参考；配置文件本身只留本地。
+- `output`、`.vscode` 等本地工作目录不是学习课程入口，不列入课程导航。
 
-- `output`：编译、链接或运行产生的输出文件。
-- `.vscode`：编辑器配置。
-- 课程子目录中的代码和笔记以学习过程归档为主，部分内容可能仍需整理或补充。
+## 使用与维护
 
-## 使用方式
+可以从 Learning 总库打开这些资料，也可以继续使用本目录的现有 Obsidian 分库。运行课程代码前，确认解释器或编译器、工作目录和必要资源，不照搬另一台电脑的绝对路径。
 
-本目录可以作为 Obsidian Vault 打开：
+目录变动后维护对应课程 README 的链接；Git 操作统一回到 `D:\Learning`。源码与笔记以学习过程归档为主，不表示全部内容已经完成或通过测试。
 
-```text
-D:\Learning\CS Learning
-```
-
-代码练习可以使用 VS Code 打开具体子目录。根仓库 Git 操作请回到 `D:\Learning` 执行。
-
-根目录入口：[Learning/README.md](../README.md)。
+上级入口：[Learning README](../README.md)。

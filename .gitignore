@@ -14,6 +14,7 @@ Thumbs.db
 # Local editor and note-taking application settings
 **/.obsidian/
 **/.vscode/
+**/.claudian/
 **/*.base
 
 # Build and debugger artifacts
@@ -22,8 +23,13 @@ Thumbs.db
 **/*.pdb
 **/*.lib
 **/*.exp
+**/*.exe
 **/Debug/
 **/Release/
+
+# MIT 6.100L PS5 serialized test fixtures (not compiler object files)
+!CS Learning/Python MIT6.100L/Lecture 20 Fitness Tracker Object Oriented Programming Example/mit6_100l_f22_ps5/mit6_100l_f22_ps5_code/1_ps5/tester_bw_img.obj
+!CS Learning/Python MIT6.100L/Lecture 20 Fitness Tracker Object Oriented Programming Example/mit6_100l_f22_ps5/mit6_100l_f22_ps5_code/1_ps5/tester_rgb_img.obj
 
 # Local secrets
 .env

@@ -2,108 +2,115 @@
 
 个人学习资料、课程笔记、代码练习与算法题归档。
 
-这个仓库以 `D:\Learning` 为根目录，统一收纳 AI、计算机基础课程和算法练习。根目录 README 作为总入口，方便在 GitHub 或 Obsidian 中快速定位不同学习模块。
+本仓库以 `D:\Learning` 为本地归档根目录，持续收纳人工智能、计算机基础课程和算法练习。本页是总导航，各课程 README 再提供章节、笔记与源码入口，可在 GitHub 或 Obsidian 中阅读。
 
 仓库地址：[Noahxie83/Learning](https://github.com/Noahxie83/Learning)
 
 ## 内容导航
 
-| 模块 | 说明 | README |
+| 模块 | 范围 | 本地导航 |
 | --- | --- | --- |
-| [AI_learning](./AI_learning/) | 人工智能入门课程笔记与课程资料 | [模块说明](./AI_learning/README.md) |
-| [CS Learning](./CS%20Learning/) | C/C++、数据结构、算法和 Python 课程学习资料 | [模块说明](./CS%20Learning/README.md) |
-| [Practice](./Practice/) | 洛谷等算法题练习与代码归档 | [模块说明](./Practice/README.md) |
+| AI Learning | 人工智能入门，以及后续机器学习、强化学习等方向 | [模块 README](./AI%20learning/README.md) |
+| CS Learning | C/C++、数据结构与算法、Python、计算机工具课程 | [模块 README](./CS%20Learning/README.md) |
+| Practice | 洛谷算法题练习与复盘 | [模块 README](./Practice/README.md) |
+
+## 课程与学习资料
+
+### AI Learning：人工智能学习主线
+
+AI Learning 不限于 AI for Everyone；这门课只是当前已经归档的起点。机器学习和强化学习是后续方向，课程选择、笔记和代码会随着学习逐步补充。
+
+| 课程或方向 | 当前归档情况 | 本地导航 |
+| --- | --- | --- |
+| [AI for Everyone](https://www.deeplearning.ai/courses/ai-for-everyone) | 已有 Week 1–4 的课件与测验记录，覆盖 AI 概念、AI 项目、企业中的 AI、AI 与社会 | [课程 README](./AI%20learning/AI%20for%20everyone/README.md) |
+| 机器学习 | 后续规划，具体课程网址待选定后补充；尚未建立课程资料目录 | [方向说明](./AI%20learning/README.md#机器学习) |
+| 强化学习 | 后续规划，具体课程网址待选定后补充；尚未建立课程资料目录 | [方向说明](./AI%20learning/README.md#强化学习) |
+
+### CS Learning：计算机基础与工具
+
+课程名称链接到课程网站，“本地导航”进入仓库中的学习资料。保留已选课程的具体学期链接；中国大学 MOOC 的学习页面可能需要登录或选课。
+
+| 课程或专题网址 | 内容与当前归档 | 本地导航 |
+| --- | --- | --- |
+| [C wengkai](https://www.icourse163.org/learn/ZJU-9001?tid=9001#/learn/announce) | 翁恺 C 语言课程；47 个章节目录采用“章号-节号 中文标题”，保留源码及配套 Markdown | [课程 README](./CS%20Learning/C%20wengkai/README.md) |
+| [C++ PKU](https://www.icourse163.org/learn/PKU-1001553023?tid=1474162490#/learn/announce) | PKU 程序设计与算法相关 C++ 学习；9 个源码与笔记主题 | [课程 README](./CS%20Learning/C++%20PKU/README.md) |
+| C++ STL · [标准库参考](https://en.cppreference.com/cpp/standard_library) | 容器、迭代器、算法和适配器；独立学习专题，参考文档不是指定课程官网 | [专题 README](./CS%20Learning/C++%20STL/README.md) |
+| [ZJU DSA](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) | 浙江大学数据结构课程；已建立分区，课程笔记待归档 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/ZJU%20DSA/README.md) |
+| [THU DSA](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/) | 清华大学数据结构（C++ 语言版）学习；目前已有绪论、向量笔记和示例 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/THU%20Advanced%20DSA/README.md) |
+| [Python MIT6.100L](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) | MIT 6.100L Python 课堂代码、练习、Problem Set 与资源 | [课程 README](./CS%20Learning/Python%20MIT6.100L/README.md) |
+| [MIT Missing Semester](https://missing.csail.mit.edu/) | 开发工具与工作环境课程；已有 L1 Shell 入门、L2 命令行环境笔记 | [课程 README](./CS%20Learning/MIT%20missing%20semester/README.md) |
+
+数据结构与算法的两个课程分开归档，共用 [DSA 总导航](./CS%20Learning/Data%20Structures%20and%20Algorithms/README.md)。目录 `THU Advanced DSA` 保留现有命名，不代表本仓库已经覆盖清华课程的全部高级内容。
+
+### Practice：算法题练习
+
+主要归档洛谷题目，按语言基础、数组、字符串、递归和动态规划等类别组织。包含 C 语言向 C++ 过渡的练习；题号与说明见 [Practice README](./Practice/README.md) 和 [Luogu 分类导航](./Practice/Luogu/README.md)。
 
 ## 仓库结构
 
 ```text
 Learning/
-├── AI_learning/                         # AI 入门课程与笔记
-│   ├── AI for everyone/                 # AI for Everyone 课程
-│   │   ├── Week 1/                      # 第 1 周资料、测验与图片
-│   │   ├── Week 2/                      # 第 2 周资料与测验
-│   │   ├── Week 3/                      # 第 3 周资料、测验与图片
-│   │   └── Week 4/                      # 第 4 周资料与测验
+├── AI learning/
+│   ├── AI for everyone/
+│   │   ├── Week 1/ ... Week 4/
+│   │   └── README.md
 │   └── README.md
-│
-├── CS Learning/                         # 计算机基础课程学习
-│   ├── C wengkai/                       # 翁恺课程 C 语言练习
-│   ├── C++ PKU/                         # PKU C++/程序设计课程代码
-│   ├── C++ STL/                         # C++ STL 学习与示例
-│   ├── Data Structures and Algorithms/  # 数据结构与算法笔记、代码
-│   ├── Python MIT6.100L/                # MIT 6.100L Python 课程
-│   ├── output/                          # 编译或运行产生的输出文件
+├── CS Learning/
+│   ├── C wengkai/
+│   ├── C++ PKU/
+│   ├── C++ STL/
+│   ├── Data Structures and Algorithms/
+│   │   ├── ZJU DSA/
+│   │   ├── THU Advanced DSA/
+│   │   │   ├── 1. Itroduction/
+│   │   │   └── 2. Vector/
+│   │   └── README.md
+│   ├── Python MIT6.100L/
+│   ├── MIT missing semester/
+│   ├── Obsidian-Plugins-Sync.md
 │   └── README.md
-│
-├── Practice/                            # 算法题练习
-│   ├── luogu/                           # 洛谷题目
+├── Practice/
+│   ├── Luogu/
 │   └── README.md
-│
-└── README.md                            # 总目录与仓库说明
+├── github-ai-cs-weekly-top3.md
+└── README.md
 ```
 
-## 子模块介绍
+树中只列主要学习入口。机器学习、强化学习目前是规划方向，未在树中虚列资料目录。现有 `1. Itroduction` 沿用原目录拼写。
 
-### 1. AI_learning：人工智能入门
+## 其他资料
 
-主要记录 **AI for Everyone** 课程的学习资料，目前按课程周次整理：
+- [每周 GitHub AI/CS 项目 Top 3](./github-ai-cs-weekly-top3.md)：项目推荐与后续探索记录，不等同于已经完成的项目。
+- [Obsidian 插件同步清单](./CS%20Learning/Obsidian-Plugins-Sync.md)：记录本机插件与迁移注意事项，使用前核对记录日期；实际插件配置不随 Git 上传。
 
-- `Week 1`：人工智能基础概念、课程资料和测验。
-- `Week 2`：人工智能项目与数据相关内容。
-- `Week 3`：机器学习、神经网络等内容及配套资料。
-- `Week 4`：课程后续主题、资料和测验。
+## Obsidian 与 Git 使用
 
-该模块以 Markdown 笔记、PDF 课程资料、测验文件和图片为主，适合在 Obsidian 中阅读和补充学习记录。
+可以将 `D:\Learning` 整体作为 Obsidian 仓库打开，通过本页进入全部学习材料。若继续使用现有的 AI、CS 分库，也直接打开对应文件夹，不额外复制笔记；Git 同步统一在 Learning 根目录进行。
 
-入口：[AI_learning/README.md](./AI_learning/README.md)
-
-### 2. CS Learning：计算机基础课程
-
-这是仓库中内容最集中的课程学习模块，覆盖 C、C++、数据结构、算法和 Python：
-
-| 子目录 | 内容 | README |
-| --- | --- | --- |
-| `C wengkai` | 翁恺课程相关 C 语言示例代码与练习 | [进入](./CS%20Learning/C%20wengkai/README.md) |
-| `C++ PKU` | 程序设计与算法课程相关 C++ 代码 | [进入](./CS%20Learning/C++%20PKU/README.md) |
-| `C++ STL` | C++ 标准模板库学习与示例 | [进入](./CS%20Learning/C++%20STL/README.md) |
-| `Data Structures and Algorithms` | 数据结构与算法笔记、代码和图片 | [进入](./CS%20Learning/Data%20Structures%20and%20Algorithms/README.md) |
-| `Python MIT6.100L` | MIT 6.100L Python 课程与练习 | [进入](./CS%20Learning/Python%20MIT6.100L/README.md) |
-
-详细入口：[CS Learning/README.md](./CS%20Learning/README.md)
-
-### 3. Practice：算法题练习
-
-主要归档洛谷算法题，代码以 C/C++ 为主，按知识点分为语言基础、数组、字符串、递归和动态规划等类别。
-
-入口：[Practice/README.md](./Practice/README.md)
-
-## Obsidian 使用方式
-
-建议将以下两个目录分别作为 Obsidian Vault 打开：
-
-- `D:\Learning\AI_learning`
-- `D:\Learning\CS Learning`
-
-`Practice` 更偏向代码练习目录，可以在 VS Code 或其他代码编辑器中使用。
-
-## Git 同步
-
-根目录 `D:\Learning` 是 GitHub 同步入口。执行 Git 操作时，建议在根目录进行：
+两台电脑交替使用时，先保存并检查本机修改；工作区干净后拉取，再开始学习：
 
 ```powershell
-Set-Location D:\Learning
+Set-Location 'D:\Learning'
 git status
+git pull --ff-only origin main
+```
+
+结束学习后确认变更中没有敏感信息、意外删除或编译产物，再分步提交与推送：
+
+```powershell
 git add -A
+git diff --cached --stat
 git commit -m "更新学习资料"
 git push origin main
 ```
 
-仓库已配置每日更新任务，会检查根目录中的变更并同步到 GitHub；当天没有文件变化时不会创建空提交。
+任一步出错先停止处理，不强制推送。没有变化时无需创建空提交。本机已有每日 GitHub 同步任务；它不是实时双向同步服务，也不会随克隆自动安装到另一台电脑。README 每日自动维护仍待另行配置，不应假定已经启用。
 
-## 说明
+## 归档约定
 
-- 这是一个持续更新中的个人学习仓库，内容会随着课程进度不断补充和整理。
-- 课程资料、代码和笔记按学习过程归档，不保证所有代码都已经重构或达到生产级质量。
-- 根 README 主要承担导航作用；进入具体模块后，应优先阅读对应模块自己的 README。
+- 课程学习持续进行：已有文件不等于学完课程，规划方向不等于已有学习成果。
+- 源码、笔记、课件和必要测试资源可以归档；编辑器、AI 助手配置、虚拟环境及编译产物留在本地。
+- 同目录的源码与 Markdown 不会自动双向同步；修改源码中的学习记录后，需要相应维护笔记。
+- 新增课程、移动目录或重命名后，同步维护本页和对应模块 README；链接路径大小写与磁盘目录保持一致。
 
-最后更新：2026-09-11
+最后更新：2026-09-12
