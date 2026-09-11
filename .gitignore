@@ -11,6 +11,20 @@ __pycache__/
 Thumbs.db
 .DS_Store
 
+# Local editor and note-taking application settings
+**/.obsidian/
+**/.vscode/
+**/*.base
+
+# Build and debugger artifacts
+**/*.ilk
+**/*.obj
+**/*.pdb
+**/*.lib
+**/*.exp
+**/Debug/
+**/Release/
+
 # Local secrets
 .env
 .env.*
