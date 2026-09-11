@@ -1,0 +1,17 @@
+# Python virtual environments
+.venv/
+
+# Common local/cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+!.env.example
