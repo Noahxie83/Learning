@@ -38,7 +38,7 @@ AI Learning 不限于 AI for Everyone；这门课只是当前已经归档的起�
 | [ZJU DSA](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) | 浙江大学数据结构课程；已建立分区，课程笔记待归档 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/ZJU%20DSA/README.md) |
 | [THU DSA](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/) | 清华大学数据结构（C++ 语言版）学习；目前已有绪论、向量笔记和示例 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/THU%20Advanced%20DSA/README.md) |
 | [Python MIT6.100L](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) | MIT 6.100L Python 课堂代码、练习、Problem Set 与资源 | [课程 README](./CS%20Learning/Python%20MIT6.100L/README.md) |
-| [MIT Missing Semester](https://missing.csail.mit.edu/) | 开发工具与工作环境课程；已有 L1 Shell 入门、L2 命令行环境笔记 | [课程 README](./CS%20Learning/MIT%20missing%20semester/README.md) |
+| [MIT Missing Semester](https://missing.csail.mit.edu/) | 已有 L1 Shell 入门、L2 命令行环境、L3 开发环境与工具笔记；L4 调试与性能分析为待补充的空白文件 | [课程 README](./CS%20Learning/MIT%20missing%20semester/README.md) |
 
 数据结构与算法的两个课程分开归档，共用 [DSA 总导航](./CS%20Learning/Data%20Structures%20and%20Algorithms/README.md)。目录 `THU Advanced DSA` 保留现有命名，不代表本仓库已经覆盖清华课程的全部高级内容。
 

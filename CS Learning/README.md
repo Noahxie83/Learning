@@ -20,7 +20,7 @@ C/C++、数据结构与算法、Python 和计算机工具课程的学习资料�
 
 - `C wengkai`：目录使用“章号-节号 中文主题”，如 `02-0 整数的和、差、积、商`；源码和 Markdown 仍保留原章节文件名。
 - `C++ PKU`、`C++ STL`：源码和对应 Markdown 放在同名主题目录中，课程 README 提供逐项导航。
-- `MIT missing semester`：当前已有 L1、L2 两篇笔记，其他主题随着实际学习继续补充。
+- `MIT missing semester`：当前已有 L1–L3 三篇笔记；L4 调试与性能分析已建立空白文件，内容待补充。
 - [Obsidian 插件同步清单](./Obsidian-Plugins-Sync.md)：本机插件记录和迁移参考；配置文件本身只留本地。
 - `output`、`.vscode` 等本地工作目录不是学习课程入口，不列入课程导航。
 
