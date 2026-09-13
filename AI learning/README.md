@@ -1,18 +1,25 @@
 # AI Learning
 
-人工智能学习资料的长期归档入口，不限于某一门入门课程。目前从 AI for Everyone 开始，后续继续归档机器学习、强化学习等方向的课程笔记、代码与实践记录。
+人工智能学习资料的长期归档入口，不限于某一门入门课程。目前已从 AI for Everyone 进入机器学习方向，后续继续归档强化学习等方向的课程笔记、代码与实践记录。
 
 ## 当前课程
 
 | 课程 | 课程网站 | 本地资料 | 当前情况 |
 | --- | --- | --- | --- |
 | AI for Everyone | [DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-everyone) | [课程 README](./AI%20for%20everyone/README.md) | 已有 Week 1–4 的 PDF、测验 Markdown 和图片；归档情况不代表结课认证 |
+| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction/) | Coursera | [课程 README](./Machine%20Learning%20Specialization%20Coursera/README.md) | 当前学习方向；课程资料目录已建立，文件存在不等于已完成 |
 
-## 后续学习方向
+## 按需基础材料
+
+| 材料 | 课程网站 | 本地资料 | 当前情况 |
+| --- | --- | --- | --- |
+| [Mathematics for Machine Learning and Data Science](https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/) | [DeepLearning.AI](https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/) | [课程 README](./Mathematics%20for%20Machine%20Learning%20and%20Data%20Science%20Specialization/README.md) | 机器学习阶段按需使用；目前暂不计作已学习课程 |
+
+## 学习安排
 
 ### 机器学习
 
-后续学习方向。具体课程尚未在本仓库中确定和归档，因此暂不绑定某门课程的网址，也不创建空的代码或笔记占位文件。开始学习后，为实际选定的课程建立目录和 README，再将课程网址与本地入口加入此页及根导航。
+当前学习重点。主要使用已归档的 Machine Learning Specialization 资料；其中的个人学习笔记来源和本地 PDF 入口见[课程 README](./Machine%20Learning%20Specialization%20Coursera/README.md)。学习进度以实际笔记为准，不以目录或文件存在推断完成情况。
 
 ### 强化学习
 

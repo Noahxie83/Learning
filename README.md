@@ -18,12 +18,13 @@
 
 ### AI Learning：人工智能学习主线
 
-AI Learning 不限于 AI for Everyone；这门课只是当前已经归档的起点。机器学习和强化学习是后续方向，课程选择、笔记和代码会随着学习逐步补充。
+AI Learning 不限于 AI for Everyone；这门课是当前已经归档的起点。机器学习目前进入学习阶段，数学课程作为按需基础材料，强化学习仍是后续方向；课程选择、笔记和代码会随着学习逐步补充。
 
 | 课程或方向 | 当前归档情况 | 本地导航 |
 | --- | --- | --- |
 | [AI for Everyone](https://www.deeplearning.ai/courses/ai-for-everyone) | 已有 Week 1–4 的课件与测验记录，覆盖 AI 概念、AI 项目、企业中的 AI、AI 与社会 | [课程 README](./AI%20learning/AI%20for%20everyone/README.md) |
-| 机器学习 | 后续规划，具体课程网址待选定后补充；尚未建立课程资料目录 | [方向说明](./AI%20learning/README.md#机器学习) |
+| [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction/) | 已建立课程资料目录，当前进入机器学习学习阶段；个人学习笔记来源见课程 README | [课程 README](./AI%20learning/Machine%20Learning%20Specialization%20Coursera/README.md) |
+| 数学基础（按需） | 已归档数学课程资料，作为机器学习阶段的按需补充；尚未计作已学习课程 | [课程 README](./AI%20learning/Mathematics%20for%20Machine%20Learning%20and%20Data%20Science%20Specialization/README.md) |
 | 强化学习 | 后续规划，具体课程网址待选定后补充；尚未建立课程资料目录 | [方向说明](./AI%20learning/README.md#强化学习) |
 
 ### CS Learning：计算机基础与工具
@@ -38,7 +39,7 @@ AI Learning 不限于 AI for Everyone；这门课只是当前已经归档的起�
 | [ZJU DSA](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) | 浙江大学数据结构课程；已建立分区，课程笔记待归档 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/ZJU%20DSA/README.md) |
 | [THU DSA](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/) | 清华大学数据结构（C++ 语言版）学习；目前已有绪论、向量笔记和示例 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/THU%20Advanced%20DSA/README.md) |
 | [Python MIT6.100L](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) | MIT 6.100L Python 课堂代码、练习、Problem Set 与资源 | [课程 README](./CS%20Learning/Python%20MIT6.100L/README.md) |
-| [MIT Missing Semester](https://missing.csail.mit.edu/) | 已有 L1 Shell 入门、L2 命令行环境、L3 开发环境与工具笔记；L4 调试与性能分析为待补充的空白文件 | [课程 README](./CS%20Learning/MIT%20missing%20semester/README.md) |
+| [MIT Missing Semester](https://missing.csail.mit.edu/) | 已选择性学习 L1–3、L5、L7；L4、L6–L9 资料已归档但尚未学习 | [课程 README](./CS%20Learning/MIT%20missing%20semester/README.md) |
 
 数据结构与算法的两个课程分开归档，共用 [DSA 总导航](./CS%20Learning/Data%20Structures%20and%20Algorithms/README.md)。目录 `THU Advanced DSA` 保留现有命名，不代表本仓库已经覆盖清华课程的全部高级内容。
 
@@ -53,6 +54,16 @@ Learning/
 ├── AI learning/
 │   ├── AI for everyone/
 │   │   ├── Week 1/ ... Week 4/
+│   │   └── README.md
+│   ├── Machine Learning Specialization Coursera/
+│   │   ├── C1 - Supervised Machine Learning - Regression and Classification/
+│   │   ├── C2 - Advanced Learning Algorithms/
+│   │   ├── C3 - Unsupervised Learning, Recommenders, Reinforcement Learning/
+│   │   ├── resources/
+│   │   ├── 黄博士机器学习个人笔记完整版v5.52.pdf
+│   │   └── README.md
+│   ├── Mathematics for Machine Learning and Data Science Specialization/
+│   │   ├── Course-1/ ... Course-3/
 │   │   └── README.md
 │   └── README.md
 ├── CS Learning/
@@ -76,7 +87,7 @@ Learning/
 └── README.md
 ```
 
-树中只列主要学习入口。机器学习、强化学习目前是规划方向，未在树中虚列资料目录。现有 `1. Itroduction` 沿用原目录拼写。
+树中只列主要学习入口。机器学习已有课程资料目录，数学课程作为按需基础材料归档；强化学习仍是后续规划方向。现有 `1. Itroduction` 沿用原目录拼写。
 
 ## 其他资料
 
@@ -113,4 +124,4 @@ git push origin main
 - 同目录的源码与 Markdown 不会自动双向同步；修改源码中的学习记录后，需要相应维护笔记。
 - 新增课程、移动目录或重命名后，同步维护本页和对应模块 README；链接路径大小写与磁盘目录保持一致。
 
-最后更新：2026-09-12
+最后更新：2026-09-13

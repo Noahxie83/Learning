@@ -1,20 +1,57 @@
-# AI for Everyone
+# [AI for Everyone](https://www.deeplearning.ai/courses/ai-for-everyone/)
+AI is not only for engineers. “AI for Everyone”, a non-technical course, will help you understand AI technologies and spot opportunities to apply AI to problems in your own organization. You will see examples of what today’s AI can – and cannot – do. Finally, you will understand how AI is impacting society and how to navigate through this technological change.
 
-DeepLearning.AI 的 AI for Everyone 课程学习归档，课程入口：[AI for Everyone](https://www.deeplearning.ai/courses/ai-for-everyone)。
+If you are a non-technical business professional, “AI for Everyone” will help you understand how to build a sustainable AI strategy. If you are a machine learning engineer or data scientist, this is the course to ask your manager, VP or CEO to take if you want them to understand what you can (and cannot!) do.
 
-这门课是 AI Learning 主线的入门阶段，关注 AI 的基本概念、项目与组织中的应用，以及社会影响；后续机器学习、强化学习在上级模块中另行规划。
+## About this Course
+AI is not only for engineers. If you want your organization to become better at using AI, this is the course to tell everyone--especially your non-technical colleagues--to take.
 
-## 周次导航
+In this course, you will learn:
+- The meaning behind common AI terminology, including neural networks, machine learning, deep learning, and data science
+- What AI realistically can--and cannot--do
+- How to spot opportunities to apply AI to problems in your own organization
+- What it feels like to build machine learning and data science projects
+- How to work with an AI team and build an AI strategy in your company
+- How to navigate ethical and societal discussions surrounding AI
 
-主题名称按课程官网大纲整理，文件链接对应当前本地归档。
+Though this course is largely non-technical, engineers can also take this course to learn the business aspects of AI.
 
-| 周次 | 主题 | 课件 | 测验与笔记 |
-| --- | --- | --- | --- |
-| Week 1 | What is AI? — 什么是 AI | [W1.pdf](./Week%201/W1.pdf) | [Week 1 测验](./Week%201/Week-1_Quiz.md) |
-| Week 2 | Building AI Projects — 构建 AI 项目 | [W2.pdf](./Week%202/W2.pdf) | [Week 2 测验](./Week%202/Week-2_Quiz.md) |
-| Week 3 | Building AI in Your Company — 在组织中推进 AI | [W3.pdf](./Week%203/W3.pdf) | [Week 3 测验](./Week%203/Week-3_Quiz.md) |
-| Week 4 | AI and Society — AI 与社会 | [W4.pdf](./Week%204/W4.pdf) | [Week 4 测验](./Week%204/Week-4_Quiz.md) |
+## Week 1: What is AI
+- Introduction
+- Machine Learning
+- What is data
+- The terminology of AI
+- What makes an AI company?
+- What Machine Learning can and cannot do
+- Intuitive explanation of deep learning
+- [Quiz](https://github.com/Ryota-Kawamura/AI-for-Everyone/blob/main/Week-1/Week-1_Quiz.md)
 
-图片保存在对应周次的 `images` 文件夹中。测验文件和课件用于个人学习与复盘，文件存在不代表已取得课程证书。
+## Week 2: Building AI Projects
+- Workflow of a Machine Learning project
+- Workflow of a Data Science project
+- Every job function needs to learn to use data
+- How to choose an AI project
+- Working with an AI team
+- Technical tools for AI teams
+- [Quiz](https://github.com/Ryota-Kawamura/AI-for-Everyone/blob/main/Week-2/Week-2_Quiz.md)
 
-上级入口：[AI Learning README](../README.md) · [Learning 总导航](../../README.md)。
+## Week 3: AI in Your Company
+- Case study: Smart speaker
+- Case study: Self-driving car
+- Example roles of an AI team
+- AI Transformation Playbook
+- AI pitfalls to avoid
+- Taking your first step in AI
+- Survey of major AI applications
+- Survey of major AI techniques
+- [Quiz](https://github.com/Ryota-Kawamura/AI-for-Everyone/blob/main/Week-3/Week-3_Quiz.md)
+
+## Week 4: AI and Society
+- A realistic view of AI
+- Discrimination / Bias
+- Adversarial attacks
+- Adverse uses
+- AI and developing nations
+- AI and jobs
+- Conclusion
+- [Quiz](https://github.com/Ryota-Kawamura/AI-for-Everyone/blob/main/Week-4/Week-4_Quiz.md)
