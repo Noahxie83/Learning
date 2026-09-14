@@ -13,6 +13,7 @@
 | AI Learning | 人工智能入门，以及后续机器学习、强化学习等方向 | [模块 README](./AI%20learning/README.md) |
 | CS Learning | C/C++、数据结构与算法、Python、计算机工具课程 | [模块 README](./CS%20Learning/README.md) |
 | Practice | 洛谷算法题练习与复盘 | [模块 README](./Practice/README.md) |
+| 电路与电子学 | 已归档 1 篇电路基础笔记；课程与来源待补充 | [学习笔记](./电路与电子学/1.电路的基本概念与定律.md) |
 
 ## 课程与学习资料
 
@@ -42,6 +43,12 @@ AI Learning 不限于 AI for Everyone；这门课是当前已经归档的起点�
 | [MIT Missing Semester](https://missing.csail.mit.edu/) | 已选择性学习 L1–3、L5、L7；L4、L6–L9 资料已归档但尚未学习 | [课程 README](./CS%20Learning/MIT%20missing%20semester/README.md) |
 
 数据结构与算法的两个课程分开归档，共用 [DSA 总导航](./CS%20Learning/Data%20Structures%20and%20Algorithms/README.md)。目录 `THU Advanced DSA` 保留现有命名，不代表本仓库已经覆盖清华课程的全部高级内容。
+
+### 电路与电子学：基础笔记
+
+目前仅归档一篇关于电路基本概念与电路模型的笔记，课程名称、官网和学习进度尚待补充；笔记文件本身不代表已完成相关课程。
+
+本地入口：[1.电路的基本概念与定律](./电路与电子学/1.电路的基本概念与定律.md)
 
 ### Practice：算法题练习
 
@@ -83,6 +90,8 @@ Learning/
 ├── Practice/
 │   ├── Luogu/
 │   └── README.md
+├── 电路与电子学/
+│   └── 1.电路的基本概念与定律.md
 ├── github-ai-cs-weekly-top3.md
 └── README.md
 ```
@@ -115,7 +124,7 @@ git commit -m "更新学习资料"
 git push origin main
 ```
 
-任一步出错先停止处理，不强制推送。没有变化时无需创建空提交。本机已有每日 GitHub 同步任务；它不是实时双向同步服务，也不会随克隆自动安装到另一台电脑。README 每日自动维护仍待另行配置，不应假定已经启用。
+任一步出错先停止处理，不强制推送。没有变化时无需创建空提交。本机已有每日 GitHub 同步任务，按约定增量维护 README 并尝试同步；它不是实时双向同步服务，也不会随克隆自动安装到另一台电脑。
 
 ## 归档约定
 
@@ -124,4 +133,4 @@ git push origin main
 - 同目录的源码与 Markdown 不会自动双向同步；修改源码中的学习记录后，需要相应维护笔记。
 - 新增课程、移动目录或重命名后，同步维护本页和对应模块 README；链接路径大小写与磁盘目录保持一致。
 
-最后更新：2026-09-13
+最后更新：2026-09-14
