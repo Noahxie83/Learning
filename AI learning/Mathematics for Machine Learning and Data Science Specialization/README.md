@@ -8,6 +8,10 @@ Many machine learning engineers and data scientists need help with mathematics, 
 
 This is a beginner-friendly program, with a recommended background of at least high school mathematics. We also recommend a basic familiarity with Python, as labs use Python to demonstrate learning objectives in the environment where they’re most applicable to machine learning and data science.
 
+## 本地补充笔记
+
+- [Matrix Calculus Cheat Sheet for Machine Learning](./Matrix%20Calculus%20Cheat%20Sheet%20for%20Machine%20Learning.md)：面向机器学习、深度学习与最优化的个人学习笔记和速查表，作为机器学习阶段的按需数学基础材料；不代表已完成本课程，也不是课程官方材料。
+
 ## Applied Learning Project
 By the end of this Specialization, you will be ready to:
 - Represent data as vectors and matrices and identify their properties using concepts of singularity, rank, and linear independence

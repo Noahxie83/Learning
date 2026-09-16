@@ -73,6 +73,7 @@ Learning/
 │   │   └── README.md
 │   ├── Mathematics for Machine Learning and Data Science Specialization/
 │   │   ├── Course-1/ ... Course-3/
+│   │   ├── Matrix Calculus Cheat Sheet for Machine Learning.md
 │   │   └── README.md
 │   └── README.md
 ├── CS Learning/
@@ -137,4 +138,4 @@ git push origin main
 - 同目录的源码与 Markdown 不会自动双向同步；修改源码中的学习记录后，需要相应维护笔记。
 - 新增课程、移动目录或重命名后，同步维护本页和对应模块 README；链接路径大小写与磁盘目录保持一致。
 
-最后更新：2026-09-14
+最后更新：2026-09-16
