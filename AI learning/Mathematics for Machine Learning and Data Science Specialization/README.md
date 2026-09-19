@@ -1,4 +1,9 @@
 # [Mathematics for Machine Learning and Data Science Specialization](https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/)
+
+学习状态：作为机器学习与深度学习阶段按需使用的数学基础材料，目前暂不计作已学习课程。当前主线为 [李沐《动手学深度学习》](../D2L-李沐/README.md)，需要相应数学知识时再学习本课程。
+
+资料与原始导航参考：[Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization)。下方介绍与学习目标描述课程内容，不表示个人已经完成这些目标。
+
 Master the Toolkit of AI and Machine Learning. Mathematics for Machine Learning and Data Science is a beginner-friendly Specialization where you’ll learn the fundamental mathematics toolkit of machine learning: calculus, linear algebra, statistics, and probability.
 
 ## About this Specialization
@@ -51,8 +56,8 @@ Matrices are commonly used in machine learning and data science to represent dat
 - Singular vs nonsingular matrices
 - Linear dependence and independence
 - The determinant
-- [Practice Quiz: Solving systems of linear equations](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-1/C1_W1_Practice-Quiz.md)
-- [Lab: Introduction to NumPy Arrays](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-1/C1_W1_Lab_1_introduction_to_numpy_arrays.ipynb)
+- [Practice Quiz: Solving systems of linear equations](./Course-1/Week-1/C1_W1_Practice-Quiz.md)
+- [Lab: Introduction to NumPy Arrays](./Course-1/Week-1/C1_W1_Lab_1_introduction_to_numpy_arrays.ipynb)
 
 #### Lesson 2: Systems of Linear Equations: three variables
 - Systems of equations (3×3)
@@ -60,8 +65,8 @@ Matrices are commonly used in machine learning and data science to represent dat
 - Systems of equations as planes (3×3)
 - Linear dependence and independence (3×3)
 - The determinant (3×3)
-- [Quiz: Matrices](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-1/C1_W1_Quiz.md)
-- [Lab: Solving Linear Systems: 2 variables](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-1/C1_W1_Lab_2_solving_linear_systems_2_variables.ipynb)
+- [Quiz: Matrices](./Course-1/Week-1/C1_W1_Quiz.md)
+- [Lab: Solving Linear Systems: 2 variables](./Course-1/Week-1/C1_W1_Lab_2_solving_linear_systems_2_variables.ipynb)
 
 ### Week 2: Solving systems of Linear Equations
 In this week, you will learn how to solve a system of linear equations using the elimination method and the row echelon form. You will also learn about an important property of a matrix: the rank. The concept of the rank of a matrix is useful in computer vision for compressing images.
@@ -79,8 +84,8 @@ In this week, you will learn how to solve a system of linear equations using the
 - Solving systems of equations with more variables
 - Matrix row-reduction
 - Row operations that preserve singularity
-- [Practice Quiz: Method of Elimination](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-2/C1_W2_Practice-Quiz.md)
-- [Lab: Solving Linear Systems: 3 variables](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-2/C1_W2_Lab_1_solving_linear_systems_3_variables.ipynb)
+- [Practice Quiz: Method of Elimination](./Course-1/Week-2/C1_W2_Practice-Quiz.md)
+- [Lab: Solving Linear Systems: 3 variables](./Course-1/Week-2/C1_W2_Lab_1_solving_linear_systems_3_variables.ipynb)
 
 #### Lesson 2: Solving systems of Linear Equations: Row Echelon Form and Rank
 - The rank of a matrix
@@ -88,8 +93,8 @@ In this week, you will learn how to solve a system of linear equations using the
 - Row echelon form
 - Row echelon form in general
 - Reduced row echelon form
-- [Quiz: The Rank of a matrix](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-2/C1_W2_Quiz.md)
-- [Programming Assignment: System of Linear Equations](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-2/C1_W2_Assignment.ipynb)
+- [Quiz: The Rank of a matrix](./Course-1/Week-2/C1_W2_Quiz.md)
+- [Programming Assignment: System of Linear Equations](./Course-1/Week-2/C1_W2_Assignment.ipynb)
 
 ### Week 3: Vectors and Linear Transformations
 An individual instance (observation) of data is typically represented as a vector in machine learning. In this week, you will learn about properties and operations of vectors. You will also learn about linear transformations, matrix inverse, and one of the most important operations on matrices: the matrix multiplication. You will see how matrix multiplication naturally arises from composition of linear transformations. Finally, you will learn how to apply some of the properties of matrices and vectors that you have learned so far to neural networks.
@@ -108,8 +113,8 @@ An individual instance (observation) of data is typically represented as a vecto
 - The dot product
 - Geometric Dot Product
 - Multiplying a matrix by a vector
-- [Practice Quiz: Vector operations: Sum, difference, multiplication, dot product](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-3/C1_W3_Practice-Quiz.md)
-- [Lab: Vector Operations: Scalar Multiplication, Sum and Dot Product of Vectors](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-3/C1_W3_Lab_1_vector_operations.ipynb)
+- [Practice Quiz: Vector operations: Sum, difference, multiplication, dot product](./Course-1/Week-3/C1_W3_Practice-Quiz.md)
+- [Lab: Vector Operations: Scalar Multiplication, Sum and Dot Product of Vectors](./Course-1/Week-3/C1_W3_Lab_1_vector_operations.ipynb)
 
 #### Lesson 2: Linear transformations
 - Matrices as linear transformations
@@ -119,10 +124,10 @@ An individual instance (observation) of data is typically represented as a vecto
 - Matrix inverse
 - Which matrices have an inverse?
 - Neural networks and matrices
-- [Quiz: Vector and Matrix Operations, Types of Matrices](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-3/C1_W3_Quiz.md)
-- [Lab: Matrix Multiplication](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-3/C1_W3_Lab_2_matrix_multiplication.ipynb)
-- [Lab: Linear Transformations](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-3/C1_W3_Lab_3_linear_transformations.ipynb)
-- [Programming Assignment: Single Perceptron Neural Networks for Linear Regression](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-3/C1_W3_Assignment.ipynb)
+- [Quiz: Vector and Matrix Operations, Types of Matrices](./Course-1/Week-3/C1_W3_Quiz.md)
+- [Lab: Matrix Multiplication](./Course-1/Week-3/C1_W3_Lab_2_matrix_multiplication.ipynb)
+- [Lab: Linear Transformations](./Course-1/Week-3/C1_W3_Lab_3_linear_transformations.ipynb)
+- [Programming Assignment: Single Perceptron Neural Networks for Linear Regression](./Course-1/Week-3/C1_W3_Assignment.ipynb)
 
 ### Week 4: Determinants and Eigenvectors
 In this final week, you will take a deeper look at determinants. You will learn how determinants can be geometrically interpreted as an area and how to calculate determinant of product and inverse of matrices. We conclude this course with eigenvalues and eigenvectors. Eigenvectors are used in dimensionality reduction in machine learning. You will see how eigenvectors naturally follow from the concept of eigenbases.
@@ -139,7 +144,7 @@ In this final week, you will take a deeper look at determinants. You will learn 
 - Determinant as an area
 - Determinant of a product
 - Determinants of inverses
-- [Practice Quiz: Determinants and Linear Transformations](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-4/C1_W4_Practice-Quiz.md)
+- [Practice Quiz: Determinants and Linear Transformations](./Course-1/Week-4/C1_W4_Practice-Quiz.md)
 
 #### Lesson 2: Eigenvalues and Eigenvectors
 - Bases in Linear Algebra
@@ -147,8 +152,8 @@ In this final week, you will take a deeper look at determinants. You will learn 
 - Interactive visualization: Linear Span
 - Eigenbases
 - Eigenvalues and eigenvectors
-- [Quiz: Eigenvalues and Eigenvectors](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-4/C1_W4_Quiz.md)
-- [Programming Assignment: Eigenvalues and Eigenvectors](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-1/Week-4/C1_W4_Assignment.ipynb)
+- [Quiz: Eigenvalues and Eigenvectors](./Course-1/Week-4/C1_W4_Quiz.md)
+- [Programming Assignment: Eigenvalues and Eigenvectors](./Course-1/Week-4/C1_W4_Assignment.ipynb)
 
 ## Course 2: Calculus for Machine Learning and Data Science
 After completing this course, learners will be able to:
@@ -166,15 +171,15 @@ After completing this course, learners will be able to:
 - Derivative of log x
 - Existence of derivatives
 - Properties of derivative
-- [Practice Quiz: Derivatives](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-1/C2_W1_Practice-Quiz.md)
-- [Lab: Differentiation in Python: Symbolic, Numerical and Automatic](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-1/C2_W1_Lab_1_differentiation_in_python.ipynb)
+- [Practice Quiz: Derivatives](./Course-2/Week-1/C2_W1_Practice-Quiz.md)
+- [Lab: Differentiation in Python: Symbolic, Numerical and Automatic](./Course-2/Week-1/C2_W1_Lab_1_differentiation_in_python.ipynb)
 
 #### Lesson 2: Optimization with derivatives
 - Intro to optimization: Temperature example
 - Optimizing cost functions in ML: Squared loss
 - Optimizing cost functions in ML: Log loss
-- [Quiz: Derivatives and Optimization](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-1/C2_W1_Quiz.md)
-- [Programming Assignment: Optimizing Functions of One Variable: Cost Minimization](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-1/C2_W1_Assignment.ipynb)
+- [Quiz: Derivatives and Optimization](./Course-2/Week-1/C2_W1_Quiz.md)
+- [Programming Assignment: Optimizing Functions of One Variable: Cost Minimization](./Course-2/Week-1/C2_W1_Assignment.ipynb)
 
 ### Week 2: Functions of two or more variables: Gradients and gradient descent
 
@@ -183,16 +188,16 @@ After completing this course, learners will be able to:
 - Example to motivate gradients: Temperature
 - Gradient notation
 - Optimization using slope method: Linear regression
-- [Practice Quiz: Partial Derivatives and Gradient](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-2/C2_W2_Practice-Quiz.md)
+- [Practice Quiz: Partial Derivatives and Gradient](./Course-2/Week-2/C2_W2_Practice-Quiz.md)
 
 #### Lesson 2: Gradient Descent
 - Optimization using gradient descent: 1 variable
 - Optimization using gradient descent: 2 variable
 - Gradient descent for linear regression
-- [Lab: Optimization Using Gradient Descent in One Variable](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-2/C2_W2_Lab_1_Optimization_Using_Gradient_Descent_in_One_Variable.ipynb)
-- [Lab: Optimization Using Gradient Descent in Two Variables](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-2/C2_W2_Lab_2_Optimization_Using_Gradient_Descent_in_Two_Variables.ipynb)
-- [Quiz: Partial Derivatives and Gradient Descent](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-2/C2_W2_Quiz.md)
-- [Programming Assignment: Optimization Using Gradient Descent: Linear Regression](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-2/C2_W2_Assignment.ipynb)
+- [Lab: Optimization Using Gradient Descent in One Variable](./Course-2/Week-2/C2_W2_Lab_1_Optimization_Using_Gradient_Descent_in_One_Variable.ipynb)
+- [Lab: Optimization Using Gradient Descent in Two Variables](./Course-2/Week-2/C2_W2_Lab_2_Optimization_Using_Gradient_Descent_in_Two_Variables.ipynb)
+- [Quiz: Partial Derivatives and Gradient Descent](./Course-2/Week-2/C2_W2_Quiz.md)
+- [Programming Assignment: Optimization Using Gradient Descent: Linear Regression](./Course-2/Week-2/C2_W2_Assignment.ipynb)
 
 ### Week 3: Optimization in Neural Networks and Newton’s method
 
@@ -201,18 +206,18 @@ After completing this course, learners will be able to:
 - Perceptron with sigmoid activation and log loss (classification)
 - Two-layer neural network with sigmoid activation and log loss
 - Mathematics of Backpropagation
-- [Lab: Regression with Perceptron](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-3/C2_W3_Lab_1_Regression_with_Perceptron.ipynb)
-- [Lab: Classification with Perceptron](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-3/C2_W3_Lab_2_Classification_with_Perceptron.ipynb)
-- [Practice Quiz: Optimization in Neural Networks](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-3/C2_W3_Practice-Quiz.md)
+- [Lab: Regression with Perceptron](./Course-2/Week-3/C2_W3_Lab_1_Regression_with_Perceptron.ipynb)
+- [Lab: Classification with Perceptron](./Course-2/Week-3/C2_W3_Lab_2_Classification_with_Perceptron.ipynb)
+- [Practice Quiz: Optimization in Neural Networks](./Course-2/Week-3/C2_W3_Practice-Quiz.md)
 
 #### Lesson 2: Beyond Gradient Descent: Newton’s Method
 - Root finding with Newton’s method
 - Adapting Newton’s method for optimization
 - Second derivatives and Hessians
 - Multivariate Newton’s method
-- [Lab: Optimization Using Newton's Method](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-3/C2_W3_Lab_3_Optimization_Using_Newtons_Method.ipynb)
-- [Quiz: Optimization in Neural Networks and Newton's Method](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-3/C2_W3_Quiz.md)
-- [Programming Assignment: Neural Network with Two Layers](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-2/Week-3/C2_W3_Assignment.ipynb)
+- [Lab: Optimization Using Newton's Method](./Course-2/Week-3/C2_W3_Lab_3_Optimization_Using_Newtons_Method.ipynb)
+- [Quiz: Optimization in Neural Networks and Newton's Method](./Course-2/Week-3/C2_W3_Quiz.md)
+- [Programming Assignment: Neural Network with Two Layers](./Course-2/Week-3/C2_W3_Assignment.ipynb)
 
 ## Course 3: Probability & Statistics for Machine Learning & Data Science
 After completing this course, learners will be able to:
@@ -228,9 +233,9 @@ After completing this course, learners will be able to:
 - Conditional probability and independence
 - Discriminative learning and conditional probability
 - Bayes theorem
-- [Lab: Four Birthday Problems](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-1/C3_W1_Lab_1_Birthday_Problems.ipynb)
-- [Lab: Monty Hall Problem](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-1/C3_W1_Lab_2_Monty_Hall.ipynb)
-- [Practice Quiz](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-1/C3_W1_Practice-Quiz.md)
+- [Lab: Four Birthday Problems](./Course-3/Week-1/C3_W1_Lab_1_Birthday_Problems.ipynb)
+- [Lab: Monty Hall Problem](./Course-3/Week-1/C3_W1_Lab_2_Monty_Hall.ipynb)
+- [Practice Quiz](./Course-3/Week-1/C3_W1_Practice-Quiz.md)
 
 #### Lesson 2: Random variables
 - Random variables
@@ -242,8 +247,8 @@ After completing this course, learners will be able to:
 - Continuous random variables: Gaussian distribution
 - Continuous random variables: Chi squared distribution
 - Probability distribution function
-- [Quiz](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-1/C3_W1_Quiz.md)
-- [Programming Assignment: Probability Distributions / Naive Bayes](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-1/C3_W1_Assignment.ipynb)
+- [Quiz](./Course-3/Week-1/C3_W1_Quiz.md)
+- [Programming Assignment: Probability Distributions / Naive Bayes](./Course-3/Week-1/C3_W1_Assignment.ipynb)
 
 ### Week 2: Describing distributions and random vectors
 
@@ -252,7 +257,7 @@ After completing this course, learners will be able to:
 - Expected values
 - Quantiles and box-plots
 - Measures of dispersion: variance, standard deviation
-- [Practice Quiz](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-2/C3_W2_Practice-Quiz.md)
+- [Practice Quiz](./Course-3/Week-2/C3_W2_Practice-Quiz.md)
 
 #### Lesson 2: Random vectors
 - Joint distributions
@@ -260,10 +265,10 @@ After completing this course, learners will be able to:
 - Independence
 - Measures of relatedness: covariance
 - Multivariate normal distribution
-- [Lab: Summary statistics and visualization of data sets](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-2/ugl_datasets.ipynb)
-- [Quiz](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-2/C3_W2_Quiz.md)
-- [Lab: Simulating Dice Rolls with Numpy](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-2/C3_W2_Lab_2_Dice_Simulations.ipynb)
-- [Programming Assignment: Loaded Dice](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-2/C3_W2_Assignment.ipynb)
+- [Lab: Summary statistics and visualization of data sets](./Course-3/Week-2/ugl_datasets.ipynb)
+- [Quiz](./Course-3/Week-2/C3_W2_Quiz.md)
+- [Lab: Simulating Dice Rolls with Numpy](./Course-3/Week-2/C3_W2_Lab_2_Dice_Simulations.ipynb)
+- [Programming Assignment: Loaded Dice](./Course-3/Week-2/C3_W2_Assignment.ipynb)
 
 ### Week 3: Introduction to statistics
 
@@ -273,8 +278,8 @@ After completing this course, learners will be able to:
 - Distribution of sample mean and proportion: Central Limit Theorem
 - Point estimates
 - Biased vs Unbiased estimates
-- [Lab: Sampling data from different distribution and studying the distribution of sample mean](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-3/C3_W3_Lab_1_Central_Limit_Theorem.ipynb)
-- [Practice Quiz](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-3/C3_W3_Practice-Quiz.md)
+- [Lab: Sampling data from different distribution and studying the distribution of sample mean](./Course-3/Week-3/C3_W3_Lab_1_Central_Limit_Theorem.ipynb)
+- [Practice Quiz](./Course-3/Week-3/C3_W3_Practice-Quiz.md)
 
 #### Lesson 2: Maximum likelihood estimation
 - ML motivation example: Linear Discriminant Analysis
@@ -287,7 +292,7 @@ After completing this course, learners will be able to:
 - Frequentist vs. Bayesian statistics
 - A priori/ a posteriori distributions
 - Bayesian estimators: posterior mean, posterior median, MAP
-- [Quiz](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-3/C3_W3_Quiz.md)
+- [Quiz](./Course-3/Week-3/C3_W3_Quiz.md)
 
 ### Week 4: Interval statistics and Hypothesis testing
 
@@ -297,7 +302,7 @@ After completing this course, learners will be able to:
 - Confidence Interval for mean of population
 - CI for parameters in linear regression
 - Prediction Interval
-- [Practice Quiz](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-4/C3_W4_Practice-Quiz.md)
+- [Practice Quiz](./Course-3/Week-4/C3_W4_Practice-Quiz.md)
 
 #### Lesson 2: Hypothesis testing
 - ML Motivation: AB Testing
@@ -307,5 +312,5 @@ After completing this course, learners will be able to:
 - Two sample inference for difference between groups
 - ANOVA
 - Power of a test
-- [Quiz](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-4/C3_W4_Quiz.md)
-- [Programming Assignment: A/B Testing](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization/blob/main/Course-3/Week-4/C3_W4_Assignment.ipynb)
+- [Quiz](./Course-3/Week-4/C3_W4_Quiz.md)
+- [Programming Assignment: A/B Testing](./Course-3/Week-4/C3_W4_Assignment.ipynb)

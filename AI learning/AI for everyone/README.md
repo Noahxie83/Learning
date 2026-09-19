@@ -1,4 +1,7 @@
 # [AI for Everyone](https://www.deeplearning.ai/courses/ai-for-everyone/)
+
+本目录归档课件与测验资料，归档情况不代表结课认证。资料与原始导航参考：[Ryota-Kawamura/AI-for-Everyone](https://github.com/Ryota-Kawamura/AI-for-Everyone)。
+
 AI is not only for engineers. “AI for Everyone”, a non-technical course, will help you understand AI technologies and spot opportunities to apply AI to problems in your own organization. You will see examples of what today’s AI can – and cannot – do. Finally, you will understand how AI is impacting society and how to navigate through this technological change.
 
 If you are a non-technical business professional, “AI for Everyone” will help you understand how to build a sustainable AI strategy. If you are a machine learning engineer or data scientist, this is the course to ask your manager, VP or CEO to take if you want them to understand what you can (and cannot!) do.
@@ -24,7 +27,7 @@ Though this course is largely non-technical, engineers can also take this course
 - What makes an AI company?
 - What Machine Learning can and cannot do
 - Intuitive explanation of deep learning
-- [Quiz](https://github.com/Ryota-Kawamura/AI-for-Everyone/blob/main/Week-1/Week-1_Quiz.md)
+- [Quiz](./Week%201/Week-1_Quiz.md)
 
 ## Week 2: Building AI Projects
 - Workflow of a Machine Learning project
@@ -33,7 +36,7 @@ Though this course is largely non-technical, engineers can also take this course
 - How to choose an AI project
 - Working with an AI team
 - Technical tools for AI teams
-- [Quiz](https://github.com/Ryota-Kawamura/AI-for-Everyone/blob/main/Week-2/Week-2_Quiz.md)
+- [Quiz](./Week%202/Week-2_Quiz.md)
 
 ## Week 3: AI in Your Company
 - Case study: Smart speaker
@@ -44,7 +47,7 @@ Though this course is largely non-technical, engineers can also take this course
 - Taking your first step in AI
 - Survey of major AI applications
 - Survey of major AI techniques
-- [Quiz](https://github.com/Ryota-Kawamura/AI-for-Everyone/blob/main/Week-3/Week-3_Quiz.md)
+- [Quiz](./Week%203/Week-3_Quiz.md)
 
 ## Week 4: AI and Society
 - A realistic view of AI
@@ -54,4 +57,4 @@ Though this course is largely non-technical, engineers can also take this course
 - AI and developing nations
 - AI and jobs
 - Conclusion
-- [Quiz](https://github.com/Ryota-Kawamura/AI-for-Everyone/blob/main/Week-4/Week-4_Quiz.md)
+- [Quiz](./Week%204/Week-4_Quiz.md)

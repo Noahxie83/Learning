@@ -35,3 +35,12 @@ Thumbs.db
 .env
 .env.*
 !.env.example
+
+# D2L example-generated artifacts; retain notebooks and reference data
+/AI learning/D2L-李沐/pytorch/chapter_computational-performance/my_mlp
+/AI learning/D2L-李沐/pytorch/chapter_deep-learning-computation/mlp.params
+/AI learning/D2L-李沐/pytorch/chapter_deep-learning-computation/mydict
+/AI learning/D2L-李沐/pytorch/chapter_deep-learning-computation/x-file
+/AI learning/D2L-李沐/pytorch/chapter_deep-learning-computation/x-files
+/AI learning/D2L-李沐/pytorch/chapter_computer-vision/submission.csv
+/AI learning/D2L-李沐/pytorch/chapter_multilayer-perceptrons/submission.csv
