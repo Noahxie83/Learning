@@ -1,6 +1,6 @@
 # [AI for Everyone](https://www.deeplearning.ai/courses/ai-for-everyone/)
 
-本目录归档课件与测验资料，归档情况不代表结课认证。资料与原始导航参考：[Ryota-Kawamura/AI-for-Everyone](https://github.com/Ryota-Kawamura/AI-for-Everyone)。
+学习状态：已学完。本目录归档课件与测验资料，但本地归档不代表官方结课认证。资料与原始导航参考：[Ryota-Kawamura/AI-for-Everyone](https://github.com/Ryota-Kawamura/AI-for-Everyone)。
 
 AI is not only for engineers. “AI for Everyone”, a non-technical course, will help you understand AI technologies and spot opportunities to apply AI to problems in your own organization. You will see examples of what today’s AI can – and cannot – do. Finally, you will understand how AI is impacting society and how to navigate through this technological change.
 
