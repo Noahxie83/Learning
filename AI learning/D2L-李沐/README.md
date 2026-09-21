@@ -45,6 +45,10 @@
 | 附录：深度学习工具 | [阅读](./pytorch/chapter_appendix-tools-for-deep-learning/index.ipynb) |
 | 参考文献 | [阅读](./pytorch/chapter_references/zreferences.ipynb) |
 
+## 配套数据
+
+- [house_tiny.csv](./pytorch/data/house_tiny.csv)：预备知识中“数据预处理”示例使用的小型 CSV 数据集。
+
 ## 使用说明
 
 教材、配套 Notebook 和图片归原作者所有；本目录用于学习归档，原有示例输出不作为个人实验成果。运行示例前先核对教材的安装说明、依赖版本与所需数据集；此处不表示已经验证全部示例的运行结果。
