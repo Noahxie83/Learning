@@ -9,6 +9,7 @@
 | AI for Everyone | [DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-everyone) | [课程 README](./AI%20for%20everyone/README.md) | 已学完；已归档 Week 1–4 的 PDF、测验 Markdown 和图片；本地归档不等于官方结课认证 |
 | Machine Learning Specialization | [Coursera](https://www.coursera.org/specializations/machine-learning-introduction/) | [课程 README](./Machine%20Learning%20Specialization%20Coursera/README.md) | C1 已学完；C2/C3 暂缓，现有资料保留供后续学习 |
 | 动手学深度学习（李沐，PyTorch） | [课程网站](https://courses.d2l.ai/zh-v2/) · [在线教材](https://zh.d2l.ai/) | [课程 README](./D2L-李沐/README.md) | 当前学习重点；教材和配套 Notebook 已归档，具体章节进度待补充 |
+| PyTorch 基础练习 | 待补充 | [目录 README](./Pytorch%20fundation/README.md) | 当前仅归档 1 个基础导入练习；课程来源与学习进度待补充 |
 
 ## 按需基础材料
 

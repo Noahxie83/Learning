@@ -26,6 +26,7 @@ AI Learning 不限于 AI for Everyone。吴恩达 Machine Learning Specializatio
 | [AI for Everyone](https://www.deeplearning.ai/courses/ai-for-everyone) | 已学完；已归档 Week 1–4 的课件与测验记录，覆盖 AI 概念、AI 项目、企业中的 AI、AI 与社会；本地归档不等于官方结课认证 | [课程 README](./AI%20learning/AI%20for%20everyone/README.md) |
 | [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction/) | C1 已学完；C2/C3 暂缓，已归档资料供后续学习；个人参考笔记来源见课程 README | [课程 README](./AI%20learning/Machine%20Learning%20Specialization%20Coursera/README.md) |
 | [动手学深度学习（李沐）](https://courses.d2l.ai/zh-v2/) | 当前学习重点；已归档中文版 PyTorch PDF 和配套 Notebook，具体章节进度随学习补充 | [课程 README](./AI%20learning/D2L-李沐/README.md) |
+| PyTorch 基础练习 | 当前仅归档 1 个基础导入练习；课程来源与学习进度待补充 | [目录 README](./AI%20learning/Pytorch%20fundation/README.md) |
 | 数学基础（按需） | 已归档数学课程资料，作为机器学习阶段的按需补充；尚未计作已学习课程 | [课程 README](./AI%20learning/Mathematics%20for%20Machine%20Learning%20and%20Data%20Science%20Specialization/README.md) |
 | 强化学习 | 后续规划，具体课程网址待选定后补充；尚未建立课程资料目录 | [方向说明](./AI%20learning/README.md#强化学习) |
 
@@ -76,6 +77,9 @@ Learning/
 │   │   ├── d2l-zh-pytorch.pdf
 │   │   ├── PPT/
 │   │   ├── pytorch/
+│   │   └── README.md
+│   ├── Pytorch fundation/
+│   │   ├── P1.py
 │   │   └── README.md
 │   ├── Mathematics for Machine Learning and Data Science Specialization/
 │   │   ├── Course-1/ ... Course-3/
@@ -148,4 +152,4 @@ git push origin main
 - 同目录的源码与 Markdown 不会自动双向同步；修改源码中的学习记录后，需要相应维护笔记。
 - 新增课程、移动目录或重命名后，同步维护本页和对应模块 README；链接路径大小写与磁盘目录保持一致。
 
-最后更新：2026-09-20
+最后更新：2026-09-22

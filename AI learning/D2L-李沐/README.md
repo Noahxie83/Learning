@@ -48,6 +48,7 @@
 ## 配套数据
 
 - [house_tiny.csv](./pytorch/data/house_tiny.csv)：预备知识中“数据预处理”示例使用的小型 CSV 数据集。
+- [图像分类数据集 Notebook](./pytorch/chapter_linear-networks/image-classification-dataset.ipynb)运行时会按需下载 FashionMNIST；下载到本地的运行数据不纳入 Git 同步。
 
 ## 使用说明
 
