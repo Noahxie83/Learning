@@ -6,7 +6,7 @@
 
 | 课程 | 课程网站 | 本地导航 | 当前归档情况 |
 | --- | --- | --- | --- |
-| ZJU DSA | [中国大学 MOOC 学习入口](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) | [ZJU DSA README](./ZJU%20DSA/README.md) | 目录已建立，课程笔记待归档 |
+| ZJU DSA | [中国大学 MOOC 学习入口](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) | [ZJU DSA README](./ZJU%20DSA/README.md) | 已归档“1. 基本概念”课件，课程笔记待归档 |
 | THU DSA | [数据结构（C++ 语言版）课程与资料](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/) | [THU Advanced DSA README](./THU%20Advanced%20DSA/README.md) | 已有绪论、向量笔记，以及绪论配套代码和图片 |
 
 ## 目录结构
@@ -14,6 +14,8 @@
 ```text
 Data Structures and Algorithms/
 ├── ZJU DSA/
+│   ├── 课件/
+│   │   └── 1. 基本概念/
 │   └── README.md
 ├── THU Advanced DSA/
 │   ├── 1. Itroduction/

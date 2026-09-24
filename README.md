@@ -13,7 +13,7 @@
 | AI Learning | 人工智能入门、机器学习、深度学习与后续强化学习方向 | [模块 README](./AI%20learning/README.md) |
 | CS Learning | C/C++、数据结构与算法、Python、计算机工具课程 | [模块 README](./CS%20Learning/README.md) |
 | Practice | 洛谷算法题练习与复盘 | [模块 README](./Practice/README.md) |
-| 电路与电子学 | 已归档 1 篇电路基础笔记和 1 本电子学基础 PDF；课程与来源待补充 | [学习笔记](./电路与电子学/1.%20电路的基本概念与定律.md) |
+| 电路与电子学 | 已归档 2 篇电路基础笔记和 1 本电子学基础 PDF；课程与来源待补充 | [学习笔记](./电路与电子学/1.%20电路的基本概念与定律.md) |
 
 ## 课程与学习资料
 
@@ -39,7 +39,7 @@ AI Learning 不限于 AI for Everyone。吴恩达 Machine Learning Specializatio
 | [C wengkai](https://www.icourse163.org/learn/ZJU-9001?tid=9001#/learn/announce) | 翁恺 C 语言课程；47 个章节目录采用“章号-节号 中文标题”，保留源码及配套 Markdown | [课程 README](./CS%20Learning/C%20wengkai/README.md) |
 | [C++ PKU](https://www.icourse163.org/learn/PKU-1001553023?tid=1474162490#/learn/announce) | PKU 程序设计与算法相关 C++ 学习；9 个源码与笔记主题 | [课程 README](./CS%20Learning/C++%20PKU/README.md) |
 | C++ STL · [标准库参考](https://en.cppreference.com/cpp/standard_library) | 容器、迭代器、算法和适配器；独立学习专题，参考文档不是指定课程官网 | [专题 README](./CS%20Learning/C++%20STL/README.md) |
-| [ZJU DSA](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) | 浙江大学数据结构课程；已建立分区，课程笔记待归档 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/ZJU%20DSA/README.md) |
+| [ZJU DSA](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) | 浙江大学数据结构课程；已归档“1. 基本概念”课件，课程笔记待归档 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/ZJU%20DSA/README.md) |
 | [THU DSA](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/) | 清华大学数据结构（C++ 语言版）学习；目前已有绪论、向量笔记和示例 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/THU%20Advanced%20DSA/README.md) |
 | [Python MIT6.100L](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) | MIT 6.100L Python 课堂代码、练习、Problem Set 与资源 | [课程 README](./CS%20Learning/Python%20MIT6.100L/README.md) |
 | 离散数学 | 课程官网待补充；已归档命题逻辑、谓词逻辑相关笔记、课件和作业，以及集合论初步、二元关系课件；个人学习进度待补充 | [课程 README](./CS%20Learning/离散数学/README.md) |
@@ -49,9 +49,9 @@ AI Learning 不限于 AI for Everyone。吴恩达 Machine Learning Specializatio
 
 ### 电路与电子学：基础笔记
 
-目前归档一篇关于电路基本概念与电路模型的笔记，以及一本电子学基础 PDF；课程名称、官网和学习进度尚待补充，笔记或资料文件本身不代表已完成相关课程。
+目前归档两篇关于电路基本概念与分析方法的笔记，以及一本电子学基础 PDF；课程名称、官网和学习进度尚待补充，笔记或资料文件本身不代表已完成相关课程。
 
-本地入口：[1. 电路的基本概念与定律](./电路与电子学/1.%20电路的基本概念与定律.md)
+本地入口：[1. 电路的基本概念与定律](./电路与电子学/1.%20电路的基本概念与定律.md) · [2. 电路的分析方法](./电路与电子学/2.%20电路的分析方法.md)
 
 辅助资料：[电路与电子学基础 PDF](./电路与电子学/电路与电子学基础%20%28唐胜安%2C%20刘晔%29%20%28z-library.sk%2C%201lib.sk%2C%20z-lib.sk%29.pdf)
 
@@ -156,4 +156,4 @@ git push origin main
 - 同目录的源码与 Markdown 不会自动双向同步；修改源码中的学习记录后，需要相应维护笔记。
 - 新增课程、移动目录或重命名后，同步维护本页和对应模块 README；链接路径大小写与磁盘目录保持一致。
 
-最后更新：2026-09-24
+最后更新：2026-09-25

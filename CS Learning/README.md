@@ -9,7 +9,7 @@ C/C++、数据结构与算法、Python 和计算机工具课程的学习资料�
 | C wengkai | C 语言基础、指针、结构体与多文件程序 | [README](./C%20wengkai/README.md) | [课程入口](https://www.icourse163.org/learn/ZJU-9001?tid=9001#/learn/announce) |
 | C++ PKU | C++ 与程序设计基础 | [README](./C++%20PKU/README.md) | [课程入口](https://www.icourse163.org/learn/PKU-1001553023?tid=1474162490#/learn/announce) |
 | C++ STL | 容器、迭代器、算法和适配器 | [README](./C++%20STL/README.md) | [标准库参考，非指定课程](https://en.cppreference.com/cpp/standard_library) |
-| ZJU DSA | 浙江大学数据结构课程，待归档课程笔记 | [README](./Data%20Structures%20and%20Algorithms/ZJU%20DSA/README.md) | [课程入口](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) |
+| ZJU DSA | 浙江大学数据结构课程；已归档“1. 基本概念”课件，课程笔记待归档 | [README](./Data%20Structures%20and%20Algorithms/ZJU%20DSA/README.md) | [课程入口](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) |
 | THU DSA | 清华数据结构（C++ 语言版）；已有绪论、向量内容 | [README](./Data%20Structures%20and%20Algorithms/THU%20Advanced%20DSA/README.md) | [课程与资料入口](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/) |
 | Python MIT6.100L | Python 课堂示例、练习与 Problem Set | [README](./Python%20MIT6.100L/README.md) | [MIT OCW](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) |
 | 离散数学 | 已归档命题逻辑、谓词逻辑相关笔记、课件和作业，以及集合论初步、二元关系课件；个人学习进度待补充 | [README](./离散数学/README.md) | 待补充 |
