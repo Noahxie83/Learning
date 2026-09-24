@@ -12,7 +12,7 @@ C/C++、数据结构与算法、Python 和计算机工具课程的学习资料�
 | ZJU DSA | 浙江大学数据结构课程，待归档课程笔记 | [README](./Data%20Structures%20and%20Algorithms/ZJU%20DSA/README.md) | [课程入口](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) |
 | THU DSA | 清华数据结构（C++ 语言版）；已有绪论、向量内容 | [README](./Data%20Structures%20and%20Algorithms/THU%20Advanced%20DSA/README.md) | [课程与资料入口](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/) |
 | Python MIT6.100L | Python 课堂示例、练习与 Problem Set | [README](./Python%20MIT6.100L/README.md) | [MIT OCW](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) |
-| Mathematics for Computer Science（MIT6.1200J） | 已归档 Lecture Note、Activity Assignments 和 Problem Set；个人学习进度待补充 | [README](./Mathematics%20For%20Computer%20science%20MIT6.1200J/README.md) | 待补充 |
+| 离散数学 | 已归档命题逻辑、谓词逻辑相关笔记、课件和作业，以及集合论初步、二元关系课件；个人学习进度待补充 | [README](./离散数学/README.md) | 待补充 |
 | MIT Missing Semester | Shell、命令行环境及后续开发工具学习 | [README](./MIT%20missing%20semester/README.md) | [课程官网](https://missing.csail.mit.edu/) |
 
 数据结构与算法的两门课程分别放在 `ZJU DSA`、`THU Advanced DSA`，入口见 [DSA 总 README](./Data%20Structures%20and%20Algorithms/README.md)，不混用两门课程的章节或进度。

@@ -42,7 +42,7 @@ AI Learning 不限于 AI for Everyone。吴恩达 Machine Learning Specializatio
 | [ZJU DSA](https://www.icourse163.org/learn/ZJU-93001?tid=1487509453#/learn/announce) | 浙江大学数据结构课程；已建立分区，课程笔记待归档 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/ZJU%20DSA/README.md) |
 | [THU DSA](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/) | 清华大学数据结构（C++ 语言版）学习；目前已有绪论、向量笔记和示例 | [课程 README](./CS%20Learning/Data%20Structures%20and%20Algorithms/THU%20Advanced%20DSA/README.md) |
 | [Python MIT6.100L](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/) | MIT 6.100L Python 课堂代码、练习、Problem Set 与资源 | [课程 README](./CS%20Learning/Python%20MIT6.100L/README.md) |
-| Mathematics for Computer Science（MIT6.1200J） | 课程官网待补充；已归档 Lecture Note、Activity Assignments 和 Problem Set，个人学习进度待补充 | [课程 README](./CS%20Learning/Mathematics%20For%20Computer%20science%20MIT6.1200J/README.md) |
+| 离散数学 | 课程官网待补充；已归档命题逻辑、谓词逻辑相关笔记、课件和作业，以及集合论初步、二元关系课件；个人学习进度待补充 | [课程 README](./CS%20Learning/离散数学/README.md) |
 | [MIT Missing Semester](https://missing.csail.mit.edu/) | 已选择性学习 L1–3、L5、L7；L4、L6、L8、L9 资料已归档但尚未学习 | [课程 README](./CS%20Learning/MIT%20missing%20semester/README.md) |
 
 数据结构与算法的两个课程分开归档，共用 [DSA 总导航](./CS%20Learning/Data%20Structures%20and%20Algorithms/README.md)。目录 `THU Advanced DSA` 保留现有命名，不代表本仓库已经覆盖清华课程的全部高级内容。
@@ -97,7 +97,7 @@ Learning/
 │   │   │   └── 2. Vector/
 │   │   └── README.md
 │   ├── Python MIT6.100L/
-│   ├── Mathematics For Computer science MIT6.1200J/
+│   ├── 离散数学/
 │   ├── MIT missing semester/
 │   └── README.md
 ├── Practice/
@@ -156,4 +156,4 @@ git push origin main
 - 同目录的源码与 Markdown 不会自动双向同步；修改源码中的学习记录后，需要相应维护笔记。
 - 新增课程、移动目录或重命名后，同步维护本页和对应模块 README；链接路径大小写与磁盘目录保持一致。
 
-最后更新：2026-09-23
+最后更新：2026-09-24
