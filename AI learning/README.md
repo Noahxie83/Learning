@@ -8,8 +8,7 @@
 | --- | --- | --- | --- |
 | AI for Everyone | [DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-everyone) | [课程 README](./AI%20for%20everyone/README.md) | 已学完；已归档 Week 1–4 的 PDF、测验 Markdown 和图片；本地归档不等于官方结课认证 |
 | Machine Learning Specialization | [Coursera](https://www.coursera.org/specializations/machine-learning-introduction/) | [课程 README](./Machine%20Learning%20Specialization%20Coursera/README.md) | C1 已学完；C2/C3 暂缓，现有资料保留供后续学习 |
-| 动手学深度学习（李沐，PyTorch） | [课程网站](https://courses.d2l.ai/zh-v2/) · [在线教材](https://zh.d2l.ai/) | [课程 README](./D2L-李沐/README.md) | 当前学习重点；教材和配套 Notebook 已归档，具体章节进度待补充 |
-| PyTorch 基础练习 | 待补充 | [目录 README](./Pytorch%20fundation/README.md) | 当前为空白占位；课程来源与学习进度待补充 |
+| 动手学深度学习（李沐，PyTorch） | [课程网站](https://courses.d2l.ai/zh-v2/) · [在线教材](https://zh.d2l.ai/) | [课程 README](./D2L-李沐/README.md) | 当前学习重点；已学完第一章，整门课程尚未学完；教材和配套 Notebook 已归档 |
 
 ## 按需基础材料
 
@@ -25,19 +24,17 @@
 
 ### 深度学习
 
-当前转向李沐《动手学深度学习》，使用中文版 PyTorch 教材与配套 Notebook。入口见 [D2L 课程 README](./D2L-李沐/README.md)。已下载的章节和示例属于学习材料，不直接标记为已完成。
+当前学习李沐《动手学深度学习》，已学完第一章，继续学习后续内容；使用中文版 PyTorch 教材与配套 Notebook。入口见 [D2L 课程 README](./D2L-李沐/README.md)。已下载的章节和示例属于学习材料，不能据此推断其他章节已经完成。
 
 ### 强化学习
 
 后续学习方向。课程、笔记与实践将在学习推进后补充；目前不标记为已学习或已完成，也不虚列实验结果。
 
-## 内容形式与维护
+## 资料形式
 
 - PDF：课程资料与课件。
 - Markdown：学习笔记、测验记录、总结和待复习问题。
 - 代码与必要资源：随具体课程或实验逐步补充。
 - 图片：与所属课程、周次或笔记放在一起，保持相对链接有效。
-
-本模块目录为 `AI learning/`。可以从 Learning 总库阅读，也可以使用本目录作为 Obsidian 分库。学习文件只保留一个工作副本，Git 操作统一回到仓库根目录。
 
 上级入口：[Learning README](../README.md)。

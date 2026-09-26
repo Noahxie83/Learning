@@ -17,6 +17,10 @@ Thumbs.db
 **/.claudian/
 **/*.base
 
+# Local review-plugin state and sync conversation metadata
+/.agent-review/
+/.agents/nutstore-sync/
+
 # Build and debugger artifacts
 **/*.ilk
 **/*.obj

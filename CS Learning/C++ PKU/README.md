@@ -2,13 +2,15 @@
 
 C++ 与程序设计基础课程的代码练习。
 
+学习状态：已学完。
+
 课程入口：[PKU 程序设计与算法课程](https://www.icourse163.org/learn/PKU-1001553023?tid=1474162490#/learn/announce)。保留所选课程的学期链接，学习页可能需要登录。
 
 ## Markdown 笔记目录
 
 本目录的 9 个 C++ 源文件已整理为同名主题目录：每个目录内包含原源码和一篇 Markdown 笔记，原文件名保留。
 
-Markdown 将原注释整理为正文、用法表格、输入输出样例及带行号的注释索引，文末附完整源码。源码只移动位置，内容、编码和换行保持原样；笔记保留当时的记录，未进行逐项知识校订。
+Markdown 将原注释整理为正文、用法表格、输入输出样例及带行号的注释索引，文末附完整源码。笔记保留学习时的记录，未进行逐项知识校订。
 
 例如 ` string.cpp ` 现整理为：
 
@@ -33,10 +35,6 @@ string/
 | pointer.cpp | void 指针与内存操作 | [阅读笔记](pointer/pointer.md) | [查看源码](pointer/pointer.cpp) |
 | scanf &amp; cin special usage.cpp | 读入状态与循环输入 | [阅读笔记](scanf%20%26%20cin%20special%20usage/scanf%20%26%20cin%20special%20usage.md) | [查看源码](scanf%20%26%20cin%20special%20usage/scanf%20%26%20cin%20special%20usage.cpp) |
 | string.cpp | 字符串与整行输入 | [阅读笔记](string/string.md) | [查看源码](string/string.cpp) |
-
-### 后续维护
-
-Markdown 是本次整理后的笔记快照。以后若修改源码中的注释或示例，也请更新同目录中的 Markdown；两者不会自动互相修改。
 
 ## 内容范围
 

@@ -2,6 +2,8 @@
 
 MIT 6.100L Python 课程资料、课堂代码、练习题和实验记录。
 
+学习状态：已学完。
+
 课程入口：[MIT OCW — Materials by Lecture](https://ocw.mit.edu/courses/6-100l-introduction-to-cs-and-programming-using-python-fall-2022/pages/material-by-lecture/)，对应 Fall 2022 课程资料。
 
 ## 讲次导航

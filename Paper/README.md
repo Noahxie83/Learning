@@ -7,6 +7,6 @@
 - [AlexNet 阅读笔记](./ImageNet%20Classification%20with%20Deep%20Convolutional/AlexNet.md)
 - [AlexNet 论文 PDF](./ImageNet%20Classification%20with%20Deep%20Convolutional/NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf)
 
-论文原始出处与许可信息待补充；不在此猜测外部链接。
+论文原始出处与许可信息待补充。
 
 上级入口：[Learning](../README.md)。

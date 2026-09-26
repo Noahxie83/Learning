@@ -2,13 +2,15 @@
 
 C++ 标准模板库（STL）学习与示例代码。
 
+学习状态：本专题已学完。
+
 参考入口：[cppreference — C++ 标准库](https://en.cppreference.com/cpp/standard_library)。本模块是独立学习专题，尚未指定统一课程；此链接是参考文档，不是课程官网。
 
 ## Markdown 笔记目录
 
 本目录的 35 个 C++ 源文件已整理为同名主题目录：每个目录内包含原源码和一篇 Markdown 笔记，原有 STL 分类与文件名保留。
 
-Markdown 将原注释整理为正文、用法表格、输入输出样例及带行号的注释索引，文末附完整源码。源码只移动位置，内容、编码和换行保持原样；笔记保留当时的记录，未进行逐项知识校订。
+Markdown 将原注释整理为正文、用法表格、输入输出样例及带行号的注释索引，文末附完整源码。笔记保留学习时的记录，未进行逐项知识校订。
 
 例如 ` Containers/Sequence containers/vector.cpp ` 现整理为：
 
@@ -89,10 +91,6 @@ Containers/Sequence containers/vector/
 | 原文件名 | 内容 | Markdown | 源码 |
 | --- | --- | --- | --- |
 | Iterators.cpp | 迭代器 | [阅读笔记](Iterators/Iterators/Iterators.md) | [查看源码](Iterators/Iterators/Iterators.cpp) |
-
-### 后续维护
-
-Markdown 是本次整理后的笔记快照。以后若修改源码中的注释或示例，也请更新同目录中的 Markdown；两者不会自动互相修改。
 
 ## 目录导航
 

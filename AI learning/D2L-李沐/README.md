@@ -7,7 +7,7 @@
 
 ## 学习状态
 
-吴恩达 Machine Learning Specialization 的 C1 已学完，C2/C3 暂缓；当前学习重点转向本课程。已归档的 PDF、Notebook 和配图是课程参考材料，具体章节学习记录随学习补充，不将下载资料视为已完成。
+吴恩达 Machine Learning Specialization 的 C1 已学完，C2/C3 暂缓；当前学习重点为本课程。本课程已学完第一章，整门课程尚未学完。已归档的 PDF、Notebook 和配图是课程参考材料，不能据此推断其他章节已经完成。
 
 数学基础需要时再查阅 [Mathematics for Machine Learning and Data Science](../Mathematics%20for%20Machine%20Learning%20and%20Data%20Science%20Specialization/README.md)。
 
@@ -21,7 +21,7 @@
 
 ## 章节导航
 
-以下为已归档材料的入口，不表示章节完成进度。
+以下为已归档材料的入口；已确认的学习进度见上方“学习状态”，不由资料是否归档推断。
 
 | 章节 | Notebook 入口 |
 | --- | --- |
@@ -49,16 +49,18 @@
 
 以下是与本课程配套的个人代码练习，文件存在不表示已经完成对应章节：
 
+- [个人练习总览](./Practice/README.md)
 - [Linear Regression.py](./Practice/Linear%20Regression.py)
 - [Softmax.py](./Practice/Softmax.py)
+- [MLP.py](./Practice/MLP.py)
 
 ## 配套数据
 
 - [house_tiny.csv](./pytorch/data/house_tiny.csv)：预备知识中“数据预处理”示例使用的小型 CSV 数据集。
-- [图像分类数据集 Notebook](./pytorch/chapter_linear-networks/image-classification-dataset.ipynb)运行时会按需下载 FashionMNIST；下载到本地的运行数据不纳入 Git 同步。
+- [图像分类数据集 Notebook](./pytorch/chapter_linear-networks/image-classification-dataset.ipynb)运行时会按需下载 FashionMNIST。
 
-## 使用说明
+## 资料来源
 
-教材、配套 Notebook 和图片归原作者所有；本目录用于学习归档，原有示例输出不作为个人实验成果。运行示例前先核对教材的安装说明、依赖版本与所需数据集；此处不表示已经验证全部示例的运行结果。
+教材、配套 Notebook 和图片归原作者所有；本目录用于学习归档，原有示例输出不作为个人实验成果。配套示例的安装与依赖说明见上方教材入口。
 
 上级入口：[AI Learning](../README.md) · [Learning](../../README.md)。
