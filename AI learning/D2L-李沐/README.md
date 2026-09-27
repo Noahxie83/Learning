@@ -45,6 +45,13 @@
 | 附录：深度学习工具 | [阅读](./pytorch/chapter_appendix-tools-for-deep-learning/index.ipynb) |
 | 参考文献 | [阅读](./pytorch/chapter_references/zreferences.ipynb) |
 
+多层感知机相关 Notebook：
+
+| 主题 | Notebook |
+| --- | --- |
+| 暂退法（Dropout） | [阅读](./pytorch/chapter_multilayer-perceptrons/dropout.ipynb) |
+| 房价预测示例 | [阅读](./pytorch/chapter_multilayer-perceptrons/kaggle-house-price.ipynb) |
+
 ## 个人练习
 
 以下是与本课程配套的个人代码练习，文件存在不表示已经完成对应章节：
@@ -57,6 +64,7 @@
 ## 配套数据
 
 - [house_tiny.csv](./pytorch/data/house_tiny.csv)：预备知识中“数据预处理”示例使用的小型 CSV 数据集。
+- House Prices 示例数据：[训练集](./pytorch/data/kaggle_house_pred_train.csv) · [测试集](./pytorch/data/kaggle_house_pred_test.csv)。文件来自 D2L 房价预测示例；关联数据集为 [Kaggle House Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)。
 - [图像分类数据集 Notebook](./pytorch/chapter_linear-networks/image-classification-dataset.ipynb)运行时会按需下载 FashionMNIST。
 
 ## 资料来源

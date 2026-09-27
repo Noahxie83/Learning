@@ -9,6 +9,7 @@
 | 线性回归 | [Linear Regression.py](./Linear%20Regression.py) |
 | Softmax 回归 | [Softmax.py](./Softmax.py) |
 | 多层感知机 | [MLP.py](./MLP.py) |
+| 暂退法（Dropout） | [Dropout.py](./Dropout.py) |
 
 课程网站与官方教材见 [D2L 课程导航](../README.md)。练习文件反映学习过程，章节完成进度与运行结果以个人记录为准。
 
