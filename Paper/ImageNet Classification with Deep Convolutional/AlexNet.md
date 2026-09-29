@@ -2,7 +2,7 @@
 ## Abstract :
 工作：用**DCNN** 把120万张高分辨率图片划分为1000类
 构成：**6000万参数**和**65万神经元**；**五个卷积层，三个全连接层**，部分卷积层后接最大**池化层**；网络末端1000个类别的Softmax输出层
-方法：采用具有非饱和特性的神经元，并为卷积运算实现高效**GPU**计算；采用[**Dropout**](https://en.wikipedia.org/wiki/Dropout_(neural_networks))正则化方法减轻全连接层过拟合
+**方法：**采用具有非饱和特性的神经元，并为卷积运算实现高效**GPU**计算；采用[**Dropout**](https://en.wikipedia.org/wiki/Dropout_(neural_networks))正则化方法减轻全连接层过拟合
 结果：15.3%Top-5测试错误率，<u>远高于第二名26.2%</u>
 *偏报告向摘要*
 
