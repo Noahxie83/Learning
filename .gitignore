@@ -40,6 +40,11 @@ Thumbs.db
 .env.*
 !.env.example
 
+# User-confirmed local-only learning drafts and reference book
+/学习进度汇报_照读讲稿.md
+/第一次学习进度汇报.md
+/AI learning/Additional knowledge supplement/Generative AI and Stochastic Thermodynamics.pdf
+
 # D2L example-generated artifacts; retain notebooks and reference data
 /AI learning/D2L-李沐/pytorch/data/FashionMNIST/
 /AI learning/D2L-李沐/data/FashionMNIST/
