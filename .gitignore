@@ -48,6 +48,10 @@ Thumbs.db
 # D2L example-generated artifacts; retain notebooks and reference data
 /AI learning/D2L-李沐/pytorch/data/FashionMNIST/
 /AI learning/D2L-李沐/data/FashionMNIST/
+/AI learning/D2L-李沐/pytorch/data/cifar-10-batches-py/
+/AI learning/D2L-李沐/pytorch/data/cifar-10-python.tar.gz
+/AI learning/D2L-李沐/pytorch/data/hotdog/
+/AI learning/D2L-李沐/pytorch/data/hotdog.zip
 /AI learning/D2L-李沐/pytorch/chapter_computational-performance/my_mlp
 /AI learning/D2L-李沐/pytorch/chapter_deep-learning-computation/mlp.params
 /AI learning/D2L-李沐/pytorch/chapter_deep-learning-computation/mydict
