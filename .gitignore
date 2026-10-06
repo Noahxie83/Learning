@@ -52,6 +52,10 @@ Thumbs.db
 /AI learning/D2L-李沐/pytorch/data/cifar-10-python.tar.gz
 /AI learning/D2L-李沐/pytorch/data/hotdog/
 /AI learning/D2L-李沐/pytorch/data/hotdog.zip
+/AI learning/D2L-李沐/pytorch/data/VOCdevkit/
+/AI learning/D2L-李沐/pytorch/data/VOCtrainval_11-May-2012.tar
+/AI learning/D2L-李沐/pytorch/data/banana-detection/
+/AI learning/D2L-李沐/pytorch/data/banana-detection.zip
 /AI learning/D2L-李沐/pytorch/chapter_computational-performance/my_mlp
 /AI learning/D2L-李沐/pytorch/chapter_deep-learning-computation/mlp.params
 /AI learning/D2L-李沐/pytorch/chapter_deep-learning-computation/mydict
