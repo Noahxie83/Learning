@@ -45,7 +45,8 @@ Thumbs.db
 /第一次学习进度汇报.md
 /AI learning/Additional knowledge supplement/Generative AI and Stochastic Thermodynamics.pdf
 
-# D2L example-generated artifacts; retain notebooks and reference data
+# D2L downloaded datasets and generated artifacts; curated examples remain explicitly tracked
+/AI learning/D2L-李沐/pytorch/data/timemachine.txt
 /AI learning/D2L-李沐/pytorch/data/FashionMNIST/
 /AI learning/D2L-李沐/data/FashionMNIST/
 /AI learning/D2L-李沐/pytorch/data/cifar-10-batches-py/
