@@ -47,6 +47,8 @@ Thumbs.db
 
 # D2L downloaded datasets and generated artifacts; curated examples remain explicitly tracked
 /AI learning/D2L-李沐/pytorch/data/timemachine.txt
+/AI learning/D2L-李沐/pytorch/data/fra-eng.zip
+/AI learning/D2L-李沐/pytorch/data/fra-eng/
 /AI learning/D2L-李沐/pytorch/data/FashionMNIST/
 /AI learning/D2L-李沐/data/FashionMNIST/
 /AI learning/D2L-李沐/pytorch/data/cifar-10-batches-py/

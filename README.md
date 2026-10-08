@@ -18,7 +18,7 @@
 >
 > AI for Everyone 已学完；吴恩达 Machine Learning Specialization 的 C1 已学完，C2/C3 暂缓。数学基础按需补充，强化学习作为后续方向。
 
-MIT Missing Semester 本阶段已选择性学习 **L1–3、L5、L7**；L4、L6 及其余部分留待以后学习。D2L 已学完**第一章**，继续学习后续内容。
+MIT Missing Semester 本阶段已选择性学习 **L1–3、L5、L7**；L4、L6 及其余部分留待以后学习。D2L 已学完**第一章**，目前学习至“编码器-解码器结构”，课程仍在进行中。
 
 ## 内容导航
 
@@ -37,7 +37,7 @@ MIT Missing Semester 本阶段已选择性学习 **L1–3、L5、L7**；L4、L6 
 | --- | --- | --- | --- |
 | **AI for Everyone** | 已学完；Week 1–4 课件与测验资料 | [课程笔记](./AI%20learning/AI%20for%20everyone/README.md) | [DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-everyone) |
 | **Machine Learning Specialization** | C1 已学完；C2/C3 暂缓 | [课程资料与参考笔记](./AI%20learning/Machine%20Learning%20Specialization%20Coursera/README.md) | [Coursera](https://www.coursera.org/specializations/machine-learning-introduction/) |
-| **动手学深度学习 · 李沐** | 当前重点；已学完第一章，课程尚未学完 | [章节导航](./AI%20learning/D2L-李沐/README.md) · [个人练习](./AI%20learning/D2L-李沐/Practice/README.md) | [课程](https://courses.d2l.ai/zh-v2/) · [教材](https://zh.d2l.ai/) |
+| **动手学深度学习 · 李沐** | 当前重点；已学完第一章，目前学习至“编码器-解码器结构”；课程尚未学完 | [章节导航](./AI%20learning/D2L-李沐/README.md) · [个人练习](./AI%20learning/D2L-李沐/Practice/README.md) | [课程](https://courses.d2l.ai/zh-v2/) · [教材](https://zh.d2l.ai/) |
 | **数学基础** | 机器学习与深度学习阶段按需补充；暂不计作已学课程 | [线性代数、微积分、概率统计](./AI%20learning/Mathematics%20for%20Machine%20Learning%20and%20Data%20Science%20Specialization/README.md) | [DeepLearning.AI](https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/) |
 | **强化学习** | 后续规划，尚未建立独立课程目录 | [方向说明](./AI%20learning/README.md#强化学习) | 待选定 |
 
@@ -66,4 +66,4 @@ ZJU DSA 与 THU Advanced DSA 分开归档，入口见 [数据结构与算法总�
 
 [Noahxie83 / Learning](https://github.com/Noahxie83/Learning) · 持续学习，逐步积累
 
-最后更新：2026-09-26
+最后更新：2026-10-08

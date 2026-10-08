@@ -7,7 +7,7 @@
 
 ## 学习状态
 
-吴恩达 Machine Learning Specialization 的 C1 已学完，C2/C3 暂缓；当前学习重点为本课程。本课程已学完第一章，整门课程尚未学完。已归档的 PDF、Notebook 和配图是课程参考材料，不能据此推断其他章节已经完成。
+吴恩达 Machine Learning Specialization 的 C1 已学完，C2/C3 暂缓；当前学习重点为本课程。本课程已学完第一章，目前学习至“编码器-解码器结构”，整门课程尚未学完。已归档的 PDF、Notebook 和配图是课程参考材料，不能据此推断其他章节已经完成。
 
 数学基础需要时再查阅 [Mathematics for Machine Learning and Data Science](../Mathematics%20for%20Machine%20Learning%20and%20Data%20Science%20Specialization/README.md)。
 
