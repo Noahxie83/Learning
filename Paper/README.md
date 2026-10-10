@@ -4,9 +4,9 @@
 
 ## 当前资料
 
-| 论文 | 阅读笔记 | 本地 PDF | arXiv 原文 |
+| 论文 | 阅读笔记 | 本地 PDF | 原文来源 |
 | --- | --- | --- | --- |
-| AlexNet | [阅读笔记](./ImageNet%20Classification%20with%20Deep%20Convolutional/AlexNet.md) | [PDF](./ImageNet%20Classification%20with%20Deep%20Convolutional/NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf) | [arXiv](https://arxiv.org/abs/1207.0580) |
+| AlexNet | [阅读笔记](./ImageNet%20Classification%20with%20Deep%20Convolutional/AlexNet.md) | [PDF](./ImageNet%20Classification%20with%20Deep%20Convolutional/NIPS-2012-imagenet-classification-with-deep-convolutional-neural-networks-Paper.pdf) | [NeurIPS 2012](https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) |
 | Attention Is All You Need | [阅读笔记](./Attention%20Is%20All%20You%20Need/Transformer.md) | [PDF](./Attention%20Is%20All%20You%20Need/NIPS-2017-attention-is-all-you-need-Paper.pdf) | [arXiv](https://arxiv.org/abs/1706.03762) |
 | Deep Residual Learning for Image Recognition（ResNet） | [阅读笔记](./Deep%20Residual%20Learning%20for%20Image%20Recognition/ResNet.md) | [PDF](./Deep%20Residual%20Learning%20for%20Image%20Recognition/1512.03385v1.pdf) | [arXiv](https://arxiv.org/abs/1512.03385) |
 
