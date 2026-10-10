@@ -1,6 +1,6 @@
 # [Mathematics for Machine Learning and Data Science Specialization](https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/)
 
-学习状态：作为机器学习与深度学习阶段按需使用的数学基础材料，目前暂不计作已学习课程。当前主线为 [李沐《动手学深度学习》](../D2L-李沐/README.md)，需要相应数学知识时再学习本课程。
+学习状态：作为机器学习与深度学习阶段按需使用的数学基础材料，目前暂不计作已学习课程。[李沐《动手学深度学习》](../D2L-李沐/README.md)已学完；需要相应数学知识时再学习本课程。
 
 资料与原始导航参考：[Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization](https://github.com/Ryota-Kawamura/Mathematics-for-Machine-Learning-and-Data-Science-Specialization)。下方介绍与学习目标描述课程内容，不表示个人已经完成这些目标。
 

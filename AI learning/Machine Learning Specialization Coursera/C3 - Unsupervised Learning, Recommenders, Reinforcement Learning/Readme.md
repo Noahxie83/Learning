@@ -1,6 +1,6 @@
 ## Unsupervised Learning, Recommenders, Reinforcement Learning
 
-学习状态：C3 暂缓。C1 已学完，当前转向 [李沐《动手学深度学习》](../../D2L-李沐/README.md)；下方为参考材料归档，不代表已完成本课程。来源见 [专项课程 README](../README.md#本地学习材料与来源)。
+学习状态：C3 暂缓。C1 已学完；[李沐《动手学深度学习》（PyTorch）](../../D2L-李沐/README.md)课程已学完。下方为参考材料归档，不代表已完成本课程。来源见 [专项课程 README](../README.md#本地学习材料与来源)。
 
 - [Week 1](./week1)
     - [Practice quiz : Clustering](./week1/Practice%20Quiz%20-%20Clustering)

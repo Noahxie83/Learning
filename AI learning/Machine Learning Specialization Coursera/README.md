@@ -13,7 +13,7 @@ Contains Solutions and Notes for the [Machine Learning Specialization](https://w
 
 ## 学习状态与后续安排
 
-C1（Supervised Machine Learning: Regression and Classification）已学完；C2（Advanced Learning Algorithms）与 C3（Unsupervised Learning, Recommenders, Reinforcement Learning）暂缓。当前转向 [李沐《动手学深度学习》（PyTorch）](../D2L-李沐/README.md)，目前学习至“编码器-解码器结构”，课程仍在进行中；后续再按需恢复本专项课程。
+C1（Supervised Machine Learning: Regression and Classification）已学完；C2（Advanced Learning Algorithms）与 C3（Unsupervised Learning, Recommenders, Reinforcement Learning）暂缓。[李沐《动手学深度学习》（PyTorch）](../D2L-李沐/README.md)已学完；后续再按需恢复本专项课程。
 
 以上是个人学习进度，不表示整个专项课程结业或取得认证。其余课程资料、示例输出和下方原仓库的课程回顾均保留为参考。
 
