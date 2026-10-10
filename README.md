@@ -1,3 +1,5 @@
+<p align="right"><a href="https://github.com/Noahxie83"><sub>Noah Xie · Personal profile</sub></a></p>
+
 <a name="learning"></a>
 
 ![Learning：连接课程、笔记与实践的学习档案](./assets/readme/learning-cover.png)
