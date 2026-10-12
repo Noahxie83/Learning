@@ -9,7 +9,7 @@
 
 按本人学习记录，李沐《动手学深度学习》（PyTorch）课程已学完。吴恩达 Machine Learning Specialization 的 C1 已学完，C2/C3 暂缓。下方教材、PDF、Notebook 和配图是课程学习资料归档。
 
-数学基础需要时再查阅 [Mathematics for Machine Learning and Data Science](../Mathematics%20for%20Machine%20Learning%20and%20Data%20Science%20Specialization/README.md)。
+概率论、随机过程与离散数学基础见 [Math Learning](../../Math%20Learning/README.md)，相关课程按各自的学习记录维护进度。
 
 ## 材料入口
 

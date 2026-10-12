@@ -1,6 +1,6 @@
 # AI Learning
 
-人工智能学习资料的长期归档入口。吴恩达机器学习 C1 已学完，C2/C3 暂缓；李沐《动手学深度学习》（PyTorch）已学完。数学基础按需补充，强化学习保留为后续方向。
+人工智能学习资料的长期归档入口。吴恩达机器学习 C1 已学完，C2/C3 暂缓；李沐《动手学深度学习》（PyTorch）已学完。概率论、随机过程与离散数学归入 Math Learning，强化学习保留为后续方向。
 
 ## 当前课程
 
@@ -10,11 +10,9 @@
 | Machine Learning Specialization | [Coursera](https://www.coursera.org/specializations/machine-learning-introduction/) | [课程 README](./Machine%20Learning%20Specialization%20Coursera/README.md) | C1 已学完；C2/C3 暂缓，现有资料保留供后续学习 |
 | 动手学深度学习（李沐，PyTorch） | [课程网站](https://courses.d2l.ai/zh-v2/) · [在线教材](https://zh.d2l.ai/) | [课程 README](./D2L-李沐/README.md) | 已学完；教材和配套 Notebook 已归档 |
 
-## 按需基础材料
+## 数学基础
 
-| 材料 | 课程网站 | 本地资料 | 当前情况 |
-| --- | --- | --- | --- |
-| [Mathematics for Machine Learning and Data Science](https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/) | [DeepLearning.AI](https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/) | [课程 README](./Mathematics%20for%20Machine%20Learning%20and%20Data%20Science%20Specialization/README.md) | 机器学习阶段按需使用；目前暂不计作已学习课程 |
+课程与资料见 [Math Learning](../Math%20Learning/README.md)。2026-10-12 起开始学习[概率论与随机过程](../Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)，使用 Kira 概率论课程与 MIT 6.041SC 随机过程部分，具体章节进度待补充；离散数学仍保留前三章已学完的记录。
 
 ## 学习安排
 
