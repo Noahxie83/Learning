@@ -158,3 +158,56 @@
 最优先动手的一项任务：完成第 1 项的双头因果注意力，实现“相同权重下输出对齐”和“改变未来 token 不影响过去输出”两项测试；通过后再选第 2 项的 RMSNorm/RoPE。
 
 本周总结：先让 Transformer 公式变成你亲手写出、能用断言验证的组件，再推进到可检查的小模型训练流程。
+
+## 2026-W42（2026-10-12 至 2026-10-18）
+
+检索日期：2026-10-12（Asia/Shanghai）。本期为周一推荐快照，并非对尚未结束的一周作趋势总结；三个项目均未出现在已有周榜中。本周只需启动一项任务，其余作为后续候选。
+
+归档依据：只读核对了 `D:/Learning` 的远程地址为 `https://github.com/Noahxie83/Learning.git`，抽样查看根 README、`AI learning/README.md`、`AI learning/D2L-李沐/Practice/README.md`、`Paper/README.md`、MLP/Dropout 个人代码和 Transformer 阅读笔记。最新课程进展是 [2026-10-11 的 D2L 完成记录](https://github.com/Noahxie83/Learning/commit/06c65fa)，根 README 更新到 10 月 11 日；[10 月 8 日进度整理](https://github.com/Noahxie83/Learning/commit/6e97dcc) 与 [Transformer 笔记](Paper/Attention%20Is%20All%20You%20Need/Transformer.md) 也作为衔接依据。“已学完 D2L”是归档明确记载的课程状态；个人练习目录仍主要列线性回归、Softmax、MLP、Dropout，尚未看到独立 Transformer 实现或论文复现实验记录。因此继续采用你确认的“能独立用 PyTorch 训练模型，正在学习 Transformer / LLM”，增加机制验证和实验设计的比重，不推断已经掌握整套现代 LLM。
+
+排序综合当前适配度、原理价值、源码与测试质量、维护证据、资源要求和最小实验可行性。分数是个人学习优先级。下述步骤均为建议，本次未安装依赖、下载模型/数据或发起训练；数值容差是建议验收标准，不是本机实测结果。
+
+### 1. [LitGPT — 验证 KV Cache 与现代解码器的数据流](https://github.com/Lightning-AI/litgpt)
+
+- **分类、评分与适配度**：B — Stretch；**91/100；★★★★★（5/5）**。单文件模型和具体缓存测试便于把论文概念落实到张量；与小语言模型训练主线直接相接。需要补缓存位置索引、RoPE/GQA，且完整工程依赖较多，因此从小模型验证开始。
+- **检索时约 star 数**：**13.7k**，检索于 2026-10-12，依据 [GitHub 主页](https://github.com/Lightning-AI/litgpt)。本次该仓库 API 遇到限流，采用主页显示的约数。
+- **维护活动证据**：只读查询默认分支指向 `18c931c`；GitHub 提交页和提交订阅记录的时间为 **2026-09-09 01:49 UTC**（北京时间 9 月 9 日）。该 [提交](https://github.com/Lightning-AI/litgpt/commit/18c931c15c2398621d35371a12d2b1785e855bb6) 修复 Thunder DDP 重复启动器覆盖；同日另有提示词 token、tokenizer 配置修复。距检索约一个月，不能说本周有新提交，也不把分布式修复当成缓存算法更新。
+- **核心功能与知识点**：提供 decoder-only 模型实现、预训练/微调及生成流程。当前优先追踪 Embedding → Transformer block → logits，理解因果掩码、RoPE 位置、GQA 的 K/V 共享，以及 prefill 与逐 token decode 的区别。[源码入口](https://github.com/Lightning-AI/litgpt/blob/18c931c15c2398621d35371a12d2b1785e855bb6/litgpt/model.py)
+- **与你的归档衔接**：[Transformer 笔记](Paper/Attention%20Is%20All%20You%20Need/Transformer.md) 已说明掩码、Q/K/V 和生成前缀；本项目把这些解释连接到缓存实现。[Softmax 练习](AI%20learning/D2L-李沐/Practice/Softmax.py) 的分类输出也可延伸到逐 token 预测。它补充上周组件练习之后的推理数据流，不要求重新通读入门教程。
+- **前置与缺口**：能跟踪 `[B,T,D]` 与多头维度；补充“缓存保存哪些位置、下一 token 使用什么位置编号”。GQA 的 query 头数与 K/V 组数不同，不能默认三者头数相同。
+- **已核实入口**：[Config](https://github.com/Lightning-AI/litgpt/blob/18c931c15c2398621d35371a12d2b1785e855bb6/litgpt/config.py) → `GPT.forward`、`set_kv_cache`、`clear_kv_cache`、`KVCache`；参照 [tests/test_model.py 的 test_kv_cache 与 test_kv_cache_buffer_shape](https://github.com/Lightning-AI/litgpt/blob/18c931c15c2398621d35371a12d2b1785e855bb6/tests/test_model.py)。后续再查看 [pretrain.py 的 fit/validate](https://github.com/Lightning-AI/litgpt/blob/18c931c15c2398621d35371a12d2b1785e855bb6/litgpt/pretrain.py)：训练端将输入与目标错开一个 token，模型 forward 本身返回 logits。
+- **最小练习**：仅构造随机初始化的 CPU 模型：`block_size=32, vocab_size=32, padding_multiple=1, n_layer=2, n_head=4, n_embd=32, n_query_groups=2, rotary_percentage=1.0`，不加载预训练权重。固定种子，设 `eval()`，使用 float32 和推理模式。对同一段 8-token 输入，先整段计算 logits；再初始化缓存，以前 4 个 token 做 prefill、之后逐 token 输入并正确传入 `input_pos`。拼接两条路径对应位置的输出；每次新序列前清理并重新创建缓存。
+- **完成标准**：两条路径均得到 `[1,8,32]` 的输出，使用建议容差 `atol=1e-5, rtol=1e-4` 比较全部位置；解释每层 K/V 缓存为何是 `[1,2,32,8]`，并记录位置索引和误差。通过表示这组配置的缓存计算与全序列计算相符，不能据此声称所有模型正确或缓存必然加速。
+- **资源、限制与难点**：该小张量实验可从 CPU 起步；实际耗时未知。极小 CPU 输入可能因管理开销而没有速度收益。完整预训练、量化、FSDP/Thunder 是其他资源层级。[pyproject.toml](https://github.com/Lightning-AI/litgpt/blob/18c931c15c2398621d35371a12d2b1785e855bb6/pyproject.toml) 声明 Python ≥3.10、PyTorch ≥2.7、Lightning ≥2.6.1；可选编译组件有独立版本/平台约束。未验证你的 Windows 环境兼容性，不能把项目的“大模型训练配方”当作 CPU 训练承诺。
+
+### 2. [PEFT — 用小型 MLP 看清 LoRA 的参数、梯度与合并](https://github.com/huggingface/peft)
+
+- **分类、评分与适配度**：A — Learn Now（限定普通 LoRA 小模块）；**88/100；★★★★☆（4/5）**。可以直接利用已有 MLP 和训练经验，用少量参数验证低秩更新；实现、文档和测试齐全。完整库的适配器种类与框架封装较多，当前只学普通 LoRA，不同时推进 QLoRA、DoRA 或复杂后训练。
+- **检索时约 star 数**：**21.8k**，检索于 2026-10-12，依据 [GitHub API](https://api.github.com/repos/huggingface/peft) 返回的 21,781 stars。
+- **维护活动证据**：默认分支最近提交为 **2026-10-09 10:21 UTC** 的 [9db0f37](https://github.com/huggingface/peft/commit/9db0f37197c95ee7010fdcff107355d1cefb3f34)，修复 seq2seq prompt generation 方法恢复并补回归测试；同日还有 HRA 前向内存优化。说明近期维护活跃，但这两项并非新的 LoRA 论文结果。
+- **核心功能与知识点**：提供参数高效微调方法；普通 LoRA 在线性层增加 `ΔW=(α/r)BA`，冻结基座权重并只学习低秩矩阵。重点学习参数量、初始化、梯度路径、目标模块选择和权重合并，原理对应 [LoRA 论文](https://arxiv.org/abs/2106.09685)。论文中的大模型资源收益是作者特定实验报告，不等于你的小模型实验结果。
+- **与你的归档衔接**：[MLP.py](AI%20learning/D2L-李沐/Practice/MLP.py) 已有矩阵乘法和手写参数；可直接把一个 Linear 的完整更新换成低秩增量。[Dropout.py](AI%20learning/D2L-李沐/Practice/Dropout.py) 则衔接确定性比较时的训练/评估模式。完成后才考虑把 LoRA 放到小 Transformer 的注意力投影。
+- **前置与缺口**：熟悉 `requires_grad`、优化器参数组与矩阵形状即可开始；补充 rank 的意义和“冻结基座权重仍需要通过该层反向传播”的区别。默认 B 零初始化时，第一步 A 的梯度可以为零，不能要求第一步 A/B 都发生非零更新。
+- **已核实入口**：[src/peft/tuners/lora/layer.py](https://github.com/huggingface/peft/blob/9db0f37197c95ee7010fdcff107355d1cefb3f34/src/peft/tuners/lora/layer.py) 的 `Linear.forward`、初始化、`get_delta_weight` 和 `merge`；[tests/test_custom_models.py](https://github.com/huggingface/peft/blob/9db0f37197c95ee7010fdcff107355d1cefb3f34/tests/test_custom_models.py) 含原生 PyTorch MLP、适配器注入和合并测试。
+- **最小练习**：采用测试中的 `10→20→2` MLP 结构，去掉 bias，只向第一个 `lin0` 注入普通 LoRA，配置 `r=2, lora_alpha=2, lora_dropout=0, bias="none"`。先按公式手写增量分支，再对照库实现。使用相同基座权重和输入，在 eval 模式核对默认初始化输出；之后用一小批合成样本做一次适配器更新，再比较合并前后的输出。这里是一项模块实验建议，不是对随机基座进行有实际用途的 LLM 微调。
+- **完成标准**：第一个层的 A/B 形状为 `[2,10]` / `[20,2]`，仅有 **60** 个可训练参数；未合并前基座权重不随优化器更新。默认初始化输出与基座一致；取得非零增量后，手写与库实现、合并前后输出都在建议 `atol=1e-5, rtol=1e-4` 内相符。保存参数/梯度清单并解释首步 A 梯度；合并会把增量写入基座，此时不再要求合并后的权重等于原权重。
+- **资源、限制与难点**：该 MLP 验证只需 CPU，不下载模型权重或数据集。真实 SFT 仍需要基座、分词与标签处理、验证集和显存预算；不能把这个合成实验当成 LoRA 效果复现。[setup.py](https://github.com/huggingface/peft/blob/9db0f37197c95ee7010fdcff107355d1cefb3f34/setup.py) 声明 Python ≥3.10、PyTorch ≥1.13，并依赖 Transformers/Accelerate 等；最低版本声明不保证任意新版组合兼容。普通 LoRA 的 `α/r` 不适用于所有变体，实验需明确关闭额外变体并固定版本。
+
+### 3. [vit-pytorch — 从 CNN 阅读转到图像 token 与位置编码消融](https://github.com/lucidrains/vit-pytorch)
+
+- **分类、评分与适配度**：B — Stretch；**85/100；★★★★☆（4/5）**。基础 ViT 实现集中，能将已有视觉学习与 Transformer 连起来；适合补一个小规模受控实验。它是视觉备选，不需要为了凑三个项目同时偏离 LLM 主线；仓库包含大量变体，应只选基础 ViT。
+- **检索时约 star 数**：**25.5k**，检索于 2026-10-12，依据 [GitHub API](https://api.github.com/repos/lucidrains/vit-pytorch) 返回的 25,544 stars。
+- **维护活动证据**：默认分支最近提交为 **2026-09-20 17:03 UTC**（北京时间 9 月 21 日）的 [c362297](https://github.com/lucidrains/vit-pytorch/commit/c3622978f68a114b5ae45c4322b54391b24f5c3d)，调整 LeJEPA 的 EMA 选项，并更新包版本到 1.26.7。距本次约三周；这是变体维护，不能说基础 ViT 本周增加了新结果。包元数据当前将项目主页/仓库地址指向 Codeberg，推荐和源码核查以这里的 GitHub 快照为准。
+- **核心功能与知识点**：实现图像 patch embedding、可学习位置编码、CLS token、Transformer encoder 和分类头。对应 [ViT 论文](https://arxiv.org/abs/2010.11929) 的图像序列建模方法；该仓库是第三方 PyTorch 实现，不是论文作者的官方训练仓库。
+- **与你的归档衔接**：承接 [ResNet 笔记](Paper/Deep%20Residual%20Learning%20for%20Image%20Recognition/ResNet.md)、[Transformer 笔记](Paper/Attention%20Is%20All%20You%20Need/Transformer.md) 和 D2L 的完成记录：比较卷积空间结构与图像 token 的位置表达。已有论文笔记仍只作为阅读依据，不标记你已复现 ResNet 或 ViT。
+- **前置与缺口**：补图像分块顺序、`einops.rearrange`、CLS 汇聚及 encoder 双向自注意力。本项目没有语言生成的因果掩码；不能照搬 decoder-only 的 mask。小模型训练需要你自行组织数据划分、优化器、日志和 checkpoint。
+- **已核实入口**：[vit_pytorch/vit.py](https://github.com/lucidrains/vit-pytorch/blob/c3622978f68a114b5ae45c4322b54391b24f5c3d/vit_pytorch/vit.py) 的 `ViT.to_patch_embedding`、`pos_embedding`、`Attention` 和 `forward`；[tests/test_vit.py](https://github.com/lucidrains/vit-pytorch/blob/c3622978f68a114b5ae45c4322b54391b24f5c3d/tests/test_vit.py) 主要验证输出形状，不能当作论文效果验证。
+- **最小练习**：用灰度 `28×28` 输入、`patch_size=7, channels=1, dim=32, depth=2, heads=4, dim_head=8, mlp_dim=64, num_classes=10, pool="cls"`，关闭 dropout。先画出图像 → 16 个 49 维 patch → 16 个 32 维 token → 加 CLS 后 17 个 token → 分类 logits 的形状。然后在 eval 模式把位置编码置零，按固定排列重排完整 patch 并还原成图像，比较重排前后的 CLS 分类输出。
+- **完成标准与后续消融**：输出形状为 `[B,10]`；位置编码置零、其他条件固定时，patch 重排前后 logits 在建议 `atol=1e-5, rtol=1e-4` 内相符，并解释“共享 patch 投影和自注意力的置换关系、CLS 输出不依赖 patch 排列”。若继续做训练，再在 Fashion-MNIST 训练集内部固定训练/验证划分，只比较“保留/去除位置编码”，固定初始化对应项、训练预算、增强、优化器，以至少 3 个种子记录验证准确率均值/标准差，测试集留到最终评估。完成的是这项小数据消融；不预设有位置编码一定更好，也不称为复现论文的大规模结论。
+- **资源、限制与难点**：形状与置换验证可在 CPU 进行；训练耗时和显存未测，完整 ViT 预训练资源远高于上述练习。源码包含额外 LayerNorm 等实现选择，做论文对照需逐项记录差异。[pyproject.toml](https://github.com/lucidrains/vit-pytorch/blob/c3622978f68a114b5ae45c4322b54391b24f5c3d/pyproject.toml) 声明 Python ≥3.8、PyTorch ≥2.5、einops ≥0.8.2 和 torchvision；测试额外依赖固定 PyTorch 2.5.0/torchvision 0.20.0，因此不要把安装全部测试依赖当作任意环境的默认方案。Windows 实际安装情况未知。
+
+本周推荐顺序：**LitGPT → PEFT → vit-pytorch**。先验证推理数据流，再理解低秩微调；视觉项目仅作为你选择论文实验方向时的备选。
+
+最优先动手的一项任务：完成 LitGPT 的小随机模型 KV Cache 对照，提交一张维度/位置索引表和逐位置 logits 误差记录。如果上周的因果注意力练习还未完成，先完成该前置，再开始缓存实验。
+
+本周总结：从课程阅读推进到可以复核的机制实验，用输出、梯度和受控消融判断自己的理解是否成立。
