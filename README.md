@@ -60,8 +60,9 @@
 </td>
 <td valign="top">
 <h3>Paper</h3>
-<p>AlexNet、ResNet、Transformer 的阅读笔记与原文资料。</p>
+<p>AlexNet、ResNet、Transformer 阅读笔记，以及生成模型论文与补充资料。</p>
 <a href="./Paper/README.md">阅读目录 →</a>
+<a href="./Paper/GLM/README.md">生成模型资料 →</a>
 </td>
 </tr>
 <tr>
@@ -139,4 +140,4 @@
 
 [Noahxie83 / Learning](https://github.com/Noahxie83/Learning) · 持续学习，逐步积累
 
-<sub>最后更新：2026-10-13</sub>
+<sub>最后更新：2026-10-14</sub>

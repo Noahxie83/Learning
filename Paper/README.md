@@ -12,4 +12,8 @@
 
 Attention Is All You Need 与 ResNet 均已建立阅读笔记，后续继续补充。其他论文的原始出处与许可信息待补充。
 
+## 生成模型论文资料
+
+[GLM 资料导航](./GLM/README.md)：已归档 27 篇论文 PDF 和 8 份补充资料。阅读进度尚未确认；归档不代表已读完或已完成复现。
+
 上级入口：[Learning](../README.md)。
