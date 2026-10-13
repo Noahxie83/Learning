@@ -12,7 +12,7 @@
 
 ## 数学基础
 
-课程与资料见 [Math Learning](../Math%20Learning/README.md)。2026-10-12 起开始学习[概率论与随机过程](../Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)，使用 Kira 概率论课程与 MIT 6.041SC 随机过程部分，具体章节进度待补充；离散数学仍保留前三章已学完的记录。
+课程与资料见 [Math Learning](../Math%20Learning/README.md)。[概率论与随机过程](../Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)中，Kira 概率论已学完前两章；MIT 6.041SC 目前仅学习了 [U3 随机过程](../Math%20Learning/Probability%20and%20Stochastic%20Processes/6.041SC/U3/README.md)部分，其余单元待学校正式开课时再学习。离散数学仍保留前三章已学完的记录。
 
 ## 学习安排
 

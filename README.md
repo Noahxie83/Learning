@@ -14,9 +14,9 @@
 
 ## 学习路线
 
-> **新增学习方向：概率论与随机过程**
+> **当前学习：概率论与随机过程**
 >
-> 使用 Kira 概率论课程与 MIT 6.041SC 随机过程部分；[课程与资料](./Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)。2026-10-12 起开始学习，具体章节进度待补充。
+> Kira 概率论已学完前两章；MIT 6.041SC 目前只学习了 U3 随机过程部分，其余单元留待学校正式开课时学习。[课程与资料](./Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)。
 
 > **近期完成：李沐《动手学深度学习》（PyTorch）**
 >
@@ -24,7 +24,7 @@
 
 | 状态 | 学习记录 |
 | --- | --- |
-| **开始学习** | 概率论与随机过程：Kira 概率论课程与 MIT 6.041SC 随机过程部分，具体章节进度待补充 |
+| **学习中 / 选择性学习** | Kira 概率论已学完前两章；MIT 6.041SC 仅学习了 U3 随机过程部分，其余单元待学校正式开课时学习 |
 | **已学完** | AI for Everyone、机器学习 C1、动手学深度学习，以及 C wengkai、C++ PKU、C++ STL、Python MIT6.100L |
 | **尚未学完** | ZJU DSA 与 THU Advanced DSA 的具体章节进度待补充；离散数学已学完前三章，电路与电子学已学完前两章 |
 | **暂缓 / 选择性学习** | 机器学习 C2/C3 暂缓；MIT Missing Semester 本阶段结束，已学习 L1-3、L5、L7，L4、L6 及其余部分留待以后 |
@@ -121,11 +121,12 @@
 
 ## Math Learning
 
-概率论与随机过程是新增学习方向，离散数学一同归档在 [Math Learning 总览](./Math%20Learning/README.md)。
+概率论、随机过程与离散数学统一归档在 [Math Learning 总览](./Math%20Learning/README.md)。MIT 6.041SC 的全课程资料已按 U1–U4 分类，资料归档与实际学习进度分别记录。
 
 | 课程或方向 | 学习状态 | 本地入口 | 课程网站 |
 | --- | --- | --- | --- |
-| **概率论与随机过程** | 2026-10-12 起开始学习；具体章节进度待补充 | [Kira 概率论与 MIT 随机过程资料](./Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md) | [Kira · Bilibili](https://www.bilibili.com/video/BV1T6VFzAE1c/) · [MIT 6.041SC](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) |
+| **概率论 · Kira** | 已学完前两章，整门课程尚未学完 | [章节与课件](./Math%20Learning/Probability%20and%20Stochastic%20Processes/Probability%20Kira/README.md) | [Kira · Bilibili](https://www.bilibili.com/video/BV1T6VFzAE1c/) |
+| **MIT 6.041SC** | 仅学习了 U3 随机过程部分；其余单元待学校正式开课时学习 | [U3 随机过程](./Math%20Learning/Probability%20and%20Stochastic%20Processes/6.041SC/U3/README.md) · [全课程资料](./Math%20Learning/Probability%20and%20Stochastic%20Processes/6.041SC/README.md) | [MIT OCW](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) |
 | **离散数学** | 已学完前三章；结合东北大学与本校课程内容补充学习 | [材料导航](./Math%20Learning/离散数学/README.md) | [东北大学 · 中国大学 MOOC](https://www.icourse163.org/learn/NEU-1205984813?tid=1206281216#/learn/content) |
 
 ## 资料与来源
@@ -138,4 +139,4 @@
 
 [Noahxie83 / Learning](https://github.com/Noahxie83/Learning) · 持续学习，逐步积累
 
-<sub>最后更新：2026-10-12</sub>
+<sub>最后更新：2026-10-13</sub>

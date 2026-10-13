@@ -4,16 +4,21 @@
 
 ## 学习状态
 
-2026-10-12 起开始学习本方向，具体章节进度待补充。目前归档 Kira 的九章课件以及 MIT 随机过程部分的 L13–18 讲义、部分习题与解答；材料存在不表示对应章节或练习已完成。
+2026-10-12 起开始学习本方向，当前学习记录如下：
+
+- **概率论 · Kira**：已学完前两章（随机事件和概率、随机变量及其分布），整门课程尚未学完。
+- **MIT 6.041SC**：目前只学习了 U3 随机过程部分；U1、U2、U4 尚未学习，待学校正式学习这门课程时再学习，不标记整门课程已完成。
+
+目前归档 Kira 的九章课件以及 MIT 6.041SC 全部四个单元的 PDF（25 讲及配套习题、解答、考试与文字稿）；材料存在不表示对应章节或练习已完成。
 
 ## 课程与资料
 
 | 部分 | 课程网站 | 本地导航 | 已归档内容 |
 | --- | --- | --- | --- |
 | 概率论 · Kira | [Bilibili 视频](https://www.bilibili.com/video/BV1T6VFzAE1c/) | [课件导航](./Probability%20Kira/README.md) | 随机事件、随机变量、数字特征、大数定律与数理统计等九章课件 |
-| 随机过程 · MIT 6.041SC | [完整课程](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) · [Unit III](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-iii/) | [L13–18 导航](./Stochastic%20Processes%20MIT%206.041SC/README.md) | Bernoulli Process、Poisson Process 与 Markov Chains，以及当前目录中的配套习题与解答 |
+| MIT 6.041SC | [完整课程](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) · [Unit III](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-iii/) | [四单元资料导航](./6.041SC/README.md) · [U3 随机过程](./6.041SC/U3/README.md) | 四个单元的讲义、Recitation、Tutorial、Problem Set、考试、解答与文字稿 PDF |
 
-MIT 部分按现有归档学习随机过程单元；完整课程还包括其他单元，未在本目录虚列其本地资料或完成情况。
+MIT 全课程四个单元的 PDF 已于 2026-10-13 归档；当前学习范围仅为 U3 随机过程部分，其余单元留待学校正式开课时学习。资料归档不表示课程或练习已完成。
 
 ## 资料来源
 
