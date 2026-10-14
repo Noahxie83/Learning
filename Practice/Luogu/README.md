@@ -1,3 +1,30 @@
+---
+title: 洛谷 · 算法练习
+date: '2026-09-12'
+date_source: 文件修改日期
+subject: 算法练习
+note_type: 目录
+course: Luogu
+tags:
+- 领域/算法练习
+- 类型/目录
+- 课程/Luogu
+cssclasses:
+- learning-note
+- subject-practice
+- learning-index
+aliases:
+- 洛谷 · 算法练习
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[算法练习 · 索引](../README.md)
+
+</details>
+
 # Luogu Practice
 
 洛谷题目练习总目录。

@@ -1,3 +1,28 @@
+---
+title: 数学基础 · 课程总览
+date: '2026-10-13'
+date_source: 文件修改日期
+subject: 数学基础
+note_type: 目录
+tags:
+- 领域/数学基础
+- 类型/目录
+cssclasses:
+- learning-note
+- subject-math
+- learning-index
+aliases:
+- 数学基础 · 课程总览
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[学习导航](../00%20%E5%AD%A6%E4%B9%A0%E5%AF%BC%E8%88%AA.md)
+
+</details>
+
 # Math Learning
 
 数学学习资料与笔记的归档入口。Kira 概率论已学完前两章；MIT 6.041SC 目前只学习了 U3 随机过程部分，其余单元留待学校正式开课时学习。离散数学已学完前三章，继续结合东北大学与本校课程内容补充学习。

@@ -1,3 +1,23 @@
+---
+title: GitHub AI/CS 项目周记
+date: '2026-10-12'
+date_source: 文件修改日期
+subject: 学习动态
+note_type: 周记
+tags:
+- 领域/学习动态
+- 类型/周记
+cssclasses:
+- learning-note
+- subject-weekly
+- learning-study
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[00 学习导航|学习导航]]
+> 相关：[[ai-research-weekly|AI 研究与论文阅读周报]]
+
 # 每周最有用的 GitHub AI/CS 项目 Top 3
 
 > 唯一周度记录文件。每周追加一个自然周区块，不覆盖历史内容，不为周榜创建其他文件。

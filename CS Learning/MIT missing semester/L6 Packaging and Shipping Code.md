@@ -1,3 +1,24 @@
+---
+title: Dependencies & Environments
+date: '2026-09-12'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 课程笔记
+course: MIT Missing Semester
+tags:
+- 领域/计算机基础
+- 类型/课程笔记
+- 课程/MIT_Missing_Semester
+cssclasses:
+- learning-note
+- subject-cs
+- learning-study
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[CS Learning/MIT missing semester/README|MIT Missing Semester]]
+
 Getting code to work as intended is hard; getting that same code to run on a machine different from your own is often harder.
 
 Shipping code means taking the code you wrote and converting it into a usable form that someone else can run without your computer’s exact setup. Shipping code takes many forms and depends on the choices of programming language, system libraries, and operating system, among many other factors. It also depends on what you are building: a software library, a command line tool, and a web service all have different requirements and deployment steps. Regardless, there is a common pattern between all these scenarios: we need to define what the deliverable is — a.k.a. the _artifact_ — and what assumptions it makes about the environment around it.

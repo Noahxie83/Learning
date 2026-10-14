@@ -1,6 +1,39 @@
+---
+title: 生成模型 · 论文索引
+date: '2026-10-14'
+date_source: 文件修改日期
+subject: 论文阅读
+note_type: 目录
+course: 生成模型
+tags:
+- 领域/论文阅读
+- 类型/目录
+- 课程/生成模型
+cssclasses:
+- learning-note
+- subject-paper
+- learning-index
+aliases:
+- 生成模型 · 论文索引
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[论文阅读 · 索引](../README.md)
+
+</details>
+
 # GLM：生成模型论文资料
 
-本目录归档生成模型相关论文与补充材料，现有 27 篇论文 PDF、8 份补充资料。阅读进度尚未确认；资料归档不等于已读完或已完成复现。
+本目录归档生成模型相关论文与补充材料，现有 27 篇论文 PDF、8 份补充资料，以及 Score SDE 阅读笔记。具体阅读阶段以笔记中的记录为准；资料归档不等于已读完或已完成复现。
+
+## 阅读笔记
+
+| 论文 | 阅读笔记 | 本地 PDF |
+| --- | --- | --- |
+| Score-Based Generative Modeling through Stochastic Differential Equations（Score SDE） | [阅读笔记](./Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/Note.md) | [PDF](./Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/2011.13456v2.pdf) |
 
 ## 论文导航
 

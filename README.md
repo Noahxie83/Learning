@@ -1,3 +1,28 @@
+---
+title: Learning · 学习档案
+date: '2026-10-14'
+date_source: 正文标注日期
+subject: 学习导航
+note_type: 仓库说明
+tags:
+- 领域/学习导航
+- 类型/仓库说明
+cssclasses:
+- learning-note
+- subject-home
+- learning-study
+aliases:
+- Learning · 学习档案
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[学习导航](./00%20%E5%AD%A6%E4%B9%A0%E5%AF%BC%E8%88%AA.md)
+
+</details>
+
 <p align="right"><a href="https://github.com/Noahxie83"><sub>Noah Xie · Personal profile</sub></a></p>
 
 <a name="learning"></a>

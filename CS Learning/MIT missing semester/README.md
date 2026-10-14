@@ -1,3 +1,30 @@
+---
+title: MIT Missing Semester
+date: '2026-09-25'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 目录
+course: MIT Missing Semester
+tags:
+- 领域/计算机基础
+- 类型/目录
+- 课程/MIT_Missing_Semester
+cssclasses:
+- learning-note
+- subject-cs
+- learning-index
+aliases:
+- MIT Missing Semester
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[计算机基础 · 课程总览](../README.md)
+
+</details>
+
 # MIT Missing Semester
 
 [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) 的学习笔记归档，关注命令行、开发工具、调试、版本控制等计算机学习中常用的工具能力。

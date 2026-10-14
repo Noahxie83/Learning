@@ -1,3 +1,26 @@
+---
+title: AI for Everyone · Week-1 测验
+date: '2026-09-08'
+date_source: 文件修改日期
+subject: 人工智能
+note_type: 习题
+course: AI for Everyone
+tags:
+- 领域/人工智能
+- 类型/习题
+- 课程/AI_for_Everyone
+cssclasses:
+- learning-note
+- subject-ai
+- learning-exercise
+---
+
+# AI for Everyone · Week-1 测验
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[AI learning/AI for everyone/README|AI for Everyone]]
+
 **1.** Which of these terms best describes the type of AI used in today’s email spam filters, speech recognition, and other specific applications?
 - [ ] Artificial General Intelligence (AGI)
 - [x] Artificial Narrow Intelligence (ANI)

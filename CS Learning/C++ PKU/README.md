@@ -1,3 +1,30 @@
+---
+title: C++ PKU
+date: '2026-09-25'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 目录
+course: 北大 C++
+tags:
+- 领域/计算机基础
+- 类型/目录
+- 课程/北大_Cpp
+cssclasses:
+- learning-note
+- subject-cs
+- learning-index
+aliases:
+- C++ PKU
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[计算机基础 · 课程总览](../README.md)
+
+</details>
+
 # C++ PKU
 
 C++ 与程序设计基础课程的代码练习。

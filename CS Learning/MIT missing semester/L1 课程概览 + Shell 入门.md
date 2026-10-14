@@ -1,3 +1,24 @@
+---
+title: 主题一：Shell
+date: '2026-10-14'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 课程笔记
+course: MIT Missing Semester
+tags:
+- 领域/计算机基础
+- 类型/课程笔记
+- 课程/MIT_Missing_Semester
+cssclasses:
+- learning-note
+- subject-cs
+- learning-study
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[CS Learning/MIT missing semester/README|MIT Missing Semester]]
+
 # 主题一：Shell
 
 ## Shell 是什么？

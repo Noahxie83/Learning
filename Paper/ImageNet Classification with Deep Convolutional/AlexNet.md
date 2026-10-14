@@ -1,3 +1,29 @@
+---
+title: AlexNet · 图像分类
+date: '2026-10-13'
+date_source: 文件修改日期
+subject: 论文阅读
+note_type: 论文
+course: 论文阅读
+tags:
+- 领域/论文阅读
+- 类型/论文
+- 课程/论文阅读
+cssclasses:
+- learning-note
+- subject-paper
+- learning-paper
+aliases:
+- AlexNet · 图像分类
+---
+
+# AlexNet · 图像分类
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[Paper/README|论文阅读 · 索引]]
+> 相关：[[Paper/Deep Residual Learning for Image Recognition/ResNet|ResNet · 残差学习]]
+
 # First Time
 
 ## 1.Abstract

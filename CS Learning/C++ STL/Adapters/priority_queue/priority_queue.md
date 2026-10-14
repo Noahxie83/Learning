@@ -1,3 +1,25 @@
+---
+title: priority_queue — 优先队列
+date: '2026-09-11'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 程序笔记
+course: C++ STL
+tags:
+- 领域/计算机基础
+- 类型/程序笔记
+- 课程/Cpp_STL
+cssclasses:
+- learning-note
+- subject-cs
+- learning-code
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[CS Learning/C++ STL/README|C++ STL]]
+> 相关：[[CS Learning/C++ STL/Adapters/queue/queue|queue — 队列]]
+
 # priority\_queue — 优先队列
 
 [查看源码](./priority_queue.cpp) · [返回 C++ STL 笔记目录](../../README.md)

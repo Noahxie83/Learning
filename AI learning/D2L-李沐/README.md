@@ -1,3 +1,30 @@
+---
+title: 动手学深度学习（李沐 · PyTorch）
+date: '2026-10-14'
+date_source: 文件修改日期
+subject: 人工智能
+note_type: 目录
+course: 动手学深度学习
+tags:
+- 领域/人工智能
+- 类型/目录
+- 课程/动手学深度学习
+cssclasses:
+- learning-note
+- subject-ai
+- learning-index
+aliases:
+- 动手学深度学习（李沐 · PyTorch）
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[人工智能 · 课程总览](../README.md)
+
+</details>
+
 # 动手学深度学习（李沐 · PyTorch）
 
 李沐《动手学深度学习》的课程与教材学习归档，使用中文版 PyTorch 材料，结合概念、数学推导与 Notebook 实践学习深度学习。

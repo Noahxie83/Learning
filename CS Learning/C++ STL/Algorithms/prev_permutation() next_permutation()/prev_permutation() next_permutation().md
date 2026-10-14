@@ -1,3 +1,24 @@
+---
+title: prev_permutation() next_permutation() — 字典序排列
+date: '2026-09-11'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 程序笔记
+course: C++ STL
+tags:
+- 领域/计算机基础
+- 类型/程序笔记
+- 课程/Cpp_STL
+cssclasses:
+- learning-note
+- subject-cs
+- learning-code
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[CS Learning/C++ STL/README|C++ STL]]
+
 # prev\_permutation() next\_permutation() — 字典序排列
 
 [查看源码](./prev_permutation%28%29%20next_permutation%28%29.cpp) · [返回 C++ STL 笔记目录](../../README.md)

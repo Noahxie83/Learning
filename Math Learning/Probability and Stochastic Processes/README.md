@@ -1,3 +1,30 @@
+---
+title: 概率论与随机过程
+date: '2026-10-13'
+date_source: 文件修改日期
+subject: 数学基础
+note_type: 目录
+course: 概率论与随机过程
+tags:
+- 领域/数学基础
+- 类型/目录
+- 课程/概率论与随机过程
+cssclasses:
+- learning-note
+- subject-math
+- learning-index
+aliases:
+- 概率论与随机过程
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[数学基础 · 课程总览](../README.md)
+
+</details>
+
 # 概率论与随机过程
 
 从概率论基础到随机过程的学习归档。概率论部分使用 Kira 课程；随机过程部分使用 MIT 6.041SC（Probabilistic Systems Analysis and Applied Probability）的 Unit III。

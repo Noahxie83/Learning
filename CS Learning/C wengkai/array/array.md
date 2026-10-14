@@ -1,3 +1,24 @@
+---
+title: array — 可变长数组接口
+date: '2026-09-12'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 程序笔记
+course: 翁恺 C 语言
+tags:
+- 领域/计算机基础
+- 类型/程序笔记
+- 课程/翁恺_C_语言
+cssclasses:
+- learning-note
+- subject-cs
+- learning-code
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[CS Learning/C wengkai/README|C wengkai]]
+
 # array — 可变长数组接口
 
 [查看源码](./array.h) · [返回 C wengkai 笔记目录](../README.md)

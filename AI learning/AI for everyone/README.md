@@ -1,3 +1,30 @@
+---
+title: AI for Everyone
+date: '2026-09-20'
+date_source: 文件修改日期
+subject: 人工智能
+note_type: 目录
+course: AI for Everyone
+tags:
+- 领域/人工智能
+- 类型/目录
+- 课程/AI_for_Everyone
+cssclasses:
+- learning-note
+- subject-ai
+- learning-index
+aliases:
+- AI for Everyone
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[人工智能 · 课程总览](../README.md)
+
+</details>
+
 # [AI for Everyone](https://www.deeplearning.ai/courses/ai-for-everyone/)
 
 学习状态：已学完。本目录归档课件与测验资料，但本地归档不代表官方结课认证。资料与原始导航参考：[Ryota-Kawamura/AI-for-Everyone](https://github.com/Ryota-Kawamura/AI-for-Everyone)。

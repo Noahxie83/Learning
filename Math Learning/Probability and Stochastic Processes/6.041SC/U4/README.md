@@ -1,3 +1,30 @@
+---
+title: MIT 6.041SC U4 · Laws Of Large Numbers And Inference
+date: '2026-10-13'
+date_source: 文件修改日期
+subject: 数学基础
+note_type: 目录
+course: MIT 6.041SC
+tags:
+- 领域/数学基础
+- 类型/目录
+- 课程/MIT_6_041SC
+cssclasses:
+- learning-note
+- subject-math
+- learning-index
+aliases:
+- MIT 6.041SC U4 · Laws Of Large Numbers And Inference
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[概率论与随机过程 · MIT 6.041SC](../README.md)
+
+</details>
+
 # Unit IV: Laws Of Large Numbers And Inference
 
 [课程单元网页](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-iv/)

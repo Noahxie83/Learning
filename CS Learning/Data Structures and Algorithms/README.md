@@ -1,3 +1,30 @@
+---
+title: Data Structures and Algorithms
+date: '2026-09-26'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 目录
+course: 数据结构与算法
+tags:
+- 领域/计算机基础
+- 类型/目录
+- 课程/数据结构与算法
+cssclasses:
+- learning-note
+- subject-cs
+- learning-index
+aliases:
+- Data Structures and Algorithms
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[计算机基础 · 课程总览](../README.md)
+
+</details>
+
 # Data Structures and Algorithms
 
 数据结构与算法学习总入口，按 ZJU（浙江大学）和 THU（清华大学）两门课程分别归档，保留各自的课程顺序、代码和笔记。

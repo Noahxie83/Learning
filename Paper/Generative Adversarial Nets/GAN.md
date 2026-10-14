@@ -1,3 +1,29 @@
+---
+title: GAN · 生成对抗网络
+date: '2026-10-13'
+date_source: 文件修改日期
+subject: 论文阅读
+note_type: 论文
+course: 论文阅读
+tags:
+- 领域/论文阅读
+- 类型/论文
+- 课程/论文阅读
+cssclasses:
+- learning-note
+- subject-paper
+- learning-paper
+aliases:
+- GAN · 生成对抗网络
+---
+
+# GAN · 生成对抗网络
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[Paper/README|论文阅读 · 索引]]
+> 相关：[[Paper/GLM/Score-Based Generative Modeling through Stochastic Differential Equations/Note|Score SDE · 随机微分方程生成模型]]
+
 # First Time
 
 ## 1.Abstract

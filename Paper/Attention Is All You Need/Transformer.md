@@ -1,3 +1,29 @@
+---
+title: Transformer · 注意力机制
+date: '2026-10-13'
+date_source: 文件修改日期
+subject: 论文阅读
+note_type: 论文
+course: 论文阅读
+tags:
+- 领域/论文阅读
+- 类型/论文
+- 课程/论文阅读
+cssclasses:
+- learning-note
+- subject-paper
+- learning-paper
+aliases:
+- Transformer · 注意力机制
+---
+
+# Transformer · 注意力机制
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[Paper/README|论文阅读 · 索引]]
+> 相关：[[Paper/AN IMAGE IS WORTH 16X16 WORDS/ViT|ViT · 视觉 Transformer]] · [[Paper/BERT Pre-training of Deep Bidirectional Transformers for/BERT|BERT · 语言表示预训练]] · [[ai-research-weekly|AI 研究与论文阅读周报]]
+
 # First Time
 
 ## 1.Abstract

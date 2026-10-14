@@ -1,3 +1,30 @@
+---
+title: 概率论与随机过程 · MIT 6.041SC
+date: '2026-10-13'
+date_source: 文件修改日期
+subject: 数学基础
+note_type: 目录
+course: MIT 6.041SC
+tags:
+- 领域/数学基础
+- 类型/目录
+- 课程/MIT_6_041SC
+cssclasses:
+- learning-note
+- subject-math
+- learning-index
+aliases:
+- 概率论与随机过程 · MIT 6.041SC
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[概率论与随机过程](../README.md)
+
+</details>
+
 # 概率论与随机过程 · MIT 6.041SC
 
 MIT 6.041SC《Probabilistic Systems Analysis and Applied Probability》（Fall 2013）的完整 PDF 资料，按课程网站的四个 Unit 分类。包含 25 讲讲义、Recitation、Tutorial、Problem Set、测验、期末考试、解答，以及视频文字稿 PDF。

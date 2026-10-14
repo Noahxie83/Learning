@@ -1,3 +1,24 @@
+---
+title: Classes and Objects — 类与对象
+date: '2026-09-11'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 程序笔记
+course: 北大 C++
+tags:
+- 领域/计算机基础
+- 类型/程序笔记
+- 课程/北大_Cpp
+cssclasses:
+- learning-note
+- subject-cs
+- learning-code
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[CS Learning/C++ PKU/README|C++ PKU]]
+
 # Classes and Objects — 类与对象
 
 [查看源码](./Classes%20and%20Objects.cpp) · [返回 C++ PKU 笔记目录](../README.md)

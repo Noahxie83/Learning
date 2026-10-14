@@ -1,3 +1,28 @@
+---
+title: 人工智能 · 课程总览
+date: '2026-10-13'
+date_source: 文件修改日期
+subject: 人工智能
+note_type: 目录
+tags:
+- 领域/人工智能
+- 类型/目录
+cssclasses:
+- learning-note
+- subject-ai
+- learning-index
+aliases:
+- 人工智能 · 课程总览
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[学习导航](../00%20%E5%AD%A6%E4%B9%A0%E5%AF%BC%E8%88%AA.md)
+
+</details>
+
 # AI Learning
 
 人工智能学习资料的长期归档入口。吴恩达机器学习 C1 已学完，C2/C3 暂缓；李沐《动手学深度学习》（PyTorch）已学完。概率论、随机过程与离散数学归入 Math Learning，强化学习保留为后续方向。

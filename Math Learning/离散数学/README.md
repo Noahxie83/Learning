@@ -1,3 +1,30 @@
+---
+title: 离散数学
+date: '2026-10-12'
+date_source: 文件修改日期
+subject: 数学基础
+note_type: 目录
+course: 离散数学
+tags:
+- 领域/数学基础
+- 类型/目录
+- 课程/离散数学
+cssclasses:
+- learning-note
+- subject-math
+- learning-index
+aliases:
+- 离散数学
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[数学基础 · 课程总览](../README.md)
+
+</details>
+
 # 离散数学
 
 本目录归档离散数学的笔记、课件与作业。学习时结合东北大学与本校课程内容，相互补充。

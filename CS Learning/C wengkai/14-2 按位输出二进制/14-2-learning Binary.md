@@ -1,3 +1,24 @@
+---
+title: 14-2-learning Binary — 按位输出二进制
+date: '2026-09-11'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 程序笔记
+course: 翁恺 C 语言
+tags:
+- 领域/计算机基础
+- 类型/程序笔记
+- 课程/翁恺_C_语言
+cssclasses:
+- learning-note
+- subject-cs
+- learning-code
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[CS Learning/C wengkai/README|C wengkai]]
+
 # 14-2-learning Binary — 按位输出二进制
 
 [查看源码](./14-2-learning%20Binary.c) · [返回 C wengkai 笔记目录](../README.md)

@@ -1,3 +1,30 @@
+---
+title: 电路与电子学 · 课程索引
+date: '2026-09-25'
+date_source: 文件修改日期
+subject: 电路与电子学
+note_type: 目录
+course: 电路与电子学
+tags:
+- 领域/电路与电子学
+- 类型/目录
+- 课程/电路与电子学
+cssclasses:
+- learning-note
+- subject-circuit
+- learning-index
+aliases:
+- 电路与电子学 · 课程索引
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[学习导航](../00%20%E5%AD%A6%E4%B9%A0%E5%AF%BC%E8%88%AA.md)
+
+</details>
+
 # 电路与电子学
 
 电路与电子学的个人学习笔记和参考教材归档。这是本校课程，按学校的教学进度学习，目前已有电路基本概念、基本定律与电路分析方法两篇笔记。

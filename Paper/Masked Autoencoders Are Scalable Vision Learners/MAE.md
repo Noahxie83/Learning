@@ -1,3 +1,27 @@
+---
+title: MAE · 掩码自编码器
+date: '2026-10-13'
+date_source: 文件修改日期
+subject: 论文阅读
+note_type: 论文
+course: 论文阅读
+tags:
+- 领域/论文阅读
+- 类型/论文
+- 课程/论文阅读
+cssclasses:
+- learning-note
+- subject-paper
+- learning-paper
+aliases:
+- MAE · 掩码自编码器
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[Paper/README|论文阅读 · 索引]]
+> 相关：[[Paper/AN IMAGE IS WORTH 16X16 WORDS/ViT|ViT · 视觉 Transformer]] · [[Paper/BERT Pre-training of Deep Bidirectional Transformers for/BERT|BERT · 语言表示预训练]]
+
 # Masked Autoencoders Are Scalable Vision Learners
 
 # First Time

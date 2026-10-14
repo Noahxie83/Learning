@@ -1,3 +1,26 @@
+---
+title: AI for Everyone · Week-4 测验
+date: '2026-09-02'
+date_source: 文件修改日期
+subject: 人工智能
+note_type: 习题
+course: AI for Everyone
+tags:
+- 领域/人工智能
+- 类型/习题
+- 课程/AI_for_Everyone
+cssclasses:
+- learning-note
+- subject-ai
+- learning-exercise
+---
+
+# AI for Everyone · Week-4 测验
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[AI learning/AI for everyone/README|AI for Everyone]]
+
 **1.** What are the current limitations of AI technology? (Select all that apply)
 - [x] AI technology can discriminate
 - [x] Explainability is hard

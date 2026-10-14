@@ -1,3 +1,25 @@
+---
+title: vector — 动态数组容器
+date: '2026-09-11'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 程序笔记
+course: C++ STL
+tags:
+- 领域/计算机基础
+- 类型/程序笔记
+- 课程/Cpp_STL
+cssclasses:
+- learning-note
+- subject-cs
+- learning-code
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[CS Learning/C++ STL/README|C++ STL]]
+> 相关：[[CS Learning/C++ STL/Containers/Sequence containers/deque/deque|deque — 双端队列容器]] · [[CS Learning/Data Structures and Algorithms/THU Advanced DSA/2. Vector/2.向量|2.向量]] · [[CS Learning/C wengkai/12-1 可变长数组与封装/12-1-learning resizble array|12-1-learning resizble array — 可变长数组与封装]]
+
 # vector — 动态数组容器
 
 [查看源码](./vector.cpp) · [返回 C++ STL 笔记目录](../../../README.md)

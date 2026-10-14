@@ -1,3 +1,24 @@
+---
+title: 13-2-learning macro — 宏与表达式括号
+date: '2026-09-11'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 程序笔记
+course: 翁恺 C 语言
+tags:
+- 领域/计算机基础
+- 类型/程序笔记
+- 课程/翁恺_C_语言
+cssclasses:
+- learning-note
+- subject-cs
+- learning-code
+---
+
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[CS Learning/C wengkai/README|C wengkai]]
+
 # 13-2-learning macro — 宏与表达式括号
 
 [查看源码](./13-2-learning%20macro.c) · [返回 C wengkai 笔记目录](../README.md)

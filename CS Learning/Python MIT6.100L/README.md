@@ -1,3 +1,30 @@
+---
+title: Python MIT6.100L
+date: '2026-09-25'
+date_source: 文件修改日期
+subject: 计算机基础
+note_type: 目录
+course: MIT 6.100L Python
+tags:
+- 领域/计算机基础
+- 类型/目录
+- 课程/MIT_6_100L_Python
+cssclasses:
+- learning-note
+- subject-cs
+- learning-index
+aliases:
+- Python MIT6.100L
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[计算机基础 · 课程总览](../README.md)
+
+</details>
+
 # Python MIT6.100L
 
 MIT 6.100L Python 课程资料、课堂代码、练习题和实验记录。

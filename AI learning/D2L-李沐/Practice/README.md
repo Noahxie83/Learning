@@ -1,3 +1,30 @@
+---
+title: D2L 个人练习
+date: '2026-09-27'
+date_source: 文件修改日期
+subject: 人工智能
+note_type: 目录
+course: 动手学深度学习
+tags:
+- 领域/人工智能
+- 类型/目录
+- 课程/动手学深度学习
+cssclasses:
+- learning-note
+- subject-ai
+- learning-index
+aliases:
+- D2L 个人练习
+---
+
+<!-- learning-vault-navigation:v1 -->
+<details>
+<summary>笔记导航</summary>
+
+目录：[动手学深度学习（李沐 · PyTorch）](../README.md)
+
+</details>
+
 # D2L 个人练习
 
 配合李沐《动手学深度学习》（PyTorch）的个人代码练习，记录线性回归、Softmax 回归与多层感知机的实现过程。
