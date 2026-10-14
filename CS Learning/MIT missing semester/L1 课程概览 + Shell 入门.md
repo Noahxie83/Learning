@@ -404,7 +404,7 @@ ls /nonexistent /tmp > all.txt 2>&1
 	```
 	其中 `curl -s` 静默获取网页，`grep -oE` 只输出匹配到的课程链接，`wc -l` 统计链接数量。如果要统计主页中列出的多个年份课程，可以将正则表达式中的 `2026` 改为相应年份。
 
-16. [`jq`](https://jqlang.github.io/jq/) 是处理 JSON 的强大工具。用 curl 获取示例数据 https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json，再用 jq 提取 version 大于 6 的人员姓名。（提示：先 `jq` . 看结构；再试 `jq '.[] | select(...) | .name'`）
+16. [`jq`](https://jqlang.github.io/jq/) 是处理 JSON 的强大工具。用 curl 获取示例数据 https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json  ，再用 jq 提取 version 大于 6 的人员姓名。（提示：先 `jq` . 看结构；再试 `jq '.[] | select(...) | .name'`）
 	```bash
 	curl -s https://microsoftedge.github.io/Demos/json-dummy-data/64KB.json |
 	jq -r '.[] | select(.version > 6) | .name'
