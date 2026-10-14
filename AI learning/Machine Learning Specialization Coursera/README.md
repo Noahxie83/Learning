@@ -19,6 +19,14 @@ C1（Supervised Machine Learning: Regression and Classification）已学完；C2
 
 课程代码与原始导航参考：[greyhatguy007/Machine-Learning-Specialization-Coursera](https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera)，保留原仓库的 [LICENSE](./LICENSE)。个人 PDF 的来源独立列于上方。
 
+## 分课程导航
+
+| 课程 | 个人学习状态 | 本地入口 |
+| --- | --- | --- |
+| C1 · Supervised Machine Learning | 已学完 | [课程总览](./C1%20-%20Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/README.md) |
+| C2 · Advanced Learning Algorithms | 暂缓 | [课程总览](./C2%20-%20Advanced%20Learning%20Algorithms/Readme.md) |
+| C3 · Unsupervised Learning, Recommenders, Reinforcement Learning | 暂缓 | [课程总览](./C3%20-%20Unsupervised%20Learning%2C%20Recommenders%2C%20Reinforcement%20Learning/Readme.md) |
+
 **Note : If you would like to have a deeper understanding of the concepts by understanding all the math required, have a look at [Mathematics for Machine Learning and Data Science](https://github.com/greyhatguy007/Mathematics-for-Machine-Learning-and-Data-Science-Specialization-Coursera)**
 
 <hr/>
@@ -47,7 +55,7 @@ C1（Supervised Machine Learning: Regression and Classification）已学完；C2
       - [Feature Scaling](./C1%20-%20Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/week2/Optional%20Labs/C1_W2_Lab03_Feature_Scaling_and_Learning_Rate_Soln.ipynb)
       - [Feature Engineering](./C1%20-%20Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/week2/Optional%20Labs/C1_W2_Lab04_FeatEng_PolyReg_Soln.ipynb)
       - [Sklearn Gradient Descent](./C1%20-%20Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/week2/Optional%20Labs/C1_W2_Lab05_Sklearn_GD_Soln.ipynb)
-      - [Sklearn Normal Method](./C1%20-%20Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/week2/Optional%20Labs/C1_W2_Lab05_Sklearn_GD_Soln.ipynb)
+      - [Sklearn Normal Method](./C1%20-%20Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/week2/Optional%20Labs/C1_W2_Lab06_Sklearn_Normal_Soln.ipynb)
     - [Programming Assignment](./C1%20-%20Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/week2/C1W2A1)
       - [Linear Regression](./C1%20-%20Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification/week2/C1W2A1/C1_W2_Linear_Regression.ipynb)
 
@@ -85,7 +93,7 @@ C1（Supervised Machine Learning: Regression and Classification）已学完；C2
     - [Optional Labs](./C2%20-%20Advanced%20Learning%20Algorithms/week1/optional-labs)
       - [Neurons and Layers](./C2%20-%20Advanced%20Learning%20Algorithms/week1/optional-labs/C2_W1_Lab01_Neurons_and_Layers.ipynb)
       - [Coffee Roasting](./C2%20-%20Advanced%20Learning%20Algorithms/week1/optional-labs/C2_W1_Lab02_CoffeeRoasting_TF.ipynb)
-      - [Coffee Roasting Using Numpy](./C2%20-%20Advanced%20Learning%20Algorithms/week1/optional-labs/C2_W1_Lab02_CoffeeRoasting_TF.ipynb)
+      - [Coffee Roasting Using Numpy](./C2%20-%20Advanced%20Learning%20Algorithms/week1/optional-labs/C2_W1_Lab03_CoffeeRoasting_Numpy.ipynb)
     - [Programming Assignment](./C2%20-%20Advanced%20Learning%20Algorithms/week1/C2W1A1)
       - [Neural Networks for Binary Classification](./C2%20-%20Advanced%20Learning%20Algorithms/week1/C2W1A1/C2_W1_Assignment.ipynb)
   
@@ -121,6 +129,9 @@ C1（Supervised Machine Learning: Regression and Classification）已学完；C2
     - [Practice quiz : Decision Trees](./C2%20-%20Advanced%20Learning%20Algorithms/week4/practice-quiz-decision-trees)
     - [Practice quiz : Decision Trees Learning](./C2%20-%20Advanced%20Learning%20Algorithms/week4/practice-quiz-decision-tree-learning)
     - [Practice quiz : Decision Trees Ensembles](./C2%20-%20Advanced%20Learning%20Algorithms/week4/practice-quiz-tree-ensembles)
+    - [Optional Labs](./C2%20-%20Advanced%20Learning%20Algorithms/week4/optional%20labs)
+        - [Decision Trees](./C2%20-%20Advanced%20Learning%20Algorithms/week4/optional%20labs/C2_W4_Lab_01_Decision_Trees.ipynb)
+        - [Tree Ensemble](./C2%20-%20Advanced%20Learning%20Algorithms/week4/optional%20labs/C2_W4_Lab_02_Tree_Ensemble.ipynb)
     - [Programming Assignment](./C2%20-%20Advanced%20Learning%20Algorithms/week4/C2W4A1)
         - [Decision Trees](./C2%20-%20Advanced%20Learning%20Algorithms/week4/C2W4A1/C2_W4_Decision_Tree_with_Markdown.ipynb)
 
@@ -154,6 +165,8 @@ C1（Supervised Machine Learning: Regression and Classification）已学完；C2
     - [Practice quiz : Reinforcement learning introduction](./C3%20-%20Unsupervised%20Learning%2C%20Recommenders%2C%20Reinforcement%20Learning/week3/Practice%20Quiz%20-%20Reinforcement%20learning%20introduction)
     - [Practice Quiz : State-action value function](./C3%20-%20Unsupervised%20Learning%2C%20Recommenders%2C%20Reinforcement%20Learning/week3/Practice%20Quiz%20-%20State-action%20value%20function)
     - [Practice Quiz : Continuous state spaces](./C3%20-%20Unsupervised%20Learning%2C%20Recommenders%2C%20Reinforcement%20Learning/week3/Practice%20Quiz%20-%20Continuous%20state%20spaces)
+    - [Optional Labs](./C3%20-%20Unsupervised%20Learning%2C%20Recommenders%2C%20Reinforcement%20Learning/week3/optional-labs)
+        - [State-action value function example](./C3%20-%20Unsupervised%20Learning%2C%20Recommenders%2C%20Reinforcement%20Learning/week3/optional-labs/State-action%20value%20function%20example.ipynb)
     - [Programming Assignment](./C3%20-%20Unsupervised%20Learning%2C%20Recommenders%2C%20Reinforcement%20Learning/week3/C3W3A1)
         - [Deep Q-Learning - Lunar Lander](./C3%20-%20Unsupervised%20Learning%2C%20Recommenders%2C%20Reinforcement%20Learning/week3/C3W3A1/C3_W3_A1_Assignment.ipynb)
 

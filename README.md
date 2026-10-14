@@ -60,7 +60,7 @@
 </td>
 <td valign="top">
 <h3>Paper</h3>
-<p>AlexNet、ResNet、Transformer 阅读笔记，以及生成模型论文与补充资料。</p>
+<p>视觉模型、语言模型、图神经网络与生成模型的阅读笔记和原文资料。</p>
 <a href="./Paper/README.md">阅读目录 →</a>
 <a href="./Paper/GLM/README.md">生成模型资料 →</a>
 </td>

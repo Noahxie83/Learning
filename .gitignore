@@ -66,3 +66,10 @@ Thumbs.db
 /AI learning/D2L-李沐/pytorch/chapter_deep-learning-computation/x-files
 /AI learning/D2L-李沐/pytorch/chapter_computer-vision/submission.csv
 /AI learning/D2L-李沐/pytorch/chapter_multilayer-perceptrons/submission.csv
+
+# GNN browser-saved webpage and downloaded scripts stay local; PDF and notes remain publishable
+/Paper/A Gentle Introduction to Graph Neural Networks/A Gentle Introduction to Graph Neural Networks.html
+/Paper/A Gentle Introduction to Graph Neural Networks/A Gentle Introduction to Graph Neural Networks_files/
+
+# Temporary PDF rendering and text-extraction artifacts stay local
+/Paper/tmp/pdfs/

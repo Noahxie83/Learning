@@ -46,5 +46,8 @@
     - [Practice quiz : Decision Trees](./week4/practice-quiz-decision-trees)
     - [Practice Quiz : Decision Trees Learning](./week4/practice-quiz-decision-tree-learning)
     - [Practice quiz : Decision Trees Ensembles](./week4/practice-quiz-tree-ensembles)
+    - [Optional Labs](./week4/optional%20labs)
+        - [Decision Trees](./week4/optional%20labs/C2_W4_Lab_01_Decision_Trees.ipynb)
+        - [Tree Ensemble](./week4/optional%20labs/C2_W4_Lab_02_Tree_Ensemble.ipynb)
     - [Programming Assignment](./week4/C2W4A1)
         - [Decision Trees](./week4/C2W4A1/C2_W4_Decision_Tree_with_Markdown.ipynb)
