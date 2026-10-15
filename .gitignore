@@ -10,6 +10,10 @@ __pycache__/
 # OS/editor noise
 Thumbs.db
 .DS_Store
+**/desktop.ini
+
+# Local vocabulary-app data (personal profile and cache)
+/.word-memo/
 
 # Local editor and note-taking application settings
 **/.obsidian/

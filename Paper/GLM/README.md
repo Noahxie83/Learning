@@ -33,7 +33,7 @@ aliases:
 
 | 论文 | 阅读笔记 | 本地 PDF |
 | --- | --- | --- |
-| Score-Based Generative Modeling through Stochastic Differential Equations（Score SDE） | [阅读笔记](./Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/Note.md) | [PDF](./Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/2011.13456v2.pdf) |
+| Score-Based Generative Modeling through Stochastic Differential Equations（Score SDE） | [完整精读笔记](./Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/Score-SDE-Full-Reading-20261015.md) | [PDF](./Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/2011.13456v2.pdf) |
 
 ## 论文导航
 

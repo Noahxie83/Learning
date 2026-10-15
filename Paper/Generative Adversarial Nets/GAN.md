@@ -22,7 +22,7 @@ aliases:
 %% learning-vault-navigation:v1 %%
 > [!abstract]- 笔记导航
 > 目录：[[Paper/README|论文阅读 · 索引]]
-> 相关：[[Paper/GLM/Score-Based Generative Modeling through Stochastic Differential Equations/Note|Score SDE · 随机微分方程生成模型]]
+> 相关：[[Paper/GLM/Score-Based Generative Modeling through Stochastic Differential Equations/Score-SDE-Full-Reading-20261015|Score SDE · 随机微分方程生成模型]]
 
 # First Time
 

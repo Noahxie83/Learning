@@ -23,7 +23,7 @@ aliases:
 
 目录：[概率论与随机过程 · MIT 6.041SC](../README.md)
 
-相关：[Score SDE · 随机微分方程生成模型](../../../../Paper/GLM/Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/Note.md)
+相关：[Score SDE · 随机微分方程生成模型](../../../../Paper/GLM/Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/Score-SDE-Full-Reading-20261015.md)
 
 </details>
 
