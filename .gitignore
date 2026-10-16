@@ -6,6 +6,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
+node_modules/
 
 # OS/editor noise
 Thumbs.db
@@ -77,4 +78,4 @@ Thumbs.db
 /Paper/A Gentle Introduction to Graph Neural Networks/A Gentle Introduction to Graph Neural Networks_files/
 
 # Temporary PDF rendering and text-extraction artifacts stay local
-/Paper/tmp/pdfs/
+/Paper/tmp/

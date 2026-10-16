@@ -1,6 +1,6 @@
 ---
 title: 生成模型 · 论文索引
-date: '2026-10-14'
+date: '2026-10-16'
 date_source: 文件修改日期
 subject: 论文阅读
 note_type: 目录
@@ -27,13 +27,15 @@ aliases:
 
 # GLM：生成模型论文资料
 
-本目录归档生成模型相关论文与补充材料，现有 27 篇论文 PDF、8 份补充资料，以及 Score SDE 阅读笔记。具体阅读阶段以笔记中的记录为准；资料归档不等于已读完或已完成复现。
+本目录归档生成模型相关论文与补充材料，现有 27 篇论文 PDF、8 份补充资料，以及 Score SDE、Flow Matching、Reflow 等阅读笔记。具体阅读阶段以笔记中的记录为准；资料归档不等于已读完或已完成复现。
 
 ## 阅读笔记
 
 | 论文 | 阅读笔记 | 本地 PDF |
 | --- | --- | --- |
-| Score-Based Generative Modeling through Stochastic Differential Equations（Score SDE） | [完整精读笔记](./Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/Score-SDE-Full-Reading-20261015.md) | [PDF](./Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/2011.13456v2.pdf) |
+| Flow Matching for Generative Modeling | [阅读笔记](./Flow%20Matching/Note.md) | [PDF](./Flow%20Matching/Flow_Matching_for_Generative_Modeling.pdf) |
+| Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow（Reflow） | [阅读笔记](./Reflow/Note.md) | [PDF](./Reflow/Flow_Straight_and_Fast_Learning_to_Generate_and_Transfer_Data_with_Rectified_Flow.pdf) |
+| Score-Based Generative Modeling through Stochastic Differential Equations（Score SDE） | [完整精读笔记](./Score-Based/Note.md) | [PDF](./Score-Based/2011.13456v2.pdf) |
 
 ## 论文导航
 
@@ -50,9 +52,9 @@ aliases:
 | DPM-Solver A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps | [PDF](./PDFs/DPM-Solver_A_Fast_ODE_Solver_for_Diffusion_Probabilistic_Model_Sampling_in_Around_10_Steps.pdf) |
 | Elucidating the Design Space of Diffusion-Based Generative Models | [PDF](./PDFs/Elucidating_the_Design_Space_of_Diffusion-Based_Generative_Models.pdf) |
 | Estimation of Non-Normalized Statistical Models by Score Matching | [PDF](./PDFs/Estimation_of_Non-Normalized_Statistical_Models_by_Score_Matching.pdf) |
-| Flow Matching for Generative Modeling | [PDF](./PDFs/Flow_Matching_for_Generative_Modeling.pdf) |
-| Flow Matching Guide and Code | [PDF](./PDFs/Flow_Matching_Guide_and_Code.pdf) |
-| Flow Straight and Fast Learning to Generate and Transfer Data with Rectified Flow | [PDF](./PDFs/Flow_Straight_and_Fast_Learning_to_Generate_and_Transfer_Data_with_Rectified_Flow.pdf) |
+| Flow Matching for Generative Modeling | [PDF](./Flow%20Matching/Flow_Matching_for_Generative_Modeling.pdf) |
+| Flow Matching Guide and Code | [PDF](./Flow%20Matching/Flow_Matching_Guide_and_Code.pdf) |
+| Flow Straight and Fast Learning to Generate and Transfer Data with Rectified Flow | [PDF](./Reflow/Flow_Straight_and_Fast_Learning_to_Generate_and_Transfer_Data_with_Rectified_Flow.pdf) |
 | Generative Modeling by Estimating Gradients of the Data Distribution | [PDF](./PDFs/Generative_Modeling_by_Estimating_Gradients_of_the_Data_Distribution.pdf) |
 | High-Resolution Image Synthesis with Latent Diffusion Models | [PDF](./PDFs/High-Resolution_Image_Synthesis_with_Latent_Diffusion_Models.pdf) |
 | Improving and generalizing flow-based generative models with minibatch optimal transport | [PDF](./PDFs/Improving_and_generalizing_flow-based_generative_models_with_minibatch_optimal_transport.pdf) |
@@ -65,7 +67,7 @@ aliases:
 | Scalable Diffusion Models with Transformers | [PDF](./PDFs/Scalable_Diffusion_Models_with_Transformers.pdf) |
 | Stochastic Interpolants A Unifying Framework for Flows and Diffusions | [PDF](./PDFs/Stochastic_Interpolants_A_Unifying_Framework_for_Flows_and_Diffusions.pdf) |
 | Understanding Diffusion Models A Unified Perspective | [PDF](./PDFs/Understanding_Diffusion_Models_A_Unified_Perspective.pdf) |
-| Score-Based Generative Modeling through Stochastic Differential Equations | [PDF](./Score-Based%20Generative%20Modeling%20through%20Stochastic%20Differential%20Equations/2011.13456v2.pdf) |
+| Score-Based Generative Modeling through Stochastic Differential Equations | [PDF](./Score-Based/2011.13456v2.pdf) |
 
 ## 补充资料
 
