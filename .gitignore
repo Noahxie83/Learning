@@ -79,3 +79,9 @@ Thumbs.db
 
 # Temporary PDF rendering and text-extraction artifacts stay local
 /Paper/tmp/
+
+# Paper reference code repositories stay local
+/Paper/GLM/Flow Matching/flow_matching/
+/Paper/GLM/Flow Matching/torchcfm/
+/Paper/GLM/Reflow/RectifiedFlow/
+/Paper/GLM/Score-Based/score_sde_pytorch/
