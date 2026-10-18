@@ -85,3 +85,7 @@ Thumbs.db
 /Paper/GLM/Flow Matching/torchcfm/
 /Paper/GLM/Reflow/RectifiedFlow/
 /Paper/GLM/Score-Based/score_sde_pytorch/
+
+# Server training handoff state stays local
+/Paper/GLM/Reflow/server_resume/
+/Paper/GLM/Score-Based/server_resume/
