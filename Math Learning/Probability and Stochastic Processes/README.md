@@ -1,22 +1,3 @@
----
-title: 概率论与随机过程
-date: '2026-10-13'
-date_source: 文件修改日期
-subject: 数学基础
-note_type: 目录
-course: 概率论与随机过程
-tags:
-- 领域/数学基础
-- 类型/目录
-- 课程/概率论与随机过程
-cssclasses:
-- learning-note
-- subject-math
-- learning-index
-aliases:
-- 概率论与随机过程
----
-
 <!-- learning-vault-navigation:v1 -->
 <details>
 <summary>笔记导航</summary>

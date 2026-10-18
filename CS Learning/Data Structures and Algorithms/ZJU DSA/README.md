@@ -1,22 +1,3 @@
----
-title: ZJU DSA
-date: '2026-09-26'
-date_source: 文件修改日期
-subject: 计算机基础
-note_type: 目录
-course: ZJU DSA
-tags:
-- 领域/计算机基础
-- 类型/目录
-- 课程/ZJU_DSA
-cssclasses:
-- learning-note
-- subject-cs
-- learning-index
-aliases:
-- ZJU DSA
----
-
 <!-- learning-vault-navigation:v1 -->
 <details>
 <summary>笔记导航</summary>

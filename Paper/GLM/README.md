@@ -1,22 +1,3 @@
----
-title: 生成模型 · 论文索引
-date: '2026-10-16'
-date_source: 文件修改日期
-subject: 论文阅读
-note_type: 目录
-course: 生成模型
-tags:
-- 领域/论文阅读
-- 类型/目录
-- 课程/生成模型
-cssclasses:
-- learning-note
-- subject-paper
-- learning-index
-aliases:
-- 生成模型 · 论文索引
----
-
 <!-- learning-vault-navigation:v1 -->
 <details>
 <summary>笔记导航</summary>

@@ -1,22 +1,3 @@
----
-title: 机器学习 C3 · Week 3
-date: '2026-10-14'
-date_source: 文件修改日期
-subject: 人工智能
-note_type: 目录
-course: 机器学习专项课程 · C3
-tags:
-- 领域/人工智能
-- 类型/目录
-- 课程/机器学习专项课程_C3
-cssclasses:
-- learning-note
-- subject-ai
-- learning-index
-aliases:
-- 机器学习 C3 · Week 3
----
-
 # 机器学习 C3 · Week 3
 
 <!-- learning-vault-navigation:v1 -->

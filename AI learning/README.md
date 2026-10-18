@@ -1,20 +1,3 @@
----
-title: 人工智能 · 课程总览
-date: '2026-10-13'
-date_source: 文件修改日期
-subject: 人工智能
-note_type: 目录
-tags:
-- 领域/人工智能
-- 类型/目录
-cssclasses:
-- learning-note
-- subject-ai
-- learning-index
-aliases:
-- 人工智能 · 课程总览
----
-
 <!-- learning-vault-navigation:v1 -->
 <details>
 <summary>笔记导航</summary>

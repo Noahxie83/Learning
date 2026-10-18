@@ -1,22 +1,3 @@
----
-title: C++ STL
-date: '2026-09-25'
-date_source: 文件修改日期
-subject: 计算机基础
-note_type: 目录
-course: C++ STL
-tags:
-- 领域/计算机基础
-- 类型/目录
-- 课程/Cpp_STL
-cssclasses:
-- learning-note
-- subject-cs
-- learning-index
-aliases:
-- C++ STL
----
-
 <!-- learning-vault-navigation:v1 -->
 <details>
 <summary>笔记导航</summary>

@@ -1,20 +1,3 @@
----
-title: Learning · 学习档案
-date: '2026-10-14'
-date_source: 正文标注日期
-subject: 学习导航
-note_type: 仓库说明
-tags:
-- 领域/学习导航
-- 类型/仓库说明
-cssclasses:
-- learning-note
-- subject-home
-- learning-study
-aliases:
-- Learning · 学习档案
----
-
 <!-- learning-vault-navigation:v1 -->
 <details>
 <summary>笔记导航</summary>

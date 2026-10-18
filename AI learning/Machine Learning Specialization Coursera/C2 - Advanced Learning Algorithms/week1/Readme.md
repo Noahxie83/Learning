@@ -1,22 +1,3 @@
----
-title: 机器学习 C2 · Week 1
-date: '2026-09-19'
-date_source: 文件修改日期
-subject: 人工智能
-note_type: 目录
-course: 机器学习专项课程 · C2
-tags:
-- 领域/人工智能
-- 类型/目录
-- 课程/机器学习专项课程_C2
-cssclasses:
-- learning-note
-- subject-ai
-- learning-index
-aliases:
-- 机器学习 C2 · Week 1
----
-
 # 机器学习 C2 · Week 1
 
 <!-- learning-vault-navigation:v1 -->

@@ -1,22 +1,3 @@
----
-title: Data Structures and Algorithms
-date: '2026-09-26'
-date_source: 文件修改日期
-subject: 计算机基础
-note_type: 目录
-course: 数据结构与算法
-tags:
-- 领域/计算机基础
-- 类型/目录
-- 课程/数据结构与算法
-cssclasses:
-- learning-note
-- subject-cs
-- learning-index
-aliases:
-- Data Structures and Algorithms
----
-
 <!-- learning-vault-navigation:v1 -->
 <details>
 <summary>笔记导航</summary>

@@ -1,22 +1,3 @@
----
-title: MIT 6.041SC U3 · Random Processes
-date: '2026-10-13'
-date_source: 文件修改日期
-subject: 数学基础
-note_type: 目录
-course: MIT 6.041SC
-tags:
-- 领域/数学基础
-- 类型/目录
-- 课程/MIT_6_041SC
-cssclasses:
-- learning-note
-- subject-math
-- learning-index
-aliases:
-- MIT 6.041SC U3 · Random Processes
----
-
 <!-- learning-vault-navigation:v1 -->
 <details>
 <summary>笔记导航</summary>

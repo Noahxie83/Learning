@@ -1,22 +1,3 @@
----
-title: C3 W3 · Reinforcement learning introduction
-date: '2026-09-19'
-date_source: 文件修改日期
-subject: 人工智能
-note_type: 习题
-course: 机器学习专项课程 · C3
-tags:
-- 领域/人工智能
-- 类型/习题
-- 课程/机器学习专项课程_C3
-cssclasses:
-- learning-note
-- subject-ai
-- learning-exercise
-aliases:
-- C3 W3 · Reinforcement learning introduction
----
-
 # C3 W3 · Reinforcement learning introduction
 
 <!-- learning-vault-navigation:v1 -->

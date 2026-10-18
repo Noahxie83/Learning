@@ -1,20 +1,3 @@
----
-title: 数学基础 · 课程总览
-date: '2026-10-13'
-date_source: 文件修改日期
-subject: 数学基础
-note_type: 目录
-tags:
-- 领域/数学基础
-- 类型/目录
-cssclasses:
-- learning-note
-- subject-math
-- learning-index
-aliases:
-- 数学基础 · 课程总览
----
-
 <!-- learning-vault-navigation:v1 -->
 <details>
 <summary>笔记导航</summary>
