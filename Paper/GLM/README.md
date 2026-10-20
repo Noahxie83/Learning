@@ -17,6 +17,7 @@
 | Flow Matching for Generative Modeling | [阅读笔记](./Flow%20Matching/Note.md) | [PDF](./Flow%20Matching/Flow_Matching_for_Generative_Modeling.pdf) |
 | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow（Reflow） | [阅读笔记](./Reflow/Note.md) | [PDF](./Reflow/Flow_Straight_and_Fast_Learning_to_Generate_and_Transfer_Data_with_Rectified_Flow.pdf) |
 | Score-Based Generative Modeling through Stochastic Differential Equations（Score SDE） | [完整精读笔记](./Score-Based/Note.md) | [PDF](./Score-Based/2011.13456v2.pdf) |
+| Denoising Diffusion Probabilistic Models（DDPM） | [阅读笔记](../Denoising_Diffusion_Probabilistic_Models_reading.md) | [PDF](./DDPM/Denoising_Diffusion_Probabilistic_Models.pdf) |
 
 ## 论文导航
 
@@ -29,7 +30,7 @@
 | Consistency Models | [PDF](./PDFs/Consistency_Models.pdf) |
 | Deep Unsupervised Learning using Nonequilibrium Thermodynamics | [PDF](./PDFs/Deep_Unsupervised_Learning_using_Nonequilibrium_Thermodynamics.pdf) |
 | Denoising Diffusion Implicit Models | [PDF](./PDFs/Denoising_Diffusion_Implicit_Models.pdf) |
-| Denoising Diffusion Probabilistic Models | [PDF](./PDFs/Denoising_Diffusion_Probabilistic_Models.pdf) |
+| Denoising Diffusion Probabilistic Models | [PDF](./DDPM/Denoising_Diffusion_Probabilistic_Models.pdf) |
 | DPM-Solver A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps | [PDF](./PDFs/DPM-Solver_A_Fast_ODE_Solver_for_Diffusion_Probabilistic_Model_Sampling_in_Around_10_Steps.pdf) |
 | Elucidating the Design Space of Diffusion-Based Generative Models | [PDF](./PDFs/Elucidating_the_Design_Space_of_Diffusion-Based_Generative_Models.pdf) |
 | Estimation of Non-Normalized Statistical Models by Score Matching | [PDF](./PDFs/Estimation_of_Non-Normalized_Statistical_Models_by_Score_Matching.pdf) |
