@@ -15,7 +15,7 @@ cssclasses:
 
 %% learning-vault-navigation:v1 %%
 > [!abstract]- 笔记导航
-> 目录：[[00 学习导航|学习导航]]
+> 目录：[[学习导航|学习导航]]
 > 相关：[[ai-research-weekly|AI 研究与论文阅读周报]]
 
 # 每周最有用的 GitHub AI/CS 项目 Top 3

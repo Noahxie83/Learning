@@ -15,7 +15,7 @@ cssclasses:
 
 %% learning-vault-navigation:v1 %%
 > [!abstract]- 笔记导航
-> 目录：[[00 学习导航|学习导航]]
+> 目录：[[学习导航|学习导航]]
 > 相关：[[Paper/Attention Is All You Need/Transformer|Transformer · 注意力机制]] · [[github-ai-cs-weekly-top3|GitHub AI/CS 项目周记]]
 
 # AI 研究与论文阅读周报
