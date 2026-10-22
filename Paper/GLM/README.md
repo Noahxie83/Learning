@@ -17,7 +17,6 @@
 | Flow Matching for Generative Modeling | [阅读笔记](./Flow%20Matching/Note.md) | [PDF](./Flow%20Matching/Flow_Matching_for_Generative_Modeling.pdf) |
 | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow（Reflow） | [阅读笔记](./Reflow/Note.md) | [PDF](./Reflow/Flow_Straight_and_Fast_Learning_to_Generate_and_Transfer_Data_with_Rectified_Flow.pdf) |
 | Score-Based Generative Modeling through Stochastic Differential Equations（Score SDE） | [完整精读笔记](./Score-Based/Note.md) | [PDF](./Score-Based/2011.13456v2.pdf) |
-| Denoising Diffusion Probabilistic Models（DDPM） | [阅读笔记](../Denoising_Diffusion_Probabilistic_Models_reading.md) | [PDF](./DDPM/Denoising_Diffusion_Probabilistic_Models.pdf) |
 
 ## 论文导航
 
