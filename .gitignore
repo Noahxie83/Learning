@@ -89,3 +89,6 @@ Thumbs.db
 # Server training handoff state stays local
 /Paper/GLM/Reflow/server_resume/
 /Paper/GLM/Score-Based/server_resume/
+
+# Obsidian-only navigation; README.md remains the GitHub entry
+00 学习导航.md

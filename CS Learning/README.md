@@ -2,7 +2,7 @@
 <details>
 <summary>笔记导航</summary>
 
-目录：[学习导航](../00%20%E5%AD%A6%E4%B9%A0%E5%AF%BC%E8%88%AA.md)
+目录：[学习导航](../README.md)
 
 </details>
 

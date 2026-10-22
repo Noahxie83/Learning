@@ -1,11 +1,3 @@
-<!-- learning-vault-navigation:v1 -->
-<details>
-<summary>笔记导航</summary>
-
-目录：[学习导航](./00%20%E5%AD%A6%E4%B9%A0%E5%AF%BC%E8%88%AA.md)
-
-</details>
-
 <p align="right"><a href="https://github.com/Noahxie83"><sub>Noah Xie · Personal profile</sub></a></p>
 
 <a name="learning"></a>
