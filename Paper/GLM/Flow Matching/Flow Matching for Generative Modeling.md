@@ -15,11 +15,6 @@ authors:
   - Matt Le
 paper: "[[Paper/GLM/Flow Matching/Flow_Matching_for_Generative_Modeling.pdf]]"
 ---
-
-原文：[[Paper/GLM/Flow Matching/Flow_Matching_for_Generative_Modeling.pdf|打开论文 PDF]]
-
-# Flow Matching for Generative Modeling
-
 # First Time
 
 ## 1.Title & Authors

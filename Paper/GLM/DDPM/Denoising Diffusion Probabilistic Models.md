@@ -1,5 +1,16 @@
-# Denoising Diffusion Probabilistic Models
-
+---
+title: Denoising Diffusion Probabilistic Models
+authors:
+  - Jonathan Ho
+  - Ajay Jain
+  - Pieter Abbeel
+year: 2020
+type: paper-note
+tags:
+  - diffusion-models
+  - ddpm
+paper_pdf: "[[Denoising_Diffusion_Probabilistic_Models.pdf]]"
+---
 # First Time
 
 ## 1.Title & Authors
