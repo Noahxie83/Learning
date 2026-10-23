@@ -68,6 +68,7 @@
 - [Linear Regression.py](./Practice/Linear%20Regression.py)
 - [Softmax.py](./Practice/Softmax.py)
 - [MLP.py](./Practice/MLP.py)
+- [Dropout.py](./Practice/Dropout.py)
 
 ## 配套数据
 

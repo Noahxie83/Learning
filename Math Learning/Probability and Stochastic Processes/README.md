@@ -12,7 +12,9 @@
 
 ## 学习状态
 
-2026-10-12 起开始学习本方向，当前学习记录如下：
+**本阶段已结束（2026-10-23 用户确认）**，当前转入以 DDPM 论文为主线的系统学习。[DDPM 阅读笔记](../../Paper/GLM/DDPM/Denoising%20Diffusion%20Probabilistic%20Models.md)。
+
+2026-10-12 起开始学习本方向，本阶段已确认的具体范围如下：
 
 - **概率论 · Kira**：已学完前两章（随机事件和概率、随机变量及其分布），整门课程尚未学完。
 - **MIT 6.041SC**：目前只学习了 U3 随机过程部分；U1、U2、U4 尚未学习，待学校正式学习这门课程时再学习，不标记整门课程已完成。
@@ -26,7 +28,7 @@
 | 概率论 · Kira | [Bilibili 视频](https://www.bilibili.com/video/BV1T6VFzAE1c/) | [课件导航](./Probability%20Kira/README.md) | 随机事件、随机变量、数字特征、大数定律与数理统计等九章课件 |
 | MIT 6.041SC | [完整课程](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) · [Unit III](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/pages/unit-iii/) | [四单元资料导航](./6.041SC/README.md) · [U3 随机过程](./6.041SC/U3/README.md) | 四个单元的讲义、Recitation、Tutorial、Problem Set、考试、解答与文字稿 PDF |
 
-MIT 全课程四个单元的 PDF 已于 2026-10-13 归档；当前学习范围仅为 U3 随机过程部分，其余单元留待学校正式开课时学习。资料归档不表示课程或练习已完成。
+MIT 全课程四个单元的 PDF 已于 2026-10-13 归档；本阶段学习范围仅为 U3 随机过程部分，其余单元留待学校正式开课时学习。资料归档不表示课程或练习已完成。
 
 ## 资料来源
 

@@ -17,6 +17,8 @@ MIT 6.041SC《Probabilistic Systems Analysis and Applied Probability》（Fall 2
 
 2026-10-12 起开始学习，目前只学习了 **U3（Unit III: Random Processes，随机过程）部分**。U1、U2、U4 尚未学习，等学校正式学习这门课程时再学习；整门 MIT 6.041SC 课程尚未学完。各讲和习题的完成情况不根据资料归档推断。
 
+概率论与随机过程本阶段已结束（2026-10-23 用户确认），当前转入以 DDPM 论文为主线的系统学习，见[阶段总览](../README.md)。
+
 ## 四个单元
 
 目录缩写：U1–U4 对应四个 Unit；L01–L25 对应 Lecture 1–25；Rec = Recitation，PS = Problem Set，Tut = Tutorial，Tx = Transcript，Exams = 考试资料，V2/V3 = 同名文件的不同版本。

@@ -10,6 +10,10 @@
 
 人工智能学习资料的长期归档入口。吴恩达机器学习 C1 已学完，C2/C3 暂缓；李沐《动手学深度学习》（PyTorch）已学完。概率论、随机过程与离散数学归入 Math Learning，强化学习保留为后续方向。
 
+## 当前主线
+
+当前以 DDPM（Denoising Diffusion Probabilistic Models）论文为主线开展系统学习，入口见 [DDPM 阅读笔记](../Paper/GLM/DDPM/Denoising%20Diffusion%20Probabilistic%20Models.md)。概率论与随机过程本阶段已结束（2026-10-23 用户确认），具体已学范围见[阶段记录](../Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)。
+
 ## 当前课程
 
 | 课程 | 课程网站 | 本地资料 | 当前情况 |

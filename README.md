@@ -14,7 +14,11 @@
 
 ## 学习路线
 
-> **当前学习：概率论与随机过程**
+> **当前学习：DDPM 论文系统学习**
+>
+> 以 DDPM（Denoising Diffusion Probabilistic Models）论文为主线开展系统学习。[论文阅读笔记](./Paper/GLM/DDPM/Denoising%20Diffusion%20Probabilistic%20Models.md)。
+
+> **本阶段结束：概率论与随机过程（2026-10-23 确认）**
 >
 > Kira 概率论已学完前两章；MIT 6.041SC 目前只学习了 U3 随机过程部分，其余单元留待学校正式开课时学习。[课程与资料](./Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)。
 
@@ -24,7 +28,8 @@
 
 | 状态 | 学习记录 |
 | --- | --- |
-| **学习中 / 选择性学习** | Kira 概率论已学完前两章；MIT 6.041SC 仅学习了 U3 随机过程部分，其余单元待学校正式开课时学习 |
+| **学习中** | 以 DDPM 论文为主线开展系统学习 |
+| **本阶段结束** | 概率论与随机过程（2026-10-23 用户确认）；具体课程范围见对应导航 |
 | **已学完** | AI for Everyone、机器学习 C1、动手学深度学习，以及 C wengkai、C++ PKU、C++ STL、Python MIT6.100L |
 | **尚未学完** | ZJU DSA 与 THU Advanced DSA 的具体章节进度待补充；离散数学已学完前三章，电路与电子学已学完前两章 |
 | **暂缓 / 选择性学习** | 机器学习 C2/C3 暂缓；MIT Missing Semester 本阶段结束，已学习 L1-3、L5、L7，L4、L6 及其余部分留待以后 |
@@ -140,4 +145,4 @@
 
 [Noahxie83 / Learning](https://github.com/Noahxie83/Learning) · 持续学习，逐步积累
 
-<sub>最后更新：2026-10-14</sub>
+<sub>最后更新：2026-10-24</sub>
