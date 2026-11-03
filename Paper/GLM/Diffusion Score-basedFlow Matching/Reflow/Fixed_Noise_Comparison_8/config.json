@@ -1,0 +1,51 @@
+{
+  "purpose": "Qualitative fixed-noise checkpoint and ODE-time comparison",
+  "same_noise_as_flow_matching": true,
+  "noise_source": "/mnt/d/Learning/Paper/GLM/Flow Matching/torchcfm/examples/images/cifar10/results/otcfm/fixed_noise_comparison_8/fixed_noise.pt",
+  "noise_tensor_sha256": "47f9a6f958643d9417c91d830216769c0882b63dc035c53fb2eb601adc419c61",
+  "noise_source_file_sha256": "5aba75753cb02d9b50d438f373feb0300344d0d614bc38b036fb2c83833858a7",
+  "seed_origin": 30000,
+  "samples": 8,
+  "weights": "ema",
+  "solver": "explicit_euler",
+  "nfe": 99,
+  "time_interval": [
+    0.0,
+    1.0
+  ],
+  "trajectory_indices": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    59,
+    69,
+    79,
+    89,
+    99
+  ],
+  "trajectory_times": [
+    0.0,
+    0.10101010101010101,
+    0.20202020202020202,
+    0.30303030303030304,
+    0.40404040404040403,
+    0.5050505050505051,
+    0.5959595959595959,
+    0.696969696969697,
+    0.797979797979798,
+    0.898989898989899,
+    1.0
+  ],
+  "precision": "float32; TF32 disabled",
+  "torch": "2.14.0+cu130",
+  "gpu": "NVIDIA GeForce RTX 5080",
+  "display_transform": "clip((x + 1) / 2, 0, 1), identical for every panel",
+  "interpolation": "nearest; no sharpening, denoising, contrast or gamma changes",
+  "training_state_0": "not saved; Noise column is the actual input, not an invented step-0 model",
+  "original_preview_solver": "RK45; this export explicitly uses Euler 99 NFE",
+  "training_performed": false,
+  "checkpoint_writes": false
+}

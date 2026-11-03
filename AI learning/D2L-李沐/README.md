@@ -25,7 +25,7 @@
 - [Notebook 总目录](./pytorch/index.ipynb)
 - [安装说明](./pytorch/chapter_installation/index.ipynb)
 - [术语表](./pytorch/TERMINOLOGY.ipynb)
-- [深度学习基础课件归档（20 份 PDF）](./PPT/Part0_深度学习基础/)：沿用现有文件分类，课件的具体出处待补充，不以目录名推断作者或已学习进度。
+- [深度学习基础课件归档（20 份 PDF）](./PPT/Part0_%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/)：沿用现有文件分类，课件的具体出处待补充，不以目录名推断作者或已学习进度。
 
 ## 章节导航
 

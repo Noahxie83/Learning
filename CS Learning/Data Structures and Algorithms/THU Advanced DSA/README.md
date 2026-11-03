@@ -18,8 +18,8 @@
 
 | 章节 | 笔记 | 配套资料 |
 | --- | --- | --- |
-| 1. 绪论 | [1. 绪论.md](./1.%20Itroduction/1.%20绪论.md) | [示例代码](./1.%20Itroduction/Code/) · [笔记配图](./1.%20Itroduction/image/) |
-| 2. 向量 | [2.向量.md](./2.%20Vector/2.向量.md) | [笔记配图](./2.%20Vector/image/) |
+| 1. 绪论 | [1. 绪论.md](./1.%20Itroduction/1.%20%E7%BB%AA%E8%AE%BA.md) | [示例代码](./1.%20Itroduction/Code/) · [笔记配图](./1.%20Itroduction/image/) |
+| 2. 向量 | [2.向量.md](./2.%20Vector/2.%E5%90%91%E9%87%8F.md) | [笔记配图](./2.%20Vector/image/) |
 
 `1. Itroduction` 保留现有目录拼写。学习进度和掌握情况以笔记、练习及实际验证为准，不由文件存在与否直接推断。
 
@@ -33,7 +33,7 @@
 | LCS | [LCS.cpp](./1.%20Itroduction/Code/LCS.cpp) |
 | 数组左移 | [Left Rotation.cpp](./1.%20Itroduction/Code/Left%20Rotation.cpp) |
 | Max2：迭代 | [Max2-Iteration.cpp](./1.%20Itroduction/Code/Max2-Iteration.cpp) |
-| Max2：递归与分治 | [Max2-recursion&divide-conquer.cpp](./1.%20Itroduction/Code/Max2-recursion&divide-conquer.cpp) |
+| Max2：递归与分治 | [Max2-recursion&divide-conquer.cpp](./1.%20Itroduction/Code/Max2-recursion%26divide-conquer.cpp) |
 | 非极端元素 | [Non-extreme elements.cpp](./1.%20Itroduction/Code/Non-extreme%20elements.cpp) |
 | RAM 向下取整除法 | [RAM Floor division.cpp](./1.%20Itroduction/Code/RAM%20Floor%20division.cpp) |
 | 数组求和：二分递归 | [Summing array-Binary recursion.cpp](./1.%20Itroduction/Code/Summing%20array-Binary%20recursion.cpp) |

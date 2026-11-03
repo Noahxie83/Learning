@@ -10,7 +10,7 @@
 
 ## Supervised Machine Learning : Regression and Classification
 
-学习状态：C1 已学完；C2/C3 暂缓；[李沐《动手学深度学习》](../../D2L-李沐/README.md)已学完。这是个人学习进度记录，不作为结课证书声明。资料来源见 [专项课程 README](../README.md#本地学习材料与来源)。
+学习状态：C1 已学完；C2/C3 暂缓；[李沐《动手学深度学习》](../../D2L-%E6%9D%8E%E6%B2%90/README.md)已学完。这是个人学习进度记录，不作为结课证书声明。资料来源见 [专项课程 README](../README.md#%E6%9C%AC%E5%9C%B0%E5%AD%A6%E4%B9%A0%E6%9D%90%E6%96%99%E4%B8%8E%E6%9D%A5%E6%BA%90)。
 
 
 

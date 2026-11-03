@@ -45,12 +45,6 @@ Thumbs.db
 .env.*
 !.env.example
 
-# User-confirmed local-only learning drafts and reference book
-/学习进度汇报_照读讲稿.md
-/第一次学习进度汇报.md
-/第二次汇报.md
-/AI learning/Additional knowledge supplement/Generative AI and Stochastic Thermodynamics.pdf
-
 # D2L downloaded datasets and generated artifacts; curated examples remain explicitly tracked
 /AI learning/D2L-李沐/pytorch/data/timemachine.txt
 /AI learning/D2L-李沐/pytorch/data/fra-eng.zip
@@ -73,22 +67,6 @@ Thumbs.db
 /AI learning/D2L-李沐/pytorch/chapter_computer-vision/submission.csv
 /AI learning/D2L-李沐/pytorch/chapter_multilayer-perceptrons/submission.csv
 
-# GNN browser-saved webpage and downloaded scripts stay local; PDF and notes remain publishable
-/Paper/A Gentle Introduction to Graph Neural Networks/A Gentle Introduction to Graph Neural Networks.html
-/Paper/A Gentle Introduction to Graph Neural Networks/A Gentle Introduction to Graph Neural Networks_files/
-
 # Temporary PDF rendering and text-extraction artifacts stay local
 /Paper/tmp/
 
-# Paper reference code repositories stay local
-/Paper/GLM/Flow Matching/flow_matching/
-/Paper/GLM/Flow Matching/torchcfm/
-/Paper/GLM/Reflow/RectifiedFlow/
-/Paper/GLM/Score-Based/score_sde_pytorch/
-
-# Server training handoff state stays local
-/Paper/GLM/Reflow/server_resume/
-/Paper/GLM/Score-Based/server_resume/
-
-# Obsidian-only navigation; README.md remains the GitHub entry
-*导航.md

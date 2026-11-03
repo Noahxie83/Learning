@@ -12,7 +12,7 @@
 
 ## 当前主线
 
-当前以 DDPM（Denoising Diffusion Probabilistic Models）论文为主线开展系统学习，入口见 [DDPM 阅读笔记](../Paper/GLM/DDPM/Denoising%20Diffusion%20Probabilistic%20Models.md)。概率论与随机过程本阶段已结束（2026-10-23 用户确认），具体已学范围见[阶段记录](../Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)。
+当前以 DDPM（Denoising Diffusion Probabilistic Models）论文为主线开展系统学习，入口见 [DDPM 阅读笔记](../Paper/GLM/Diffusion%20Score-basedFlow%20Matching/DDPM/Denoising%20Diffusion%20Probabilistic%20Models.md)。概率论与随机过程本阶段已结束（2026-10-23 用户确认），具体已学范围见[阶段记录](../Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)。
 
 ## 当前课程
 
@@ -20,7 +20,7 @@
 | --- | --- | --- | --- |
 | AI for Everyone | [DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-everyone) | [课程 README](./AI%20for%20everyone/README.md) | 已学完；已归档 Week 1–4 的 PDF、测验 Markdown 和图片；本地归档不等于官方结课认证 |
 | Machine Learning Specialization | [Coursera](https://www.coursera.org/specializations/machine-learning-introduction/) | [课程 README](./Machine%20Learning%20Specialization%20Coursera/README.md) | C1 已学完；C2/C3 暂缓，现有资料保留供后续学习 |
-| 动手学深度学习（李沐，PyTorch） | [课程网站](https://courses.d2l.ai/zh-v2/) · [在线教材](https://zh.d2l.ai/) | [课程 README](./D2L-李沐/README.md) | 已学完；教材和配套 Notebook 已归档 |
+| 动手学深度学习（李沐，PyTorch） | [课程网站](https://courses.d2l.ai/zh-v2/) · [在线教材](https://zh.d2l.ai/) | [课程 README](./D2L-%E6%9D%8E%E6%B2%90/README.md) | 已学完；教材和配套 Notebook 已归档 |
 
 ## 数学基础
 
@@ -34,7 +34,7 @@
 
 ### 深度学习
 
-李沐《动手学深度学习》（PyTorch）已学完，使用的中文版教材与配套 Notebook 作为个人学习资料归档。入口见 [D2L 课程 README](./D2L-李沐/README.md)。
+李沐《动手学深度学习》（PyTorch）已学完，使用的中文版教材与配套 Notebook 作为个人学习资料归档。入口见 [D2L 课程 README](./D2L-%E6%9D%8E%E6%B2%90/README.md)。
 
 ### 强化学习
 

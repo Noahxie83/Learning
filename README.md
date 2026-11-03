@@ -8,15 +8,15 @@
 
 这是我的长期学习档案。记录课程学习，积累数学基础，在代码练习与论文阅读中继续探索。
 
-[学习路线](#学习路线) / [内容导航](#内容导航) / [AI Learning](#ai-learning) / [CS Learning](#cs-learning) / [Math Learning](#math-learning) / [资料与来源](#资料与来源)
+[学习路线](#%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF) / [内容导航](#%E5%86%85%E5%AE%B9%E5%AF%BC%E8%88%AA) / [AI Learning](#ai-learning) / [CS Learning](#cs-learning) / [Math Learning](#math-learning) / [资料与来源](#%E8%B5%84%E6%96%99%E4%B8%8E%E6%9D%A5%E6%BA%90)
 
 ---
 
 ## 学习路线
 
-> **当前学习：DDPM 论文系统学习**
+> **当前主线：阅读论文学习 HDPS、FLAIR**
 >
-> 以 DDPM（Denoising Diffusion Probabilistic Models）论文为主线开展系统学习。[论文阅读笔记](./Paper/GLM/DDPM/Denoising%20Diffusion%20Probabilistic%20Models.md)。
+> 围绕 HDPS、FLAIR 阅读论文并开展系统学习。[论文与资料](./Paper/GLM/HDPS%E3%80%81FLAIR/README.md)。
 
 > **本阶段结束：概率论与随机过程（2026-10-23 确认）**
 >
@@ -24,11 +24,11 @@
 
 > **近期完成：李沐《动手学深度学习》（PyTorch）**
 >
-> [课程与章节](./AI%20learning/D2L-李沐/README.md) / [个人练习](./AI%20learning/D2L-李沐/Practice/README.md)
+> [课程与章节](./AI%20learning/D2L-%E6%9D%8E%E6%B2%90/README.md) / [个人练习](./AI%20learning/D2L-%E6%9D%8E%E6%B2%90/Practice/README.md)
 
 | 状态 | 学习记录 |
 | --- | --- |
-| **学习中** | 以 DDPM 论文为主线开展系统学习 |
+| **学习中** | 阅读论文学习 HDPS、FLAIR |
 | **本阶段结束** | 概率论与随机过程（2026-10-23 用户确认）；具体课程范围见对应导航 |
 | **已学完** | AI for Everyone、机器学习 C1、动手学深度学习，以及 C wengkai、C++ PKU、C++ STL、Python MIT6.100L |
 | **尚未学完** | ZJU DSA 与 THU Advanced DSA 的具体章节进度待补充；离散数学已学完前三章，电路与电子学已学完前两章 |
@@ -97,8 +97,8 @@
 | --- | --- | --- | --- |
 | **AI for Everyone** | 已学完；Week 1-4 课件与测验资料 | [课程笔记](./AI%20learning/AI%20for%20everyone/README.md) | [DeepLearning.AI](https://www.deeplearning.ai/courses/ai-for-everyone) |
 | **Machine Learning Specialization** | C1 已学完；C2/C3 暂缓 | [课程资料与参考笔记](./AI%20learning/Machine%20Learning%20Specialization%20Coursera/README.md) | [Coursera](https://www.coursera.org/specializations/machine-learning-introduction/) |
-| **动手学深度学习 · 李沐** | 已学完 | [章节导航](./AI%20learning/D2L-李沐/README.md) · [个人练习](./AI%20learning/D2L-李沐/Practice/README.md) | [课程](https://courses.d2l.ai/zh-v2/) · [教材](https://zh.d2l.ai/) |
-| **强化学习** | 后续规划，尚未建立独立课程目录 | [方向说明](./AI%20learning/README.md#强化学习) | 待选定 |
+| **动手学深度学习 · 李沐** | 已学完 | [章节导航](./AI%20learning/D2L-%E6%9D%8E%E6%B2%90/README.md) · [个人练习](./AI%20learning/D2L-%E6%9D%8E%E6%B2%90/Practice/README.md) | [课程](https://courses.d2l.ai/zh-v2/) · [教材](https://zh.d2l.ai/) |
+| **强化学习** | 后续规划，尚未建立独立课程目录 | [方向说明](./AI%20learning/README.md#%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0) | 待选定 |
 
 </details>
 
@@ -133,7 +133,7 @@
 | --- | --- | --- | --- |
 | **概率论 · Kira** | 已学完前两章，整门课程尚未学完 | [章节与课件](./Math%20Learning/Probability%20and%20Stochastic%20Processes/Probability%20Kira/README.md) | [Kira · Bilibili](https://www.bilibili.com/video/BV1T6VFzAE1c/) |
 | **MIT 6.041SC** | 仅学习了 U3 随机过程部分；其余单元待学校正式开课时学习 | [U3 随机过程](./Math%20Learning/Probability%20and%20Stochastic%20Processes/6.041SC/U3/README.md) · [全课程资料](./Math%20Learning/Probability%20and%20Stochastic%20Processes/6.041SC/README.md) | [MIT OCW](https://ocw.mit.edu/courses/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/) |
-| **离散数学** | 已学完前三章；结合东北大学与本校课程内容补充学习 | [材料导航](./Math%20Learning/离散数学/README.md) | [东北大学 · 中国大学 MOOC](https://www.icourse163.org/learn/NEU-1205984813?tid=1206281216#/learn/content) |
+| **离散数学** | 已学完前三章；结合东北大学与本校课程内容补充学习 | [材料导航](./Math%20Learning/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/README.md) | [东北大学 · 中国大学 MOOC](https://www.icourse163.org/learn/NEU-1205984813?tid=1206281216#/learn/content) |
 
 ## 资料与来源
 
@@ -145,4 +145,4 @@
 
 [Noahxie83 / Learning](https://github.com/Noahxie83/Learning) · 持续学习，逐步积累
 
-<sub>最后更新：2026-10-24</sub>
+<sub>最后更新：2026-11-03</sub>

@@ -1,0 +1,31 @@
+{
+  "steps": [
+    0,
+    5000,
+    10000,
+    15000,
+    20000,
+    25000,
+    30000,
+    40000,
+    60000,
+    80000,
+    100000,
+    120000,
+    140000,
+    160000,
+    180000
+  ],
+  "weights": "ema",
+  "seed": 30000,
+  "num_gen": 50000,
+  "batch_size": 128,
+  "solver": "euler",
+  "nfe": 99,
+  "time_points": 100,
+  "precision": "float32",
+  "fid_mode": "legacy_tensorflow",
+  "reference": "cifar10_train_32",
+  "torch": "2.14.0+cu130",
+  "noise_sha256": "47f9a6f958643d9417c91d830216769c0882b63dc035c53fb2eb601adc419c61"
+}

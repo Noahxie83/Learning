@@ -8,63 +8,51 @@
 
 # GLM：生成模型论文资料
 
-本目录归档生成模型相关论文与补充材料，现有 27 篇论文 PDF、8 份补充资料，以及 Score SDE、Flow Matching、Reflow 等阅读笔记。具体阅读阶段以笔记中的记录为准；资料归档不等于已读完或已完成复现。
+当前主线：[阅读论文学习 HDPS、FLAIR](./HDPS%E3%80%81FLAIR/README.md)。
+
+本目录归档生成模型相关论文与补充材料，包含论文 PDF，以及 Score SDE、Flow Matching、Reflow 等阅读笔记。具体阅读阶段以笔记中的记录为准；资料归档不等于已读完或已完成复现。
 
 ## 阅读笔记
 
 | 论文 | 阅读笔记 | 本地 PDF |
 | --- | --- | --- |
-| Flow Matching for Generative Modeling | [阅读笔记](./Flow%20Matching/Flow%20Matching%20for%20Generative%20Modeling.md) | [PDF](./Flow%20Matching/Flow_Matching_for_Generative_Modeling.pdf) |
-| Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow（Reflow） | [阅读笔记](./Reflow/Note.md) | [PDF](./Reflow/Flow_Straight_and_Fast_Learning_to_Generate_and_Transfer_Data_with_Rectified_Flow.pdf) |
-| Score-Based Generative Modeling through Stochastic Differential Equations（Score SDE） | [完整精读笔记](./Score-Based/Note.md) | [PDF](./Score-Based/2011.13456v2.pdf) |
-| Denoising Diffusion Probabilistic Models（DDPM） | [阅读笔记](./DDPM/Denoising%20Diffusion%20Probabilistic%20Models.md) | [PDF](./DDPM/Denoising_Diffusion_Probabilistic_Models.pdf) |
+| Flow Matching for Generative Modeling | [阅读笔记](./Diffusion%20Score-basedFlow%20Matching/Flow%20Matching/Flow%20Matching%20for%20Generative%20Modeling.md) | [PDF](./Diffusion%20Score-basedFlow%20Matching/Flow%20Matching/Flow_Matching_for_Generative_Modeling.pdf) |
+| Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow（Reflow） | [阅读笔记](./Diffusion%20Score-basedFlow%20Matching/Reflow/Flow%20Straight%20and%20Fast%20Learning%20to%20Generate%20and%20Transfer%20Data%20with%20Rectified%20Flow.md) | [PDF](./Diffusion%20Score-basedFlow%20Matching/Reflow/Flow%20Straight%20and%20Fast%20Learning%20to%20Generate%20and%20Transfer%20Data%20with%20Rectified%20Flow.pdf) |
+| Score-Based Generative Modeling through Stochastic Differential Equations（Score SDE） | [完整精读笔记](./Diffusion%20Score-basedFlow%20Matching/Score-Based/Note.md) | [PDF](./Diffusion%20Score-basedFlow%20Matching/Score-Based/2011.13456v2.pdf) |
+| Denoising Diffusion Probabilistic Models（DDPM） | [阅读笔记](./Diffusion%20Score-basedFlow%20Matching/DDPM/Denoising%20Diffusion%20Probabilistic%20Models.md) | [PDF](./Diffusion%20Score-basedFlow%20Matching/DDPM/Denoising_Diffusion_Probabilistic_Models.pdf) |
 
 ## 论文导航
 
 | 论文 | 本地 PDF |
 | --- | --- |
-| A Connection Between Score Matching and Denoising Autoencoders | [PDF](./PDFs/A_Connection_Between_Score_Matching_and_Denoising_Autoencoders.pdf) |
-| Building Normalizing Flows with Stochastic Interpolants | [PDF](./PDFs/Building_Normalizing_Flows_with_Stochastic_Interpolants.pdf) |
-| Classifier-Free Diffusion Guidance | [PDF](./PDFs/Classifier-Free_Diffusion_Guidance.pdf) |
-| Consistency Flow Matching Defining Straight Flows with Velocity Consistency | [PDF](./PDFs/Consistency_Flow_Matching_Defining_Straight_Flows_with_Velocity_Consistency.pdf) |
-| Consistency Models | [PDF](./PDFs/Consistency_Models.pdf) |
-| Deep Unsupervised Learning using Nonequilibrium Thermodynamics | [PDF](./PDFs/Deep_Unsupervised_Learning_using_Nonequilibrium_Thermodynamics.pdf) |
-| Denoising Diffusion Implicit Models | [PDF](./PDFs/Denoising_Diffusion_Implicit_Models.pdf) |
-| Denoising Diffusion Probabilistic Models | [PDF](./DDPM/Denoising_Diffusion_Probabilistic_Models.pdf) |
-| DPM-Solver A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps | [PDF](./PDFs/DPM-Solver_A_Fast_ODE_Solver_for_Diffusion_Probabilistic_Model_Sampling_in_Around_10_Steps.pdf) |
-| Elucidating the Design Space of Diffusion-Based Generative Models | [PDF](./PDFs/Elucidating_the_Design_Space_of_Diffusion-Based_Generative_Models.pdf) |
-| Estimation of Non-Normalized Statistical Models by Score Matching | [PDF](./PDFs/Estimation_of_Non-Normalized_Statistical_Models_by_Score_Matching.pdf) |
-| Flow Matching for Generative Modeling | [PDF](./Flow%20Matching/Flow_Matching_for_Generative_Modeling.pdf) |
-| Flow Matching Guide and Code | [PDF](./Flow%20Matching/Flow_Matching_Guide_and_Code.pdf) |
-| Flow Straight and Fast Learning to Generate and Transfer Data with Rectified Flow | [PDF](./Reflow/Flow_Straight_and_Fast_Learning_to_Generate_and_Transfer_Data_with_Rectified_Flow.pdf) |
-| Generative Modeling by Estimating Gradients of the Data Distribution | [PDF](./PDFs/Generative_Modeling_by_Estimating_Gradients_of_the_Data_Distribution.pdf) |
-| High-Resolution Image Synthesis with Latent Diffusion Models | [PDF](./PDFs/High-Resolution_Image_Synthesis_with_Latent_Diffusion_Models.pdf) |
-| Improving and generalizing flow-based generative models with minibatch optimal transport | [PDF](./PDFs/Improving_and_generalizing_flow-based_generative_models_with_minibatch_optimal_transport.pdf) |
-| Isokinetic Flow Matching for Pathwise Straightening of Generative Flows | [PDF](./PDFs/Isokinetic_Flow_Matching_for_Pathwise_Straightening_of_Generative_Flows.pdf) |
-| Mean Flows for One-step Generative Modeling | [PDF](./PDFs/Mean_Flows_for_One-step_Generative_Modeling.pdf) |
-| Neural Ordinary Differential Equations | [PDF](./PDFs/Neural_Ordinary_Differential_Equations.pdf) |
-| One Step Diffusion via Shortcut Models | [PDF](./PDFs/One_Step_Diffusion_via_Shortcut_Models.pdf) |
-| PeRFlow Piecewise Rectified Flow as Universal Plug-and-Play Accelerator | [PDF](./PDFs/PeRFlow_Piecewise_Rectified_Flow_as_Universal_Plug-and-Play_Accelerator.pdf) |
-| Progressive Distillation for Fast Sampling of Diffusion Models | [PDF](./PDFs/Progressive_Distillation_for_Fast_Sampling_of_Diffusion_Models.pdf) |
-| Scalable Diffusion Models with Transformers | [PDF](./PDFs/Scalable_Diffusion_Models_with_Transformers.pdf) |
-| Stochastic Interpolants A Unifying Framework for Flows and Diffusions | [PDF](./PDFs/Stochastic_Interpolants_A_Unifying_Framework_for_Flows_and_Diffusions.pdf) |
-| Understanding Diffusion Models A Unified Perspective | [PDF](./PDFs/Understanding_Diffusion_Models_A_Unified_Perspective.pdf) |
-| Score-Based Generative Modeling through Stochastic Differential Equations | [PDF](./Score-Based/2011.13456v2.pdf) |
+| A Connection Between Score Matching and Denoising Autoencoders | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/A_Connection_Between_Score_Matching_and_Denoising_Autoencoders.pdf) |
+| Building Normalizing Flows with Stochastic Interpolants | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Building_Normalizing_Flows_with_Stochastic_Interpolants.pdf) |
+| Classifier-Free Diffusion Guidance | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Classifier-Free_Diffusion_Guidance.pdf) |
+| Consistency Flow Matching Defining Straight Flows with Velocity Consistency | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Consistency_Flow_Matching_Defining_Straight_Flows_with_Velocity_Consistency.pdf) |
+| Consistency Models | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Consistency_Models.pdf) |
+| Deep Unsupervised Learning using Nonequilibrium Thermodynamics | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Deep_Unsupervised_Learning_using_Nonequilibrium_Thermodynamics.pdf) |
+| Denoising Diffusion Implicit Models | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Denoising_Diffusion_Implicit_Models.pdf) |
+| Denoising Diffusion Probabilistic Models | [PDF](./Diffusion%20Score-basedFlow%20Matching/DDPM/Denoising_Diffusion_Probabilistic_Models.pdf) |
+| DPM-Solver A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/DPM-Solver_A_Fast_ODE_Solver_for_Diffusion_Probabilistic_Model_Sampling_in_Around_10_Steps.pdf) |
+| Elucidating the Design Space of Diffusion-Based Generative Models | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Elucidating_the_Design_Space_of_Diffusion-Based_Generative_Models.pdf) |
+| Estimation of Non-Normalized Statistical Models by Score Matching | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Estimation_of_Non-Normalized_Statistical_Models_by_Score_Matching.pdf) |
+| Flow Matching for Generative Modeling | [PDF](./Diffusion%20Score-basedFlow%20Matching/Flow%20Matching/Flow_Matching_for_Generative_Modeling.pdf) |
+| Flow Matching Guide and Code | [PDF](./Diffusion%20Score-basedFlow%20Matching/Flow%20Matching/Flow_Matching_Guide_and_Code.pdf) |
+| Flow Straight and Fast Learning to Generate and Transfer Data with Rectified Flow | [PDF](./Diffusion%20Score-basedFlow%20Matching/Reflow/Flow%20Straight%20and%20Fast%20Learning%20to%20Generate%20and%20Transfer%20Data%20with%20Rectified%20Flow.pdf) |
+| Generative Modeling by Estimating Gradients of the Data Distribution | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Generative_Modeling_by_Estimating_Gradients_of_the_Data_Distribution.pdf) |
+| High-Resolution Image Synthesis with Latent Diffusion Models | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/High-Resolution_Image_Synthesis_with_Latent_Diffusion_Models.pdf) |
+| Improving and generalizing flow-based generative models with minibatch optimal transport | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Improving_and_generalizing_flow-based_generative_models_with_minibatch_optimal_transport.pdf) |
+| Isokinetic Flow Matching for Pathwise Straightening of Generative Flows | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Isokinetic_Flow_Matching_for_Pathwise_Straightening_of_Generative_Flows.pdf) |
+| Mean Flows for One-step Generative Modeling | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Mean_Flows_for_One-step_Generative_Modeling.pdf) |
+| Neural Ordinary Differential Equations | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Neural_Ordinary_Differential_Equations.pdf) |
+| One Step Diffusion via Shortcut Models | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/One_Step_Diffusion_via_Shortcut_Models.pdf) |
+| PeRFlow Piecewise Rectified Flow as Universal Plug-and-Play Accelerator | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/PeRFlow_Piecewise_Rectified_Flow_as_Universal_Plug-and-Play_Accelerator.pdf) |
+| Progressive Distillation for Fast Sampling of Diffusion Models | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Progressive_Distillation_for_Fast_Sampling_of_Diffusion_Models.pdf) |
+| Scalable Diffusion Models with Transformers | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Scalable_Diffusion_Models_with_Transformers.pdf) |
+| Stochastic Interpolants A Unifying Framework for Flows and Diffusions | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Stochastic_Interpolants_A_Unifying_Framework_for_Flows_and_Diffusions.pdf) |
+| Understanding Diffusion Models A Unified Perspective | [PDF](./Diffusion%20Score-basedFlow%20Matching/PDFs/Understanding_Diffusion_Models_A_Unified_Perspective.pdf) |
+| Score-Based Generative Modeling through Stochastic Differential Equations | [PDF](./Diffusion%20Score-basedFlow%20Matching/Score-Based/2011.13456v2.pdf) |
 
-## 补充资料
-
-| 对应论文 | 本地入口 | 格式 |
-| --- | --- | --- |
-| Deep Unsupervised Learning using Nonequilibrium Thermodynamics | [补充 PDF](./SupportingInformation/Deep%20Unsupervised%20Learning%20using%20Nonequilibrium%20Thermodynamics/sohl-dickstein15-supp.pdf) | PDF |
-| Denoising Diffusion Probabilistic Models | [补充 PDF](./SupportingInformation/Denoising%20Diffusion%20Probabilistic%20Models/4c5bcfec8584af0d967f1ab10179ca4b-Supplemental.pdf) | PDF |
-| DPM-Solver A Fast ODE Solver for Diffusion Probabilistic Model Sampling in Around 10 Steps | [补充 PDF](./SupportingInformation/DPM-Solver%20A%20Fast%20ODE%20Solver%20for%20Diffusion%20Probabilistic%20Model%20Sampling%20in%20Around%2010%20Steps/260a14acce2a89dad36adc8eefe7c59e-Supplemental-Conference.pdf) | PDF |
-| Elucidating the Design Space of Diffusion-Based Generative Models | [补充 PDF](./SupportingInformation/Elucidating%20the%20Design%20Space%20of%20Diffusion-Based%20Generative%20Models/a98846e9d9cc01cfb87eb694d946ce6b-Supplemental-Conference.pdf) | PDF |
-| Generative Modeling by Estimating Gradients of the Data Distribution | [补充资料压缩包](./SupportingInformation/Generative%20Modeling%20by%20Estimating%20Gradients%20of%20the%20Data%20Distribution/3001ef257407d5a371a96dcd947c7d93-Supplemental.zip) | ZIP |
-| High-Resolution Image Synthesis with Latent Diffusion Models | [补充 PDF](./SupportingInformation/High-Resolution%20Image%20Synthesis%20with%20Latent%20Diffusion%20Models/Rombach_High-Resolution_Image_Synthesis_CVPR_2022_supplemental.pdf) | PDF |
-| Neural Ordinary Differential Equations | [补充资料压缩包](./SupportingInformation/Neural%20Ordinary%20Differential%20Equations/69386f6bb1dfed68692a24c8686939b9-Supplemental.zip) | ZIP |
-| Scalable Diffusion Models with Transformers | [补充 PDF](./SupportingInformation/Scalable%20Diffusion%20Models%20with%20Transformers/Peebles_Scalable_Diffusion_Models_ICCV_2023_supplemental.pdf) | PDF |
-
-ZIP 为原论文的补充资料压缩包，不是个人实验成果。
 
 ## 资料来源
 

@@ -4,7 +4,7 @@
 
 目录：[概率论与随机过程 · MIT 6.041SC](../README.md)
 
-相关：[Score SDE · 随机微分方程生成模型](../../../../Paper/GLM/Score-Based/Note.md)
+相关：[Score SDE · 随机微分方程生成模型](../../../../Paper/GLM/Diffusion%20Score-basedFlow%20Matching/Score-Based/Note.md)
 
 </details>
 

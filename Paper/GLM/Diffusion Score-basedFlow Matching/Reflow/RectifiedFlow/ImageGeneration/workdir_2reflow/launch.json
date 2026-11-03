@@ -1,0 +1,23 @@
+{
+  "started_at": "2026-10-18T13:42:04.910976+08:00",
+  "pid": 381875,
+  "command": [
+    "/home/noahxie/miniconda3/envs/d2l/bin/python",
+    "-u",
+    "main.py",
+    "--config=configs/rectified_flow/cifar10_rf_gaussian_reflow_train_online.py",
+    "--workdir=./workdir_2reflow",
+    "--mode=reflow",
+    "--config.reflow.last_flow_ckpt=./workdir_1rf/checkpoints/checkpoint_20.pth",
+    "--config.training.n_iters=50000",
+    "--config.training.snapshot_freq=1000",
+    "--config.training.snapshot_freq_for_preemption=1000",
+    "--config.training.snapshot_at_start=True"
+  ],
+  "source_label_step": 100000,
+  "source_completed_updates": 100001,
+  "initial_second_stage_step": 0,
+  "snapshot_freq": 1000,
+  "previous_run": "workdir_2reflow_before_1000_20261018_134119",
+  "previous_saved_step": 2841
+}

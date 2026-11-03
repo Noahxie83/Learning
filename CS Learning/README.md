@@ -24,7 +24,7 @@ C/C++、数据结构与算法、Python 和计算机工具课程的学习资料�
 
 数据结构与算法的两门课程分别放在 `ZJU DSA`、`THU Advanced DSA`，入口见 [DSA 总 README](./Data%20Structures%20and%20Algorithms/README.md)，不混用两门课程的章节或进度。
 
-离散数学已归入 [Math Learning](../Math%20Learning/README.md)，原有前三章已学完的记录及笔记、课件与作业见[离散数学导航](../Math%20Learning/离散数学/README.md)。
+离散数学已归入 [Math Learning](../Math%20Learning/README.md)，原有前三章已学完的记录及笔记、课件与作业见[离散数学导航](../Math%20Learning/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/README.md)。
 
 ## 目录与学习材料
 
