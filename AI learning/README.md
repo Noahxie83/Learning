@@ -12,7 +12,7 @@
 
 ## 当前主线
 
-当前以 DDPM（Denoising Diffusion Probabilistic Models）论文为主线开展系统学习，入口见 [DDPM 阅读笔记](../Paper/GLM/Diffusion%20Score-basedFlow%20Matching/DDPM/Denoising%20Diffusion%20Probabilistic%20Models.md)。概率论与随机过程本阶段已结束（2026-10-23 用户确认），具体已学范围见[阶段记录](../Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)。
+当前主线为阅读论文学习 HDPS、FLAIR，入口见 [HDPS、FLAIR 论文资料](../Paper/GLM/HDPS%E3%80%81FLAIR/README.md)。概率论与随机过程本阶段已结束（2026-10-23 用户确认），具体已学范围见[阶段记录](../Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)。
 
 ## 当前课程
 

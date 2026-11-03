@@ -12,7 +12,7 @@
 
 ## 学习状态
 
-**本阶段已结束（2026-10-23 用户确认）**，当前转入以 DDPM 论文为主线的系统学习。[DDPM 阅读笔记](../../Paper/GLM/Diffusion%20Score-basedFlow%20Matching/DDPM/Denoising%20Diffusion%20Probabilistic%20Models.md)。
+**本阶段已结束（2026-10-23 用户确认）**，当前主线为阅读论文学习 HDPS、FLAIR。[HDPS、FLAIR 论文资料](../../Paper/GLM/HDPS%E3%80%81FLAIR/README.md)。
 
 2026-10-12 起开始学习本方向，本阶段已确认的具体范围如下：
 
