@@ -1,0 +1,9 @@
+{
+  "SD3HDPS.sample_identical_after_removing_observer_hooks": true,
+  "other_four_hdps_methods_identical": {
+    "data_consistency_x": true,
+    "data_consistency_z": true,
+    "get_pinv": true,
+    "calculate_v": true
+  }
+}

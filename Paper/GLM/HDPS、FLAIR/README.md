@@ -6,12 +6,23 @@
 
 | 论文 | 阅读笔记 | PDF |
 | --- | --- | --- |
-| Hybrid-Domain Posterior Sampling for Inverse Problems via Latent Flow Matching（HDPS） | [完整阅读](./HDPS/HDPS_%E5%AE%8C%E6%95%B4%E9%98%85%E8%AF%BB.md) · [代码说明](./HDPS/Code/README.md) | [PDF](./HDPS/HDPS_2608.00537.pdf) |
+| Hybrid-Domain Posterior Sampling for Inverse Problems via Latent Flow Matching（HDPS） | [完整阅读](./HDPS/HDPS_%E5%AE%8C%E6%95%B4%E9%98%85%E8%AF%BB.md) · [作者代码库](https://github.com/74587887/HDPS) | [PDF](./HDPS/HDPS_2608.00537.pdf) |
 | Solving Inverse Problems with FLAIR | [阅读笔记](./FLAIR/FLAIR%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0.md) | [PDF](./FLAIR/FLAIR_2506.02680.pdf) |
 | FlowDPS | [阅读笔记](./FlowDPS/FlowDPS.md) | [PDF](./FlowDPS/FlowDPS_2503.08136.pdf) |
 | FlowLPS | [阅读笔记](./FlowLPS/FlowLPS.md) | [PDF](./FlowLPS/FlowLPS_2512.07150.pdf) |
 
+HDPS 实验材料（状态以各目录记录为准；资料归档不代表已完成复现）：[作者实现主实验](./HDPS/Experiments/hdps_author_main_20261111/SUMMARY.md) · [paper_equations_v1 实验](./HDPS/Experiments/hdps_main_20261111/SUMMARY.md) · [公开实现核对](./HDPS/Experiments/hdps_public_audit_20261111/AUDIT_REPORT.md)
+
 ## 其他论文资料
 
-- [CLIMB-Flow_2609.33834](./PDFs/CLIMB-Flow_2609.33834.pdf)\n- [DAPS_2407.01521](./PDFs/DAPS_2407.01521.pdf)\n- [DPS_2209.14687](./PDFs/DPS_2209.14687.pdf)\n- [Flow-Matching-Guide-and-Code_2412.06264](./PDFs/Flow-Matching-Guide-and-Code_2412.06264.pdf)\n- [FLOWER_2509.26287](./PDFs/FLOWER_2509.26287.pdf)\n- [MPGD_2311.16424](./PDFs/MPGD_2311.16424.pdf)\n- [PnP-Flow_2410.02423](./PDFs/PnP-Flow_2410.02423.pdf)\n- [Posterior-Transport-View_2606.24516](./PDFs/Posterior-Transport-View_2606.24516.pdf)\n- [PSLD_2307.00619](./PDFs/PSLD_2307.00619.pdf)\n- [RED-Diff_2305.04391](./PDFs/RED-Diff_2305.04391.pdf)\n
+- [CLIMB-Flow_2609.33834](./PDFs/CLIMB-Flow_2609.33834.pdf)
+- [DAPS_2407.01521](./PDFs/DAPS_2407.01521.pdf)
+- [DPS_2209.14687](./PDFs/DPS_2209.14687.pdf)
+- [Flow-Matching-Guide-and-Code_2412.06264](./PDFs/Flow-Matching-Guide-and-Code_2412.06264.pdf)
+- [FLOWER_2509.26287](./PDFs/FLOWER_2509.26287.pdf)
+- [MPGD_2311.16424](./PDFs/MPGD_2311.16424.pdf)
+- [PnP-Flow_2410.02423](./PDFs/PnP-Flow_2410.02423.pdf)
+- [Posterior-Transport-View_2606.24516](./PDFs/Posterior-Transport-View_2606.24516.pdf)
+- [PSLD_2307.00619](./PDFs/PSLD_2307.00619.pdf)
+- [RED-Diff_2305.04391](./PDFs/RED-Diff_2305.04391.pdf)
 [生成模型总览](../README.md) · [论文总览](../../README.md)

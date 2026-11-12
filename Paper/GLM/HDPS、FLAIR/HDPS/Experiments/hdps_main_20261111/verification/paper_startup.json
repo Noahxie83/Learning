@@ -1,0 +1,38 @@
+{
+  "recorded_at": "2026-11-11T02:04:26+0800",
+  "status": {
+    "task_id": "hdps_main_20261111",
+    "status": "running",
+    "pid": 1457344,
+    "physical_gpu": 2,
+    "visible_gpu": "GPU-51dfeb46-24e7-8fd8-992d-ff14f7e32902",
+    "total_samples": 42000,
+    "completed_samples": 0,
+    "paper_full_target_samples": 42000,
+    "missing_datasets": [],
+    "profile": "paper_equations_v1",
+    "shard_rank": 0,
+    "num_shards": 1,
+    "updated_at": "2026-11-11T02:04:21+0800",
+    "dataset": "FFHQ",
+    "prompts_done": 2,
+    "prompts_total": 2,
+    "job": "FFHQ/deblur_gauss/hdps/00000",
+    "method": "hdps",
+    "task": "deblur_gauss",
+    "sample": "00000",
+    "sampling_step": 16,
+    "sampling_steps": 50
+  },
+  "checkpoint_job": "FFHQ/deblur_gauss/hdps/00000",
+  "checkpoint_next_step": 15,
+  "latent_dtype": "torch.float32",
+  "latent_shape": [
+    1,
+    16,
+    96,
+    96
+  ],
+  "checkpoint_has_all_rng_states": true,
+  "original_source_sha256": "f8b709b49b7d8f3ec1904badade3510359f3ecf03bdf16522c4d32b1ae025992"
+}

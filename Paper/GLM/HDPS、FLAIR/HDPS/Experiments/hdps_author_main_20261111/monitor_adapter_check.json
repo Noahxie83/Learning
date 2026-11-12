@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-12T12:49:19+0800",
+  "checks": [
+    {
+      "command": [
+        "/data2/cy/xzn/envs/hdps_repro/bin/python",
+        "/data2/cy/xzn/Code/HDPS/repro_outputs/hdps_author_main_20261111/test_monitor_adapter.py"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_any_single_monitor_gpu_is_preserved (__main__.MonitorAdapterTests) ... ok\ntest_environment_does_not_override_device (__main__.MonitorAdapterTests) ... ok\ntest_monotonic_progress_resume_and_author_sr_budget (__main__.MonitorAdapterTests) ... ok\ntest_single_registered_entry_and_pid_survive_runpy (__main__.MonitorAdapterTests) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.051s\n\nOK\n"
+    },
+    {
+      "command": [
+        "/data2/cy/xzn/envs/hdps_repro/bin/python",
+        "/data2/cy/xzn/Code/HDPS/repro_outputs/hdps_author_main_20261111/preflight.py"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_all_released_solver_classes_unchanged (__main__.Preflight) ... ok\ntest_complete_data_and_caption_pairing (__main__.Preflight) ... ok\ntest_exact_rng_and_shared_optimizer_parameter_resume (__main__.Preflight) ... ok\ntest_metric_summary_deduplicates_results_and_excludes_resumed_timing (__main__.Preflight) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.826s\n\nOK\n"
+    },
+    {
+      "command": [
+        "bash",
+        "-n",
+        "/data2/cy/xzn/Code/HDPS/repro_outputs/hdps_author_main_20261111/worker.sh"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "bash",
+        "-n",
+        "/data2/cy/xzn/Code/HDPS/repro_outputs/hdps_author_main_20261111/launch_tmux.sh"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/data2/cy/xzn/envs/hdps_repro/bin/python",
+        "-c",
+        "from diffusers.utils.logging import disable_progress_bar; from transformers.utils.logging import disable_progress_bar"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "gpu_query_performed": false,
+  "inference_started": false,
+  "gpu_selection": "inherited single CUDA_VISIBLE_DEVICES from monitor",
+  "registered_entry": "start.py",
+  "shell_line_endings": "LF"
+}

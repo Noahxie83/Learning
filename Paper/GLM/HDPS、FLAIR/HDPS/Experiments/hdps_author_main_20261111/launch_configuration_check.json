@@ -1,0 +1,10 @@
+{
+  "single_assigned_gpu_preserved": "passed",
+  "no_hardcoded_physical_device": true,
+  "registered_entry_preserved": "start.py",
+  "shell_syntax": "passed",
+  "cpu_tests": "8 passed",
+  "monitor_parser_check": "passed; generic session bar and Flow baseline/count contracts",
+  "gpu_query_performed": false,
+  "gpu_inference_started": false
+}
