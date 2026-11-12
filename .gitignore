@@ -70,8 +70,9 @@ Thumbs.db
 # Temporary PDF rendering and text-extraction artifacts stay local
 /Paper/tmp/
 
-# 2026-11-12: keep the HDPS upstream code and copied upstream README text local
+# HDPS upstream code remains local
 /Paper/GLM/HDPS、FLAIR/HDPS/Code/
-/Paper/GLM/HDPS、FLAIR/HDPS/Experiments/hdps_author_main_20261111/ANNOTATED_README.md
-/Paper/GLM/HDPS、FLAIR/HDPS/Experiments/hdps_main_20261111/ANNOTATED_README.md
+
+# 2026-11-12: ongoing experiments stay local; publish only reviewed final results after user confirmation
+/Paper/GLM/HDPS、FLAIR/HDPS/Experiments/
 

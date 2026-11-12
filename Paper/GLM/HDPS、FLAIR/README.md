@@ -11,7 +11,7 @@
 | FlowDPS | [阅读笔记](./FlowDPS/FlowDPS.md) | [PDF](./FlowDPS/FlowDPS_2503.08136.pdf) |
 | FlowLPS | [阅读笔记](./FlowLPS/FlowLPS.md) | [PDF](./FlowLPS/FlowLPS_2512.07150.pdf) |
 
-HDPS 实验材料（状态以各目录记录为准；资料归档不代表已完成复现）：[作者实现主实验](./HDPS/Experiments/hdps_author_main_20261111/SUMMARY.md) · [paper_equations_v1 实验](./HDPS/Experiments/hdps_main_20261111/SUMMARY.md) · [公开实现核对](./HDPS/Experiments/hdps_public_audit_20261111/AUDIT_REPORT.md)
+当前实验材料仅保留本地；待用户明确确认实验完成后，只同步经审核的最终实验结果。
 
 ## 其他论文资料
 

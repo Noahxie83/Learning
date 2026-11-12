@@ -1,6 +1,0 @@
-{
-  "cuda_visible_devices": "",
-  "tests_passed": 4,
-  "exit_code": 0,
-  "output": "test_all_released_solver_classes_unchanged (__main__.Preflight) ... ok\ntest_complete_data_and_caption_pairing (__main__.Preflight) ... ok\ntest_exact_rng_and_shared_optimizer_parameter_resume (__main__.Preflight) ... ok\ntest_metric_summary_deduplicates_results_and_excludes_resumed_timing (__main__.Preflight) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.817s\n\nOK\n"
-}
