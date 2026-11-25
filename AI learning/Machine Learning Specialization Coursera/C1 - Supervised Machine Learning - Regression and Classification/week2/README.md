@@ -8,6 +8,8 @@
 
 </details>
 
+- **章节笔记**：[C1 Week 2：多元线性回归与梯度下降实践](./Week%202%20多元线性回归与梯度下降实践.md)
+
 ### Week 2 Solutions
 
 <br></br>

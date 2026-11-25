@@ -12,7 +12,7 @@
 
 ## 学习状态
 
-**本阶段已结束（2026-10-23 用户确认）**，当前主线为阅读论文学习 HDPS、FLAIR。[HDPS、FLAIR 论文资料](../../Paper/GLM/HDPS%E3%80%81FLAIR/README.md)。
+**本阶段已结束（2026-10-23 用户确认）**，当前主线为阅读论文学习 HDPS、FLAIR。[逆问题求解论文资料](../../Paper/Generative-Models/Inverse-Problems/README.md)。
 
 2026-10-12 起开始学习本方向，本阶段已确认的具体范围如下：
 

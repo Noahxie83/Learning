@@ -16,7 +16,7 @@
 
 > **当前主线：阅读论文学习 HDPS、FLAIR**
 >
-> 围绕 HDPS、FLAIR 阅读论文并开展系统学习。[论文与资料](./Paper/GLM/HDPS%E3%80%81FLAIR/README.md)。
+> 围绕 HDPS、FLAIR 阅读论文并开展系统学习。[论文与资料](./Paper/Generative-Models/Inverse-Problems/README.md)。
 
 > **本阶段结束：概率论与随机过程（2026-10-23 确认）**
 >
@@ -67,7 +67,7 @@
 <h3>Paper</h3>
 <p>视觉模型、语言模型、图神经网络与生成模型的阅读笔记和原文资料。</p>
 <a href="./Paper/README.md">阅读目录 →</a>
-<a href="./Paper/GLM/README.md">生成模型资料 →</a>
+<a href="./Paper/Generative-Models/README.md">生成模型资料 →</a>
 </td>
 </tr>
 <tr>

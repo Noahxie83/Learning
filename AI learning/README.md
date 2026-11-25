@@ -12,7 +12,7 @@
 
 ## 当前主线
 
-当前主线为阅读论文学习 HDPS、FLAIR，入口见 [HDPS、FLAIR 论文资料](../Paper/GLM/HDPS%E3%80%81FLAIR/README.md)。概率论与随机过程本阶段已结束（2026-10-23 用户确认），具体已学范围见[阶段记录](../Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)。
+当前主线为阅读论文学习 HDPS、FLAIR，入口见 [逆问题求解论文资料](../Paper/Generative-Models/Inverse-Problems/README.md)。概率论与随机过程本阶段已结束（2026-10-23 用户确认），具体已学范围见[阶段记录](../Math%20Learning/Probability%20and%20Stochastic%20Processes/README.md)。
 
 ## 当前课程
 

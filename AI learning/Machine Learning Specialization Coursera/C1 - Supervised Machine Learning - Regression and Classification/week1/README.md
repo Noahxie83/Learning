@@ -8,6 +8,8 @@
 
 </details>
 
+- **章节笔记**：[C1 Week 1：监督学习与单变量线性回归](./Week%201%20监督学习与单变量线性回归.md)
+
 ### Week 1 Solutions 
 
 <br></br>

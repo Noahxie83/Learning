@@ -8,6 +8,8 @@
 
 </details>
 
+- **章节笔记**：[C1 Week 3：逻辑回归分类与正则化](./Week%203%20逻辑回归分类与正则化.md)
+
 ### Week 3 Solutions
 
 <br></br>

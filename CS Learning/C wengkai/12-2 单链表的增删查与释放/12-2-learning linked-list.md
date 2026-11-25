@@ -6,44 +6,60 @@ subject: 计算机基础
 note_type: 程序笔记
 course: 翁恺 C 语言
 tags:
-- 领域/计算机基础
-- 类型/程序笔记
-- 课程/翁恺_C_语言
+  - 领域/计算机基础
+  - 类型/程序笔记
+  - 课程/翁恺_C_语言
+aliases:
+  - 12-2
+  - 12-2-learning linked-list
+  - 单链表的增删查与释放
+  - C 语言单链表
 cssclasses:
-- learning-note
-- subject-cs
-- learning-code
+  - learning-note
+  - subject-cs
+  - learning-code
 ---
-
-%% learning-vault-navigation:v1 %%
-> [!abstract]- 笔记导航
-> 目录：[[CS Learning/C wengkai/README|C wengkai]]
 
 # 12-2-learning linked-list — 单链表的增删查与释放
 
-[查看源码](./12-2-learning%20linked-list.c) · [返回 C wengkai 笔记目录](../README.md)
+%% learning-vault-navigation:v1 %%
+> [!abstract]- 笔记导航
+> 目录：[[CS Learning/C wengkai/翁恺C语言导航|翁恺 C 语言导航]]
+> 上一篇：[[CS Learning/C wengkai/12-1 可变长数组与封装/12-1-learning resizble array|12-1-learning resizble array — 可变长数组与封装]] · 下一篇：[[CS Learning/C wengkai/13-1 全局变量与静态局部变量/13-1-learning global variable|13-1-learning global variable — 全局变量与静态局部变量]]
+> 源码：[[CS Learning/C wengkai/12-2 单链表的增删查与释放/12-2-learning linked-list.c|查看源码]]
 
-本文按原文件中的注释整理，保留原始学习记录；文末附完整源码。
+> [!abstract] 本节概览
+> 用纯 C 语言从零实现**单向链表（Singly Linked List）**的完整生命周期：动态建表（尾插法）、顺序遍历输出、按值查找、双指针删除节点以及整表安全释放。核心在于理解**包装结构体 `List`（持有 `Node *head`）**如何消除二级指针传递，以及节点删除/释放时对前驱与后继指针的保护。
 
-## 学习笔记（原注释）
+---
 
-行号对应同目录中的原源码，保留注释与代码位置的对应关系。
+## 核心知识点与实现解析
 
-| 源码行号 | 对应代码 | 原注释 |
-| --- | --- | --- |
-| 18 | ` }while (number!=-1); ` | 建立链表 |
-| 19 | ` print(&list); ` | 输出链表 |
-| 32 | ` } ` | 查找 |
-| 45 | ` } ` | 删除 |
-| 49 | ` } ` | 释放 |
-| 66 | ` } ` | 链表的添加 |
-| 73 | ` } ` | 链表的输出 |
+### 1. 链表结构与操作复杂度
+
+```mermaid
+flowchart LR
+    L["List list<br/>head"] --> N1["Node (value, next)"] --> N2["Node (value, next)"] --> N3["Node (value, NULL)"]
+```
+
+| 操作 | 实现方式 | 时间复杂度 | 关键指针细节 |
+| --- | --- | :---: | --- |
+| **尾插添加 `add`** | `malloc(sizeof(Node))` 创建节点，遍历至 `last->next == NULL` 挂接 | $O(n)$ | 需区分空链表（更新 `pList->head = p`）与非空链表；若额外维护 `tail` 指针可降为 $O(1)$ |
+| **顺序输出 `print`** | `for (p = pList->head; p; p = p->next)` | $O(n)$ | 以 `p == NULL` 作为遍历终止条件 |
+| **按值查找** | 遍历比对 `p->value == number`，用标志位 `isFound` 记录 | $O(n)$ | 命中后立即 `break` |
+| **按值删除** | 同步维护前驱 `q` 与当前 `p`（`q = p, p = p->next`） | $O(n)$ | ==删除头节点（`q == NULL`）时必须更新 `list.head = p->next`==，其余节点令 `q->next = p->next`，最后 `free(p)` |
+| **整表释放** | 先暂存后继 `q = p->next`，再 `free(p)`，令 `p = q` | $O(n)$ | ==绝不能在 `free(p)` 之后再访问 `p->next`==（释放后使用属于未定义行为） |
+
+> [!warning] 指针与内存安全提示
+> 1. **删除边界处理**：源码中 `if (q) { q->next = p->next; } else { list.head = p->next; }` 优雅地把「删头节点」与「删中间/尾节点」分情况处理；更通用的进阶技巧是引入**哑头节点（Dummy Head）**以统一分支。
+> 2. **释放后置空**：整表释放循环结束后建议补上 `list.head = NULL;`，避免留下悬空头指针。
+> 3. **与 C++ STL 对照**：本节手写单链表对应 C++ STL 的 [[CS Learning/C++ STL/Containers/Sequence containers/forward_list/forward_list|std::forward_list]]。
+
+---
 
 ## 文件依赖与编译
 
-本文件使用 ` #include "node.h" `。整理后的头文件：[node.h](../node/node.h)；[头文件说明](../node/node.md)。
-
-在当前笔记所在文件夹打开终端，可用以下 GCC 命令指定头文件搜索目录：
+本文件依赖头文件 [[CS Learning/C wengkai/node/node.h|node.h]]（接口说明见 [[CS Learning/C wengkai/node/node|node — 链表节点定义]]）。在当前笔记目录打开终端，可用 `-I` 指定头文件搜索路径编译：
 
 ```powershell
 gcc -I "../node" "12-2-learning linked-list.c" -o example.exe

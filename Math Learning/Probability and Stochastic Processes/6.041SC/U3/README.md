@@ -4,7 +4,7 @@
 
 目录：[概率论与随机过程 · MIT 6.041SC](../README.md)
 
-相关：[Score SDE · 随机微分方程生成模型](../../../../Paper/GLM/Diffusion%20Score-basedFlow%20Matching/Score-Based/Note.md)
+相关：[Score SDE · 随机微分方程生成模型](../../../../Paper/Generative-Models/Diffusion-and-Flow/Score-SDE/Score-SDE.md)
 
 </details>
 
@@ -22,14 +22,14 @@
 
 已归档 54 份 PDF。文件按官网标题命名；同名但内容不同的文件放在 V2/V3 子文件夹。
 
-| 讲次或考试 | 本地资料 |
-| --- | --- |
-| [Lecture 13: Bernoulli Process](./L13/) | [讲义 PDF](./L13/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2013.pdf) · [Recitation](./L13/Rec/) · [Tutorial](./L13/Tut/) · [文字稿](./L13/Tx/) |
-| [Lecture 14: Poisson Process - I](./L14/) | [讲义 PDF](./L14/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2014.pdf) · [Recitation](./L14/Rec/) · [Tutorial](./L14/Tut/) · [文字稿](./L14/Tx/) |
-| [Lecture 15: Poisson Process - II](./L15/) | [讲义 PDF](./L15/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2015.pdf) · [Problem Set](./L15/PS/) · [Recitation](./L15/Rec/) · [Tutorial](./L15/Tut/) · [文字稿](./L15/Tx/) |
-| [Lecture 16: Markov Chains - I](./L16/) | [讲义 PDF](./L16/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2016.pdf) · [Recitation](./L16/Rec/) · [Tutorial](./L16/Tut/) · [文字稿](./L16/Tx/) |
-| [Lecture 17: Markov Chains - II](./L17/) | [讲义 PDF](./L17/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2017.pdf) · [Problem Set](./L17/PS/) · [Tutorial](./L17/Tut/) · [文字稿](./L17/Tx/) |
-| [Lecture 18: Markov Chains - III](./L18/) | [讲义 PDF](./L18/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2018.pdf) · [Problem Set](./L18/PS/) · [Recitation](./L18/Rec/) · [Tutorial](./L18/Tut/) · [文字稿](./L18/Tx/) |
+| 讲次或考试 | 讲次笔记 | 本地资料 |
+| --- | --- | --- |
+| [Lecture 13: Bernoulli Process](./L13/) | [L13 笔记](./L13/L13%20伯努利过程（Bernoulli%20Process）.md) | [讲义 PDF](./L13/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2013.pdf) · [Recitation](./L13/Rec/) · [Tutorial](./L13/Tut/) · [文字稿](./L13/Tx/) |
+| [Lecture 14: Poisson Process - I](./L14/) | [L14 笔记](./L14/L14%20泊松过程（一）（Poisson%20Process%20I）.md) | [讲义 PDF](./L14/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2014.pdf) · [Recitation](./L14/Rec/) · [Tutorial](./L14/Tut/) · [文字稿](./L14/Tx/) |
+| [Lecture 15: Poisson Process - II](./L15/) | [L15 笔记](./L15/L15%20泊松过程（二）（Poisson%20Process%20II）.md) | [讲义 PDF](./L15/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2015.pdf) · [Problem Set](./L15/PS/) · [Recitation](./L15/Rec/) · [Tutorial](./L15/Tut/) · [文字稿](./L15/Tx/) |
+| [Lecture 16: Markov Chains - I](./L16/) | [L16 笔记](./L16/L16%20马尔可夫链（一）（Markov%20Chains%20I）.md) | [讲义 PDF](./L16/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2016.pdf) · [Recitation](./L16/Rec/) · [Tutorial](./L16/Tut/) · [文字稿](./L16/Tx/) |
+| [Lecture 17: Markov Chains - II](./L17/) | [L17 笔记](./L17/L17%20马尔可夫链（二）（Markov%20Chains%20II）.md) | [讲义 PDF](./L17/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2017.pdf) · [Problem Set](./L17/PS/) · [Tutorial](./L17/Tut/) · [文字稿](./L17/Tx/) |
+| [Lecture 18: Markov Chains - III](./L18/) | [L18 笔记](./L18/L18%20马尔可夫链（三）（Markov%20Chains%20III）.md) | [讲义 PDF](./L18/Probabilistic%20Systems%20Analysis%20and%20Applied%20Probability%2C%20Lecture%2018.pdf) · [Problem Set](./L18/PS/) · [Recitation](./L18/Rec/) · [Tutorial](./L18/Tut/) · [文字稿](./L18/Tx/) |
 
 材料归档情况不代表学习或习题完成情况。
 

@@ -14,7 +14,7 @@
 
 
 
-- [Week 1](./week1)
+- [Week 1](./week1) · **章节笔记**：[Week 1 监督学习与单变量线性回归](./week1/Week%201%20监督学习与单变量线性回归.md)
 
     - [Practice quiz: Regression](./week1/Practice%20quiz%20-%20Regression)
     - [Practice quiz: Supervised vs unsupervised learning](./week1/Practice%20quiz%20-%20Supervised%20vs%20unsupervised%20learning)
@@ -26,7 +26,7 @@
 
 <br/>
 
-- [Week 2](./week2)
+- [Week 2](./week2) · **章节笔记**：[Week 2 多元线性回归与梯度下降实践](./week2/Week%202%20多元线性回归与梯度下降实践.md)
 
     - [Practice quiz: Gradient descent in practice](./week2/Practice%20quiz%20-%20Gradient%20descent%20in%20practice)
     - [Practice quiz: Multiple linear regression](./week2/Practice%20quiz%20-%20Multiple%20linear%20regression)
@@ -42,7 +42,7 @@
 
 <br/>
 
-- [Week 3](./week3)
+- [Week 3](./week3) · **章节笔记**：[Week 3 逻辑回归分类与正则化](./week3/Week%203%20逻辑回归分类与正则化.md)
 
     - [Practice quiz: Cost function for logistic regression](./week3/Practice%20quiz%20-%20Cost%20function%20for%20logistic%20regression)
     - [Practice quiz: Gradient descent for logistic regression](./week3/Practice%20quiz%20-%20Gradient%20descent%20for%20logistic%20regression)

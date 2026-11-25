@@ -31,27 +31,27 @@
 
 以下为已归档材料的入口；已确认的学习进度见上方“学习状态”，不由资料是否归档推断。
 
-| 章节 | Notebook 入口 |
-| --- | --- |
-| 前言 | [阅读](./pytorch/chapter_preface/index.ipynb) |
-| 符号 | [阅读](./pytorch/chapter_notation/index.ipynb) |
-| 引言 | [阅读](./pytorch/chapter_introduction/index.ipynb) |
-| 预备知识 | [阅读](./pytorch/chapter_preliminaries/index.ipynb) |
-| 线性神经网络 | [阅读](./pytorch/chapter_linear-networks/index.ipynb) |
-| 多层感知机 | [阅读](./pytorch/chapter_multilayer-perceptrons/index.ipynb) |
-| 深度学习计算 | [阅读](./pytorch/chapter_deep-learning-computation/index.ipynb) |
-| 卷积神经网络 | [阅读](./pytorch/chapter_convolutional-neural-networks/index.ipynb) |
-| 现代卷积神经网络 | [阅读](./pytorch/chapter_convolutional-modern/index.ipynb) |
-| 循环神经网络 | [阅读](./pytorch/chapter_recurrent-neural-networks/index.ipynb) |
-| 现代循环神经网络 | [阅读](./pytorch/chapter_recurrent-modern/index.ipynb) |
-| 注意力机制 | [阅读](./pytorch/chapter_attention-mechanisms/index.ipynb) |
-| 优化算法 | [阅读](./pytorch/chapter_optimization/index.ipynb) |
-| 计算性能 | [阅读](./pytorch/chapter_computational-performance/index.ipynb) |
-| 计算机视觉 | [阅读](./pytorch/chapter_computer-vision/index.ipynb) |
-| 自然语言处理：预训练 | [阅读](./pytorch/chapter_natural-language-processing-pretraining/index.ipynb) |
-| 自然语言处理：应用 | [阅读](./pytorch/chapter_natural-language-processing-applications/index.ipynb) |
-| 附录：深度学习工具 | [阅读](./pytorch/chapter_appendix-tools-for-deep-learning/index.ipynb) |
-| 参考文献 | [阅读](./pytorch/chapter_references/zreferences.ipynb) |
+| 章节 | 章节笔记 | Notebook 入口 |
+| --- | --- | --- |
+| 前言 | — | [阅读](./pytorch/chapter_preface/index.ipynb) |
+| 符号 | — | [阅读](./pytorch/chapter_notation/index.ipynb) |
+| 01. 引言 | [笔记](./笔记/01.%20引言.md) | [阅读](./pytorch/chapter_introduction/index.ipynb) |
+| 02. 预备知识 | [笔记](./笔记/02.%20预备知识.md) | [阅读](./pytorch/chapter_preliminaries/index.ipynb) |
+| 03. 线性神经网络 | [笔记](./笔记/03.%20线性神经网络.md) | [阅读](./pytorch/chapter_linear-networks/index.ipynb) |
+| 04. 多层感知机 | [笔记](./笔记/04.%20多层感知机.md) | [阅读](./pytorch/chapter_multilayer-perceptrons/index.ipynb) |
+| 05. 深度学习计算 | [笔记](./笔记/05.%20深度学习计算.md) | [阅读](./pytorch/chapter_deep-learning-computation/index.ipynb) |
+| 06. 卷积神经网络 | [笔记](./笔记/06.%20卷积神经网络.md) | [阅读](./pytorch/chapter_convolutional-neural-networks/index.ipynb) |
+| 07. 现代卷积神经网络 | [笔记](./笔记/07.%20现代卷积神经网络.md) | [阅读](./pytorch/chapter_convolutional-modern/index.ipynb) |
+| 08. 循环神经网络 | [笔记](./笔记/08.%20循环神经网络.md) | [阅读](./pytorch/chapter_recurrent-neural-networks/index.ipynb) |
+| 09. 现代循环神经网络 | [笔记](./笔记/09.%20现代循环神经网络.md) | [阅读](./pytorch/chapter_recurrent-modern/index.ipynb) |
+| 10. 注意力机制 | [笔记](./笔记/10.%20注意力机制.md) | [阅读](./pytorch/chapter_attention-mechanisms/index.ipynb) |
+| 11. 优化算法 | [笔记](./笔记/11.%20优化算法.md) | [阅读](./pytorch/chapter_optimization/index.ipynb) |
+| 12. 计算性能 | [笔记](./笔记/12.%20计算性能.md) | [阅读](./pytorch/chapter_computational-performance/index.ipynb) |
+| 13. 计算机视觉 | [笔记](./笔记/13.%20计算机视觉.md) | [阅读](./pytorch/chapter_computer-vision/index.ipynb) |
+| 14. 自然语言处理：预训练 | [笔记](./笔记/14.%20自然语言处理：预训练.md) | [阅读](./pytorch/chapter_natural-language-processing-pretraining/index.ipynb) |
+| 15. 自然语言处理：应用 | [笔记](./笔记/15.%20自然语言处理：应用.md) | [阅读](./pytorch/chapter_natural-language-processing-applications/index.ipynb) |
+| 附录：深度学习工具 | — | [阅读](./pytorch/chapter_appendix-tools-for-deep-learning/index.ipynb) |
+| 参考文献 | — | [阅读](./pytorch/chapter_references/zreferences.ipynb) |
 
 多层感知机相关 Notebook：
 

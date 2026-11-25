@@ -28,6 +28,7 @@ In this course, you will learn:
 Though this course is largely non-technical, engineers can also take this course to learn the business aspects of AI.
 
 ## Week 1: What is AI
+- **章节笔记**：[Week 1：What is AI](./Week%201/Week-1%20What%20is%20AI.md) · [W1.pdf](./Week%201/W1.pdf)
 - Introduction
 - Machine Learning
 - What is data
@@ -38,6 +39,7 @@ Though this course is largely non-technical, engineers can also take this course
 - [Quiz](./Week%201/Week-1_Quiz.md)
 
 ## Week 2: Building AI Projects
+- **章节笔记**：[Week 2：Building AI Projects](./Week%202/Week-2%20Building%20AI%20Projects.md) · [W2.pdf](./Week%202/W2.pdf)
 - Workflow of a Machine Learning project
 - Workflow of a Data Science project
 - Every job function needs to learn to use data
@@ -47,6 +49,7 @@ Though this course is largely non-technical, engineers can also take this course
 - [Quiz](./Week%202/Week-2_Quiz.md)
 
 ## Week 3: AI in Your Company
+- **章节笔记**：[Week 3：AI in Your Company](./Week%203/Week-3%20AI%20in%20Your%20Company.md) · [W3.pdf](./Week%203/W3.pdf)
 - Case study: Smart speaker
 - Case study: Self-driving car
 - Example roles of an AI team
@@ -58,6 +61,7 @@ Though this course is largely non-technical, engineers can also take this course
 - [Quiz](./Week%203/Week-3_Quiz.md)
 
 ## Week 4: AI and Society
+- **章节笔记**：[Week 4：AI and Society](./Week%204/Week-4%20AI%20and%20Society.md) · [W4.pdf](./Week%204/W4.pdf)
 - A realistic view of AI
 - Discrimination / Bias
 - Adversarial attacks

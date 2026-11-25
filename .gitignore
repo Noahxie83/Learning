@@ -70,3 +70,19 @@ Thumbs.db
 # Temporary PDF rendering and text-extraction artifacts stay local
 /Paper/tmp/
 
+# Local Obsidian-only navigation files stay local (GitHub uses README.md / Readme.md)
+**/*导航.md
+
+# Local Inbox archive log stays local
+/Inbox/整理记录.md
+
+# HDPS upstream code and ongoing experiments stay local
+/Paper/Generative-Models/Inverse-Problems/HDPS/Code/
+/Paper/Generative-Models/Inverse-Problems/HDPS/Experiments/
+
+# Empty nested upstream repo stays local
+/Paper/Generative-Models/Diffusion-and-Flow/Flow-Matching/flow_matching/
+
+# FLUX preprint (standard arXiv non-exclusive license) stays local
+/Paper/Generative-Models/Diffusion-and-Flow/PDFs/FLUX_2506.15742v2.pdf
+
