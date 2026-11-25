@@ -4,7 +4,7 @@
 
 ## 2026-11-25 论文目录整理规范授权与双导航同步边界（优先于下文旧路径与旧条款）
 
-- **日常维护分支切换（2026-11-25 用户明确授权）**：基于干净的 `main`（`aa82d7b`）新建 `codex/daily-maintenance-20261125` 作为日常自动维护与同步分支（取代历史中含早期实验提交 `fb1ed23` 的 `codex/score-based-cleanup-20261102` 及更早的 `codex/vault-maintenance-20261022`）；严禁将旧维护分支中的 `fb1ed23` 历史带入 `main` 或新维护分支。
+- **日常维护分支与任务迁移（2026-11-25 用户明确授权）**：每日 21:00 维护任务已由旧 Codex 任务（`d-learning-github`）迁移至 Antigravity 的 `Learning 知识库每日维护`；基于干净的 `main`（`aa82d7b`）新建 `codex/daily-maintenance-20261125` 作为唯一日常自动维护与同步分支，并已清理历史旧 `codex/*` 分支（含历史中包含早期实验提交 `fb1ed23` 的 `codex/score-based-cleanup-20261102` 及 `codex/vault-maintenance-20261022`）。严禁将旧实验历史带入 `main` 或新维护分支。
 - **Obsidian 与 GitHub 双导航严格分离（2026-11-25 用户明确确认）**：以 `导航.md` 结尾的本地导航仅供 Obsidian 使用（带库根路径 Wiki 链接与嵌入），**全部留在本地并由 `.gitignore` 忽略，不得上传至 GitHub**（优先于 2026-11-03 曾临时放开同步本地导航的条款）；GitHub 端统一使用 `README.md`（保留既有 `Readme.md` 大小写）作为独立可用的公开导航，不链接本地 `*导航.md`。
 - **进行中实验仅留本地（延续 2026-11-12 澄清）**：当前正在进行的实验（含 `Paper/Generative-Models/Inverse-Problems/HDPS/Experiments/` 及作者 `Code/`）仅保留本地，不提交或上传实验代码、配置、部署与监控工具、过程记录、核验报告或中间输出；仅在用户明确确认实验完成后审核最终结果文件。
 - **Paper 规范入口**：凡在 `Paper/` 内新增论文 PDF、开始精读、补写/更新笔记 YAML 元数据、调整目录路径、维护论文双导航或清理论文区冗余时，**必须先读取并严格遵循 [Paper/AGENTS.md](./Paper/AGENTS.md)**（单一事实来源，含目录拓扑、命名规范、YAML 字典与交付前核验清单）。
