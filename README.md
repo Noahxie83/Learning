@@ -77,9 +77,11 @@
 <a href="./电路与电子学/README.md">笔记导航 →</a>
 </td>
 <td valign="top">
-<h3>GitHub 项目周记</h3>
-<p>每周 AI/CS 项目 Top 3 与探索记录。</p>
-<a href="./github-ai-cs-weekly-top3.md">周记 →</a>
+<h3>周报与跨课程索引</h3>
+<p>每周 AI 研究周报、GitHub AI/CS 项目 Top 3 与跨课程概念关联。</p>
+<a href="./ai-research-weekly.md">AI 研究周报 →</a> ·
+<a href="./github-ai-cs-weekly-top3.md">GitHub 项目周记 →</a> ·
+<a href="./Concepts/README.md">跨课程概念 →</a>
 </td>
 </tr>
 </table>
@@ -145,4 +147,4 @@
 
 [Noahxie83 / Learning](https://github.com/Noahxie83/Learning) · 持续学习，逐步积累
 
-<sub>最后更新：2026-11-03</sub>
+<sub>最后更新：2026-11-25</sub>
