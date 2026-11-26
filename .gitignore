@@ -86,3 +86,6 @@ Thumbs.db
 # FLUX preprint (standard arXiv non-exclusive license) stays local
 /Paper/Generative-Models/Diffusion-and-Flow/PDFs/FLUX_2506.15742v2.pdf
 
+# Local paper-37143-pdfs folder and nested git repo stay local
+/Paper/Generative-Models/Inverse-Problems/paper-37143-pdfs/
+
